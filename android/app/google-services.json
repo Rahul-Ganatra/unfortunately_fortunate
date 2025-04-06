@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "775468075770",
+    "project_id": "anti-money-landering",
+    "storage_bucket": "anti-money-landering.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:775468075770:android:b9404b77eaf6fd0b5ed743",
+        "android_client_info": {
+          "package_name": "com.example.levelupapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC_9niPHsP1aGeuiXiqLMWx7-fndcW3tHE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
