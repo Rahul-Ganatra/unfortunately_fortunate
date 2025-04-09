@@ -1,0 +1,1001 @@
+From,To,Type,Amount,Payment Method,Card Number,Expiry Date,CVV,Account Number,IFSC Code,Contact Number,Date,is_suspicious,suspicion_reasons,timestamp
+user1,user2,card,60,Contact Payment,-,02/29,-,-,-,1234567890,"03/04/2025, 01:24:16 PM",True,['Frequent small transactions to the same recipient'],2025-03-04 13:24:16.655454
+user1,user2,contact,372,Card Payment,-,02/29,-,9876543210,-,1234567890,"02/24/2025, 01:24:16 PM",True,['Frequent small transactions to the same recipient'],2025-02-24 13:24:16.656449
+user1,user2,neft,122,NEFT Transfer,1234567890123456,-,-,-,-,+14155552671,"02/16/2025, 01:24:16 PM",True,['Frequent small transactions to the same recipient'],2025-02-16 13:24:16.656449
+user1,user2,contact,453,Contact Payment,-,02/29,111,9876543210,SBIN1234567,+14155552671,"03/11/2025, 01:24:16 PM",True,['Frequent small transactions to the same recipient'],2025-03-11 13:24:16.656449
+user1,user2,contact,404,Contact Payment,1234567890123456,-,-,-,-,+441632960961,"02/26/2025, 01:24:16 PM",True,['Frequent small transactions to the same recipient'],2025-02-26 13:24:16.656449
+user1,user2,neft,415,Card Payment,-,02/29,-,-,-,9152251477,"02/18/2025, 01:24:16 PM",True,['Frequent small transactions to the same recipient'],2025-02-18 13:24:16.656449
+user1,user2,contact,495,NEFT Transfer,-,-,-,-,SBIN1234567,+14155552671,"03/12/2025, 01:24:16 PM",True,['Frequent small transactions to the same recipient'],2025-03-12 13:24:16.656449
+user1,user2,card,81,Card Payment,1234567890123456,-,-,9876543210,SBIN1234567,9152251477,"02/25/2025, 01:24:16 PM",True,['Frequent small transactions to the same recipient'],2025-02-25 13:24:16.656449
+user1,user2,card,444,Contact Payment,-,-,-,9876543210,SBIN1234567,+14155552671,"02/19/2025, 01:24:16 PM",True,['Frequent small transactions to the same recipient'],2025-02-19 13:24:16.656449
+user1,user2,card,323,Card Payment,-,-,111,9876543210,SBIN1234567,+441632960961,"03/07/2025, 01:24:16 PM",True,['Frequent small transactions to the same recipient'],2025-03-07 13:24:16.656449
+user1,user2,card,103,Contact Payment,-,02/29,-,9876543210,SBIN1234567,9152251477,"03/10/2025, 01:24:16 PM",True,['Frequent small transactions to the same recipient'],2025-03-10 13:24:16.656449
+user1,user2,neft,404,Contact Payment,1234567890123456,02/29,-,9876543210,SBIN1234567,1234567890,"03/13/2025, 01:24:16 PM",True,['Frequent small transactions to the same recipient'],2025-03-13 13:24:16.656449
+user1,user2,card,348,Contact Payment,-,02/29,111,-,SBIN1234567,1234567890,"03/09/2025, 01:24:16 PM",True,['Frequent small transactions to the same recipient'],2025-03-09 13:24:16.656449
+user1,user2,contact,45,Card Payment,1234567890123456,02/29,-,-,-,+441632960961,"02/21/2025, 01:24:16 PM",True,['Frequent small transactions to the same recipient'],2025-02-21 13:24:16.656449
+user1,user2,card,407,NEFT Transfer,1234567890123456,02/29,-,-,-,1234567890,"02/18/2025, 01:24:16 PM",True,['Frequent small transactions to the same recipient'],2025-02-18 13:24:16.656449
+user1,user2,neft,298,Card Payment,1234567890123456,02/29,-,9876543210,SBIN1234567,+14155552671,"03/05/2025, 01:24:16 PM",True,['Frequent small transactions to the same recipient'],2025-03-05 13:24:16.656449
+user1,user2,contact,213,NEFT Transfer,1234567890123456,02/29,111,9876543210,-,9152251477,"03/07/2025, 01:24:16 PM",True,['Frequent small transactions to the same recipient'],2025-03-07 13:24:16.656449
+user1,user2,neft,285,NEFT Transfer,-,02/29,111,9876543210,-,9152251477,"03/06/2025, 01:24:16 PM",True,['Frequent small transactions to the same recipient'],2025-03-06 13:24:16.656449
+user1,user2,contact,205,Contact Payment,1234567890123456,02/29,111,-,SBIN1234567,+441632960961,"02/26/2025, 01:24:16 PM",True,['Frequent small transactions to the same recipient'],2025-02-26 13:24:16.656449
+user1,user2,card,180,Card Payment,1234567890123456,-,111,-,-,+14155552671,"03/05/2025, 01:24:16 PM",True,['Frequent small transactions to the same recipient'],2025-03-05 13:24:16.656449
+user1,user2,neft,474,NEFT Transfer,1234567890123456,-,111,-,-,9152251477,"02/24/2025, 01:24:16 PM",True,['Frequent small transactions to the same recipient'],2025-02-24 13:24:16.656449
+user1,user2,contact,148,Contact Payment,1234567890123456,02/29,111,9876543210,SBIN1234567,1234567890,"03/08/2025, 01:24:16 PM",True,['Frequent small transactions to the same recipient'],2025-03-08 13:24:16.656449
+user1,user2,neft,492,NEFT Transfer,1234567890123456,02/29,111,9876543210,SBIN1234567,+441632960961,"03/05/2025, 01:24:16 PM",True,['Frequent small transactions to the same recipient'],2025-03-05 13:24:16.656449
+user1,user2,neft,32,NEFT Transfer,1234567890123456,-,-,-,-,+14155552671,"03/01/2025, 01:24:16 PM",True,['Frequent small transactions to the same recipient'],2025-03-01 13:24:16.656449
+user1,user2,card,106,Contact Payment,-,02/29,-,-,SBIN1234567,+441632960961,"02/23/2025, 01:24:16 PM",True,['Frequent small transactions to the same recipient'],2025-02-23 13:24:16.656449
+user1,user2,card,176,Card Payment,-,02/29,111,-,-,+14155552671,"02/16/2025, 01:24:16 PM",True,['Frequent small transactions to the same recipient'],2025-02-16 13:24:16.656449
+user1,user2,contact,465,Card Payment,1234567890123456,-,111,9876543210,-,9152251477,"02/17/2025, 01:24:16 PM",True,['Frequent small transactions to the same recipient'],2025-02-17 13:24:16.656449
+user1,user2,neft,486,Card Payment,1234567890123456,02/29,-,9876543210,-,9152251477,"03/02/2025, 01:24:16 PM",True,['Frequent small transactions to the same recipient'],2025-03-02 13:24:16.656449
+user1,user2,contact,77,NEFT Transfer,1234567890123456,02/29,-,9876543210,SBIN1234567,+14155552671,"02/28/2025, 01:24:16 PM",True,['Frequent small transactions to the same recipient'],2025-02-28 13:24:16.656449
+user1,user2,contact,70,NEFT Transfer,-,02/29,-,9876543210,-,9152251477,"03/06/2025, 01:24:16 PM",True,['Frequent small transactions to the same recipient'],2025-03-06 13:24:16.656449
+user1,user2,contact,37,NEFT Transfer,1234567890123456,-,-,9876543210,SBIN1234567,9152251477,"03/10/2025, 01:24:16 PM",True,['Frequent small transactions to the same recipient'],2025-03-10 13:24:16.656449
+user1,user2,neft,427,NEFT Transfer,1234567890123456,02/29,111,9876543210,-,+441632960961,"03/10/2025, 01:24:16 PM",True,['Frequent small transactions to the same recipient'],2025-03-10 13:24:16.656449
+user1,user2,card,350,Card Payment,1234567890123456,-,-,9876543210,SBIN1234567,+14155552671,"03/08/2025, 01:24:16 PM",True,['Frequent small transactions to the same recipient'],2025-03-08 13:24:16.656449
+user1,user2,card,137,Contact Payment,1234567890123456,02/29,-,-,-,9152251477,"03/14/2025, 01:24:16 PM",True,['Frequent small transactions to the same recipient'],2025-03-14 13:24:16.656449
+user1,user2,neft,200,Card Payment,-,-,-,-,-,+441632960961,"02/24/2025, 01:24:16 PM",True,['Frequent small transactions to the same recipient'],2025-02-24 13:24:16.656449
+user1,user2,card,360,NEFT Transfer,-,-,111,-,-,+14155552671,"03/14/2025, 01:24:16 PM",True,['Frequent small transactions to the same recipient'],2025-03-14 13:24:16.656449
+user1,user2,neft,297,Contact Payment,-,-,111,9876543210,-,+441632960961,"03/01/2025, 01:24:16 PM",True,['Frequent small transactions to the same recipient'],2025-03-01 13:24:16.656449
+user1,user2,neft,336,NEFT Transfer,-,02/29,-,-,-,1234567890,"02/27/2025, 01:24:16 PM",True,['Frequent small transactions to the same recipient'],2025-02-27 13:24:16.656449
+user1,user2,card,210,NEFT Transfer,1234567890123456,-,111,9876543210,SBIN1234567,1234567890,"02/25/2025, 01:24:16 PM",True,['Frequent small transactions to the same recipient'],2025-02-25 13:24:16.656449
+user1,user2,contact,110,NEFT Transfer,-,-,-,9876543210,-,9152251477,"03/12/2025, 01:24:16 PM",True,['Frequent small transactions to the same recipient'],2025-03-12 13:24:16.656449
+user1,user2,contact,72,Card Payment,-,-,-,-,SBIN1234567,1234567890,"02/26/2025, 01:24:16 PM",True,['Frequent small transactions to the same recipient'],2025-02-26 13:24:16.656449
+user1,user2,neft,5,Contact Payment,1234567890123456,02/29,-,-,-,1234567890,"02/20/2025, 01:24:16 PM",True,['Frequent small transactions to the same recipient'],2025-02-20 13:24:16.656449
+user1,user2,neft,54,NEFT Transfer,-,02/29,-,-,-,+441632960961,"03/13/2025, 01:24:16 PM",True,['Frequent small transactions to the same recipient'],2025-03-13 13:24:16.656449
+user1,user2,contact,493,NEFT Transfer,-,-,-,-,SBIN1234567,+441632960961,"02/25/2025, 01:24:16 PM",True,['Frequent small transactions to the same recipient'],2025-02-25 13:24:16.656449
+user1,user2,neft,99,Contact Payment,-,-,111,-,SBIN1234567,+14155552671,"03/13/2025, 01:24:16 PM",True,['Frequent small transactions to the same recipient'],2025-03-13 13:24:16.656449
+user1,user2,card,125,NEFT Transfer,-,-,-,-,-,+441632960961,"02/17/2025, 01:24:16 PM",True,['Frequent small transactions to the same recipient'],2025-02-17 13:24:16.656449
+user1,user2,contact,28,Card Payment,-,02/29,-,9876543210,-,9152251477,"03/04/2025, 01:24:16 PM",True,['Frequent small transactions to the same recipient'],2025-03-04 13:24:16.656449
+user1,user2,neft,181,Contact Payment,-,-,111,9876543210,SBIN1234567,+441632960961,"03/16/2025, 01:24:16 PM",True,['Frequent small transactions to the same recipient'],2025-03-16 13:24:16.656449
+user1,user2,card,358,Contact Payment,1234567890123456,02/29,111,9876543210,-,1234567890,"03/15/2025, 01:24:16 PM",True,['Frequent small transactions to the same recipient'],2025-03-15 13:24:16.656449
+user1,user2,card,175,Contact Payment,1234567890123456,-,111,-,-,+14155552671,"02/23/2025, 01:24:16 PM",True,['Frequent small transactions to the same recipient'],2025-02-23 13:24:16.656449
+user25,user72,contact,49679,Card Payment,1234567890123456,02/29,111,-,-,9152251477,"03/16/2025, 02:31:00 AM",True,"['High transaction amount', 'Transaction at odd hours (2 AM - 5 AM)']",2025-03-16 02:31:00.000000
+user12,user16,neft,34372,Card Payment,1234567890123456,02/29,111,-,-,1234567890,"03/16/2025, 04:58:00 AM",True,"['High transaction amount', 'Transaction at odd hours (2 AM - 5 AM)']",2025-03-16 04:58:00.000000
+user5,user51,card,10329,Card Payment,-,02/29,-,-,-,+441632960961,"03/16/2025, 04:27:00 AM",True,"['High transaction amount', 'Transaction at odd hours (2 AM - 5 AM)', 'Transaction to a non-Indian contact number']",2025-03-16 04:27:00.000000
+user21,user33,neft,15421,Contact Payment,1234567890123456,-,111,-,SBIN1234567,9152251477,"03/16/2025, 03:40:00 AM",True,"['High transaction amount', 'Transaction at odd hours (2 AM - 5 AM)']",2025-03-16 03:40:00.000000
+user4,user24,card,10464,Card Payment,-,-,111,-,SBIN1234567,+441632960961,"03/16/2025, 04:40:00 AM",True,"['High transaction amount', 'Transaction at odd hours (2 AM - 5 AM)', 'Transaction to a non-Indian contact number']",2025-03-16 04:40:00.000000
+user77,user76,contact,36722,NEFT Transfer,1234567890123456,-,111,9876543210,SBIN1234567,+14155552671,"03/16/2025, 04:53:00 AM",True,"['High transaction amount', 'Transaction at odd hours (2 AM - 5 AM)', 'Transaction to a non-Indian contact number']",2025-03-16 04:53:00.000000
+user72,user70,neft,41113,Contact Payment,1234567890123456,-,111,9876543210,-,9152251477,"03/16/2025, 03:23:00 AM",True,"['High transaction amount', 'Transaction at odd hours (2 AM - 5 AM)']",2025-03-16 03:23:00.000000
+user69,user44,neft,13175,Card Payment,1234567890123456,02/29,-,-,-,1234567890,"03/16/2025, 04:39:00 AM",True,"['High transaction amount', 'Transaction at odd hours (2 AM - 5 AM)']",2025-03-16 04:39:00.000000
+user65,user87,contact,44300,Card Payment,1234567890123456,-,-,-,-,+14155552671,"03/16/2025, 04:35:00 AM",True,"['High transaction amount', 'Transaction at odd hours (2 AM - 5 AM)', 'Transaction to a non-Indian contact number']",2025-03-16 04:35:00.000000
+user31,user76,neft,15595,NEFT Transfer,1234567890123456,02/29,-,-,SBIN1234567,1234567890,"03/16/2025, 04:38:00 AM",True,"['High transaction amount', 'Transaction at odd hours (2 AM - 5 AM)']",2025-03-16 04:38:00.000000
+user17,user94,contact,37552,Contact Payment,1234567890123456,02/29,-,-,-,9152251477,"03/15/2025, 01:24:16 PM",True,['High transaction amount'],2025-03-15 13:24:16.657447
+user34,user72,card,9375,Contact Payment,1234567890123456,02/29,-,-,-,+441632960961,"02/25/2025, 01:24:16 PM",True,['Transaction to a non-Indian contact number'],2025-02-25 13:24:16.657447
+user47,user25,card,7374,Contact Payment,-,02/29,-,-,-,9152251477,"02/19/2025, 01:24:16 PM",False,[],2025-02-19 13:24:16.657447
+user33,user86,contact,7426,NEFT Transfer,1234567890123456,-,-,-,SBIN1234567,+441632960961,"03/14/2025, 01:24:16 PM",True,['Transaction to a non-Indian contact number'],2025-03-14 13:24:16.657447
+user75,user91,neft,4007,Contact Payment,1234567890123456,02/29,111,-,SBIN1234567,+14155552671,"03/03/2025, 01:24:16 PM",True,['Transaction to a non-Indian contact number'],2025-03-03 13:24:16.657447
+user61,user40,contact,4385,Card Payment,1234567890123456,02/29,111,9876543210,-,+441632960961,"02/18/2025, 01:24:16 PM",True,['Transaction to a non-Indian contact number'],2025-02-18 13:24:16.657447
+user46,user61,card,15775,Contact Payment,-,-,-,9876543210,SBIN1234567,+14155552671,"02/18/2025, 01:24:16 PM",True,"['High transaction amount', 'Transaction to a non-Indian contact number']",2025-02-18 13:24:16.657447
+user5,user26,neft,6093,Card Payment,-,-,-,9876543210,-,+441632960961,"02/27/2025, 01:24:16 PM",True,['Transaction to a non-Indian contact number'],2025-02-27 13:24:16.657447
+user32,user49,neft,4495,NEFT Transfer,-,02/29,-,-,SBIN1234567,9152251477,"03/15/2025, 01:24:16 PM",False,[],2025-03-15 13:24:16.657447
+user9,user31,card,14956,Card Payment,-,02/29,111,9876543210,SBIN1234567,+441632960961,"02/22/2025, 01:24:16 PM",True,"['High transaction amount', 'Transaction to a non-Indian contact number']",2025-02-22 13:24:16.657447
+user98,user3,neft,7161,Contact Payment,-,02/29,111,-,SBIN1234567,1234567890,"02/23/2025, 01:24:16 PM",False,[],2025-02-23 13:24:16.657447
+user91,user7,neft,10468,Contact Payment,-,02/29,-,9876543210,-,+441632960961,"02/25/2025, 01:24:16 PM",True,"['High transaction amount', 'Transaction to a non-Indian contact number']",2025-02-25 13:24:16.657447
+user50,user44,neft,7311,NEFT Transfer,1234567890123456,02/29,111,9876543210,-,9152251477,"03/06/2025, 01:24:16 PM",False,[],2025-03-06 13:24:16.657447
+user95,user52,card,15136,Card Payment,1234567890123456,-,-,9876543210,-,+441632960961,"02/16/2025, 01:24:16 PM",True,"['High transaction amount', 'Transaction to a non-Indian contact number']",2025-02-16 13:24:16.657447
+user72,user63,neft,11470,NEFT Transfer,1234567890123456,02/29,111,9876543210,SBIN1234567,9152251477,"02/26/2025, 01:24:16 PM",False,['High transaction amount'],2025-02-26 13:24:16.657447
+user79,user55,contact,6080,NEFT Transfer,-,-,111,9876543210,SBIN1234567,9152251477,"03/12/2025, 01:24:16 PM",False,[],2025-03-12 13:24:16.657447
+user64,user81,contact,18789,Card Payment,1234567890123456,-,111,-,-,+14155552671,"02/21/2025, 01:24:16 PM",True,"['High transaction amount', 'Transaction to a non-Indian contact number']",2025-02-21 13:24:16.657447
+user71,user10,card,8724,Contact Payment,-,-,111,9876543210,-,9152251477,"03/05/2025, 01:24:16 PM",False,[],2025-03-05 13:24:16.657447
+user9,user21,neft,14858,Card Payment,1234567890123456,-,-,-,SBIN1234567,+441632960961,"02/28/2025, 01:24:16 PM",True,"['High transaction amount', 'Transaction to a non-Indian contact number']",2025-02-28 13:24:16.657447
+user58,user37,neft,15459,Contact Payment,1234567890123456,02/29,111,-,SBIN1234567,9152251477,"03/08/2025, 01:24:16 PM",False,['High transaction amount'],2025-03-08 13:24:16.657447
+user7,user39,card,44756,Card Payment,-,02/29,111,-,SBIN1234567,+14155552671,"03/05/2025, 01:24:16 PM",True,"['High transaction amount', 'Transaction to a non-Indian contact number']",2025-03-05 13:24:16.657447
+user64,user87,neft,8790,Contact Payment,-,02/29,111,9876543210,-,1234567890,"02/26/2025, 01:24:16 PM",False,[],2025-02-26 13:24:16.657447
+user19,user50,contact,18694,Contact Payment,1234567890123456,-,111,9876543210,SBIN1234567,9152251477,"02/17/2025, 01:24:16 PM",False,['High transaction amount'],2025-02-17 13:24:16.657447
+user28,user12,contact,9803,Contact Payment,1234567890123456,02/29,-,9876543210,-,1234567890,"02/24/2025, 01:24:16 PM",False,[],2025-02-24 13:24:16.657447
+user61,user94,card,2376,Card Payment,-,02/29,111,-,SBIN1234567,9152251477,"02/25/2025, 01:24:16 PM",False,[],2025-02-25 13:24:16.657447
+user97,user91,contact,2013,Contact Payment,1234567890123456,02/29,-,-,-,1234567890,"03/14/2025, 01:24:16 PM",False,[],2025-03-14 13:24:16.657447
+user24,user3,neft,15658,Contact Payment,1234567890123456,02/29,111,9876543210,-,9152251477,"03/10/2025, 01:24:16 PM",False,['High transaction amount'],2025-03-10 13:24:16.657447
+user31,user24,contact,15751,Card Payment,-,-,111,9876543210,SBIN1234567,9152251477,"03/15/2025, 01:24:16 PM",False,['High transaction amount'],2025-03-15 13:24:16.657447
+user94,user93,card,7744,Contact Payment,1234567890123456,02/29,-,9876543210,SBIN1234567,1234567890,"02/19/2025, 01:24:16 PM",False,[],2025-02-19 13:24:16.657447
+user39,user93,card,7370,Contact Payment,-,02/29,-,9876543210,SBIN1234567,+14155552671,"03/01/2025, 01:24:16 PM",True,['Transaction to a non-Indian contact number'],2025-03-01 13:24:16.657447
+user61,user16,card,12435,NEFT Transfer,1234567890123456,02/29,-,-,SBIN1234567,9152251477,"02/21/2025, 01:24:16 PM",False,['High transaction amount'],2025-02-21 13:24:16.657447
+user78,user100,contact,3845,NEFT Transfer,-,02/29,111,-,SBIN1234567,9152251477,"02/16/2025, 01:24:16 PM",False,[],2025-02-16 13:24:16.657447
+user30,user27,contact,16609,NEFT Transfer,-,02/29,-,-,SBIN1234567,+14155552671,"03/09/2025, 01:24:16 PM",True,"['High transaction amount', 'Transaction to a non-Indian contact number']",2025-03-09 13:24:16.657447
+user78,user83,contact,10904,Contact Payment,-,02/29,111,-,-,9152251477,"03/15/2025, 01:24:16 PM",False,['High transaction amount'],2025-03-15 13:24:16.657447
+user49,user88,neft,1282,NEFT Transfer,1234567890123456,02/29,111,9876543210,SBIN1234567,1234567890,"03/09/2025, 01:24:16 PM",False,[],2025-03-09 13:24:16.657447
+user68,user27,contact,16969,Card Payment,-,-,-,9876543210,-,9152251477,"03/11/2025, 01:24:16 PM",False,['High transaction amount'],2025-03-11 13:24:16.657447
+user94,user84,neft,5345,NEFT Transfer,-,-,-,-,SBIN1234567,+14155552671,"03/03/2025, 01:24:16 PM",True,['Transaction to a non-Indian contact number'],2025-03-03 13:24:16.657447
+user8,user58,card,14565,Contact Payment,1234567890123456,-,-,-,SBIN1234567,+441632960961,"02/17/2025, 01:24:16 PM",True,"['High transaction amount', 'Transaction to a non-Indian contact number']",2025-02-17 13:24:16.658447
+user96,user76,card,11860,Contact Payment,-,-,-,9876543210,-,9152251477,"02/22/2025, 01:24:16 PM",False,['High transaction amount'],2025-02-22 13:24:16.658447
+user40,user90,neft,11665,NEFT Transfer,-,-,111,-,SBIN1234567,1234567890,"03/12/2025, 01:24:16 PM",False,['High transaction amount'],2025-03-12 13:24:16.658447
+user76,user49,neft,15261,Contact Payment,-,-,111,9876543210,SBIN1234567,1234567890,"03/13/2025, 01:24:16 PM",True,['High transaction amount'],2025-03-13 13:24:16.658447
+user77,user50,contact,10365,Contact Payment,1234567890123456,02/29,111,9876543210,SBIN1234567,9152251477,"03/05/2025, 01:24:16 PM",False,['High transaction amount'],2025-03-05 13:24:16.658447
+user84,user35,neft,7695,NEFT Transfer,1234567890123456,02/29,-,9876543210,SBIN1234567,1234567890,"02/26/2025, 01:24:16 PM",False,[],2025-02-26 13:24:16.658447
+user39,user6,contact,9747,Contact Payment,-,02/29,111,-,SBIN1234567,1234567890,"03/16/2025, 01:24:16 PM",False,[],2025-03-16 13:24:16.658447
+user76,user16,contact,7314,Contact Payment,1234567890123456,02/29,-,-,-,+441632960961,"03/11/2025, 01:24:16 PM",True,['Transaction to a non-Indian contact number'],2025-03-11 13:24:16.658447
+user23,user22,contact,15510,Contact Payment,1234567890123456,-,-,-,-,1234567890,"03/09/2025, 01:24:16 PM",False,['High transaction amount'],2025-03-09 13:24:16.658447
+user11,user64,neft,10567,Card Payment,1234567890123456,02/29,-,-,SBIN1234567,+441632960961,"03/01/2025, 01:24:16 PM",True,"['High transaction amount', 'Transaction to a non-Indian contact number']",2025-03-01 13:24:16.658447
+user74,user94,contact,16746,Card Payment,-,02/29,-,-,-,9152251477,"03/04/2025, 01:24:16 PM",False,['High transaction amount'],2025-03-04 13:24:16.658447
+user18,user51,neft,15568,NEFT Transfer,-,02/29,-,9876543210,SBIN1234567,+441632960961,"03/03/2025, 01:24:16 PM",True,"['High transaction amount', 'Transaction to a non-Indian contact number']",2025-03-03 13:24:16.658447
+user100,user71,card,12090,NEFT Transfer,1234567890123456,-,111,9876543210,-,+14155552671,"03/01/2025, 01:24:16 PM",True,"['High transaction amount', 'Transaction to a non-Indian contact number']",2025-03-01 13:24:16.658447
+user44,user47,contact,5406,Contact Payment,-,02/29,-,9876543210,SBIN1234567,+441632960961,"03/01/2025, 01:24:16 PM",True,['Transaction to a non-Indian contact number'],2025-03-01 13:24:16.658447
+user69,user5,neft,7481,Contact Payment,1234567890123456,02/29,-,9876543210,-,1234567890,"03/01/2025, 01:24:16 PM",False,[],2025-03-01 13:24:16.658447
+user17,user84,card,11703,Card Payment,-,-,111,-,SBIN1234567,9152251477,"03/10/2025, 01:24:16 PM",False,['High transaction amount'],2025-03-10 13:24:16.658447
+user29,user28,contact,7887,NEFT Transfer,-,-,111,9876543210,-,+441632960961,"02/17/2025, 01:24:16 PM",True,['Transaction to a non-Indian contact number'],2025-02-17 13:24:16.658447
+user1,user100,contact,4551,NEFT Transfer,-,-,111,9876543210,SBIN1234567,+14155552671,"02/21/2025, 01:24:16 PM",True,['Transaction to a non-Indian contact number'],2025-02-21 13:24:16.658447
+user78,user79,neft,10475,Contact Payment,-,-,-,-,SBIN1234567,+441632960961,"02/19/2025, 01:24:16 PM",True,"['High transaction amount', 'Transaction to a non-Indian contact number']",2025-02-19 13:24:16.658447
+user87,user57,contact,5150,Contact Payment,1234567890123456,-,-,-,SBIN1234567,+441632960961,"03/07/2025, 01:24:16 PM",True,['Transaction to a non-Indian contact number'],2025-03-07 13:24:16.658447
+user20,user96,contact,6575,Contact Payment,1234567890123456,02/29,-,9876543210,-,+441632960961,"02/27/2025, 01:24:16 PM",True,['Transaction to a non-Indian contact number'],2025-02-27 13:24:16.658447
+user11,user78,neft,4695,NEFT Transfer,1234567890123456,-,-,-,-,+14155552671,"03/07/2025, 01:24:16 PM",True,['Transaction to a non-Indian contact number'],2025-03-07 13:24:16.658447
+user6,user10,card,6739,Contact Payment,1234567890123456,-,111,9876543210,-,1234567890,"02/14/2025, 01:24:16 PM",False,[],2025-02-14 13:24:16.658447
+user10,user74,card,47316,Card Payment,-,02/29,111,-,-,1234567890,"02/24/2025, 01:24:16 PM",True,['High transaction amount'],2025-02-24 13:24:16.658447
+user34,user8,neft,7826,NEFT Transfer,-,-,111,9876543210,SBIN1234567,+14155552671,"03/02/2025, 01:24:16 PM",True,['Transaction to a non-Indian contact number'],2025-03-02 13:24:16.658447
+user9,user20,card,13893,Contact Payment,1234567890123456,02/29,-,-,SBIN1234567,+441632960961,"02/18/2025, 01:24:16 PM",True,"['High transaction amount', 'Transaction to a non-Indian contact number']",2025-02-18 13:24:16.658447
+user4,user95,neft,14393,NEFT Transfer,-,-,111,9876543210,-,+14155552671,"02/23/2025, 01:24:16 PM",True,"['High transaction amount', 'Transaction to a non-Indian contact number']",2025-02-23 13:24:16.658447
+user33,user15,neft,7386,Contact Payment,1234567890123456,02/29,111,-,SBIN1234567,+441632960961,"03/01/2025, 01:24:16 PM",True,['Transaction to a non-Indian contact number'],2025-03-01 13:24:16.658447
+user46,user97,neft,17823,Contact Payment,1234567890123456,-,-,-,SBIN1234567,1234567890,"03/03/2025, 01:24:16 PM",False,['High transaction amount'],2025-03-03 13:24:16.658447
+user16,user41,contact,12732,NEFT Transfer,1234567890123456,-,111,9876543210,SBIN1234567,+441632960961,"02/23/2025, 01:24:16 PM",True,"['High transaction amount', 'Transaction to a non-Indian contact number']",2025-02-23 13:24:16.658447
+user20,user31,contact,14252,Contact Payment,-,02/29,-,-,-,9152251477,"03/06/2025, 01:24:16 PM",False,['High transaction amount'],2025-03-06 13:24:16.658447
+user17,user80,card,10415,Contact Payment,1234567890123456,02/29,-,9876543210,-,+441632960961,"02/23/2025, 01:24:16 PM",True,"['High transaction amount', 'Transaction to a non-Indian contact number']",2025-02-23 13:24:16.658447
+user40,user49,neft,12472,Card Payment,1234567890123456,-,-,9876543210,SBIN1234567,1234567890,"03/13/2025, 01:24:16 PM",False,['High transaction amount'],2025-03-13 13:24:16.658447
+user54,user90,card,7922,Contact Payment,-,-,111,-,SBIN1234567,+14155552671,"02/19/2025, 01:24:16 PM",True,['Transaction to a non-Indian contact number'],2025-02-19 13:24:16.658447
+user68,user21,neft,13757,Contact Payment,-,-,-,-,-,9152251477,"03/14/2025, 01:24:16 PM",False,['High transaction amount'],2025-03-14 13:24:16.658447
+user20,user58,neft,19845,Contact Payment,-,02/29,-,9876543210,-,9152251477,"02/15/2025, 01:24:16 PM",False,['High transaction amount'],2025-02-15 13:24:16.658447
+user39,user97,contact,10085,Contact Payment,-,02/29,-,9876543210,SBIN1234567,9152251477,"02/17/2025, 01:24:16 PM",False,['High transaction amount'],2025-02-17 13:24:16.658447
+user67,user79,contact,8804,Card Payment,-,02/29,111,-,-,+14155552671,"03/01/2025, 01:24:16 PM",True,['Transaction to a non-Indian contact number'],2025-03-01 13:24:16.658447
+user74,user93,contact,12467,Card Payment,-,-,111,9876543210,SBIN1234567,+14155552671,"03/14/2025, 01:24:16 PM",True,"['High transaction amount', 'Transaction to a non-Indian contact number']",2025-03-14 13:24:16.658447
+user31,user72,card,10985,NEFT Transfer,1234567890123456,02/29,111,-,SBIN1234567,9152251477,"02/15/2025, 01:24:16 PM",False,['High transaction amount'],2025-02-15 13:24:16.658447
+user56,user22,card,5746,NEFT Transfer,1234567890123456,-,-,-,-,9152251477,"02/28/2025, 01:24:16 PM",False,[],2025-02-28 13:24:16.658447
+user27,user75,neft,3981,Contact Payment,1234567890123456,-,-,9876543210,SBIN1234567,+441632960961,"03/02/2025, 01:24:16 PM",True,['Transaction to a non-Indian contact number'],2025-03-02 13:24:16.658447
+user89,user77,neft,3102,Card Payment,1234567890123456,02/29,-,9876543210,SBIN1234567,+441632960961,"02/27/2025, 01:24:16 PM",True,['Transaction to a non-Indian contact number'],2025-02-27 13:24:16.658447
+user20,user68,contact,48929,Card Payment,-,-,-,9876543210,-,1234567890,"03/07/2025, 01:24:16 PM",True,['High transaction amount'],2025-03-07 13:24:16.659447
+user90,user31,card,13650,Contact Payment,-,02/29,111,9876543210,-,+14155552671,"03/08/2025, 01:24:16 PM",True,"['High transaction amount', 'Transaction to a non-Indian contact number']",2025-03-08 13:24:16.659447
+user54,user9,neft,9907,Contact Payment,-,-,111,-,SBIN1234567,9152251477,"03/01/2025, 01:24:16 PM",False,[],2025-03-01 13:24:16.659447
+user42,user35,card,12527,NEFT Transfer,1234567890123456,02/29,111,9876543210,SBIN1234567,1234567890,"03/12/2025, 01:24:16 PM",False,['High transaction amount'],2025-03-12 13:24:16.659447
+user6,user69,neft,14165,Card Payment,-,-,-,9876543210,SBIN1234567,+441632960961,"03/11/2025, 01:24:16 PM",True,"['High transaction amount', 'Transaction to a non-Indian contact number']",2025-03-11 13:24:16.659447
+user99,user4,neft,17607,Contact Payment,-,-,111,-,-,1234567890,"03/14/2025, 01:24:16 PM",False,['High transaction amount'],2025-03-14 13:24:16.659447
+user5,user10,contact,19148,Card Payment,1234567890123456,02/29,-,9876543210,-,+14155552671,"03/05/2025, 01:24:16 PM",True,"['High transaction amount', 'Transaction to a non-Indian contact number']",2025-03-05 13:24:16.659447
+user58,user52,card,15113,NEFT Transfer,1234567890123456,02/29,-,9876543210,SBIN1234567,9152251477,"02/14/2025, 01:24:16 PM",False,['High transaction amount'],2025-02-14 13:24:16.659447
+user75,user28,neft,9897,Contact Payment,1234567890123456,-,111,9876543210,-,9152251477,"02/25/2025, 01:24:16 PM",False,[],2025-02-25 13:24:16.659447
+user4,user36,card,16419,Contact Payment,1234567890123456,02/29,-,9876543210,SBIN1234567,1234567890,"03/07/2025, 01:24:16 PM",False,['High transaction amount'],2025-03-07 13:24:16.659447
+user8,user54,neft,4154,Contact Payment,1234567890123456,02/29,-,-,-,+14155552671,"02/19/2025, 01:24:16 PM",True,['Transaction to a non-Indian contact number'],2025-02-19 13:24:16.659447
+user55,user24,neft,3640,Contact Payment,-,02/29,111,9876543210,SBIN1234567,1234567890,"02/25/2025, 01:24:16 PM",False,[],2025-02-25 13:24:16.659447
+user12,user72,contact,4674,Contact Payment,-,02/29,-,-,-,9152251477,"02/19/2025, 01:24:16 PM",False,[],2025-02-19 13:24:16.659447
+user21,user93,card,10518,Contact Payment,1234567890123456,02/29,111,-,-,1234567890,"02/26/2025, 01:24:16 PM",False,['High transaction amount'],2025-02-26 13:24:16.659447
+user61,user35,card,14364,NEFT Transfer,1234567890123456,02/29,111,9876543210,SBIN1234567,+14155552671,"03/11/2025, 01:24:16 PM",True,"['High transaction amount', 'Transaction to a non-Indian contact number']",2025-03-11 13:24:16.659447
+user80,user28,neft,9400,Card Payment,-,-,111,9876543210,-,1234567890,"02/23/2025, 01:24:16 PM",False,[],2025-02-23 13:24:16.659447
+user11,user77,neft,6266,Contact Payment,-,02/29,111,-,-,1234567890,"02/27/2025, 01:24:16 PM",False,[],2025-02-27 13:24:16.659447
+user87,user92,contact,7470,Contact Payment,-,-,-,9876543210,-,1234567890,"03/11/2025, 01:24:16 PM",False,[],2025-03-11 13:24:16.659447
+user69,user4,card,8576,NEFT Transfer,1234567890123456,02/29,-,-,-,1234567890,"03/16/2025, 01:24:16 PM",False,[],2025-03-16 13:24:16.659447
+user19,user28,contact,9655,Contact Payment,1234567890123456,-,111,-,-,+441632960961,"02/24/2025, 01:24:16 PM",True,['Transaction to a non-Indian contact number'],2025-02-24 13:24:16.659447
+user59,user30,neft,18820,Contact Payment,-,02/29,111,-,SBIN1234567,+441632960961,"02/27/2025, 01:24:16 PM",True,"['High transaction amount', 'Transaction to a non-Indian contact number']",2025-02-27 13:24:16.659447
+user69,user20,card,2914,NEFT Transfer,1234567890123456,-,-,-,SBIN1234567,1234567890,"03/12/2025, 01:24:16 PM",False,[],2025-03-12 13:24:16.659447
+user59,user87,contact,16847,Card Payment,1234567890123456,02/29,111,-,SBIN1234567,1234567890,"03/07/2025, 01:24:16 PM",False,['High transaction amount'],2025-03-07 13:24:16.659447
+user58,user89,contact,19476,Card Payment,1234567890123456,02/29,-,9876543210,-,1234567890,"03/02/2025, 01:24:16 PM",False,['High transaction amount'],2025-03-02 13:24:16.659447
+user40,user98,neft,7238,Contact Payment,1234567890123456,02/29,-,-,-,1234567890,"03/05/2025, 01:24:16 PM",False,[],2025-03-05 13:24:16.659447
+user41,user46,contact,12368,Card Payment,-,02/29,111,9876543210,-,+14155552671,"02/17/2025, 01:24:16 PM",True,"['High transaction amount', 'Transaction to a non-Indian contact number']",2025-02-17 13:24:16.659447
+user27,user50,contact,1902,NEFT Transfer,1234567890123456,-,111,9876543210,-,+14155552671,"03/16/2025, 01:24:16 PM",True,['Transaction to a non-Indian contact number'],2025-03-16 13:24:16.659447
+user26,user20,contact,10376,NEFT Transfer,-,-,111,-,-,9152251477,"03/15/2025, 01:24:16 PM",False,['High transaction amount'],2025-03-15 13:24:16.659447
+user87,user19,neft,16144,NEFT Transfer,-,02/29,111,9876543210,SBIN1234567,+441632960961,"02/18/2025, 01:24:16 PM",True,"['High transaction amount', 'Transaction to a non-Indian contact number']",2025-02-18 13:24:16.659447
+user61,user75,card,12072,Contact Payment,-,02/29,-,9876543210,SBIN1234567,9152251477,"02/21/2025, 01:24:16 PM",False,['High transaction amount'],2025-02-21 13:24:16.659447
+user81,user58,card,5245,Contact Payment,-,-,-,9876543210,SBIN1234567,9152251477,"02/19/2025, 01:24:16 PM",False,[],2025-02-19 13:24:16.659447
+user94,user66,contact,2219,NEFT Transfer,-,02/29,111,-,SBIN1234567,9152251477,"03/05/2025, 01:24:16 PM",False,[],2025-03-05 13:24:16.659447
+user12,user97,neft,5690,Contact Payment,1234567890123456,02/29,-,9876543210,SBIN1234567,+441632960961,"02/22/2025, 01:24:16 PM",True,['Transaction to a non-Indian contact number'],2025-02-22 13:24:16.659447
+user80,user9,card,18696,Contact Payment,-,02/29,111,-,SBIN1234567,1234567890,"02/15/2025, 01:24:16 PM",False,['High transaction amount'],2025-02-15 13:24:16.659447
+user80,user72,contact,1233,Contact Payment,-,-,-,-,-,1234567890,"03/15/2025, 01:24:16 PM",False,[],2025-03-15 13:24:16.660447
+user29,user56,neft,2377,Contact Payment,-,02/29,-,9876543210,SBIN1234567,9152251477,"03/11/2025, 01:24:16 PM",False,[],2025-03-11 13:24:16.660447
+user82,user70,contact,5837,Card Payment,1234567890123456,02/29,-,-,-,+441632960961,"02/26/2025, 01:24:16 PM",True,['Transaction to a non-Indian contact number'],2025-02-26 13:24:16.660447
+user81,user88,contact,16201,NEFT Transfer,1234567890123456,-,-,9876543210,-,+441632960961,"02/21/2025, 01:24:16 PM",True,"['High transaction amount', 'Transaction to a non-Indian contact number']",2025-02-21 13:24:16.660447
+user45,user100,contact,1951,Card Payment,1234567890123456,-,-,-,SBIN1234567,1234567890,"03/10/2025, 01:24:16 PM",False,[],2025-03-10 13:24:16.660447
+user3,user26,card,7446,Card Payment,1234567890123456,02/29,-,-,-,9152251477,"03/12/2025, 01:24:16 PM",False,[],2025-03-12 13:24:16.660447
+user51,user2,card,16436,Contact Payment,-,-,111,9876543210,-,+441632960961,"03/06/2025, 01:24:16 PM",True,"['High transaction amount', 'Transaction to a non-Indian contact number']",2025-03-06 13:24:16.660447
+user63,user78,contact,16202,Contact Payment,1234567890123456,02/29,111,-,-,1234567890,"03/08/2025, 01:24:16 PM",False,['High transaction amount'],2025-03-08 13:24:16.660447
+user48,user28,neft,5787,Contact Payment,-,-,111,9876543210,-,9152251477,"02/22/2025, 01:24:16 PM",False,[],2025-02-22 13:24:16.660447
+user90,user6,card,4632,Contact Payment,-,-,111,9876543210,SBIN1234567,+441632960961,"03/08/2025, 01:24:16 PM",True,['Transaction to a non-Indian contact number'],2025-03-08 13:24:16.660447
+user74,user38,contact,3450,Card Payment,1234567890123456,-,111,-,-,+441632960961,"03/12/2025, 01:24:16 PM",True,['Transaction to a non-Indian contact number'],2025-03-12 13:24:16.660447
+user40,user12,card,11300,NEFT Transfer,-,-,-,-,-,1234567890,"03/08/2025, 01:24:16 PM",False,['High transaction amount'],2025-03-08 13:24:16.660447
+user69,user65,contact,11286,Card Payment,1234567890123456,02/29,-,9876543210,-,+441632960961,"02/16/2025, 01:24:16 PM",True,"['High transaction amount', 'Transaction to a non-Indian contact number']",2025-02-16 13:24:16.660447
+user25,user30,contact,1393,Card Payment,1234567890123456,-,111,-,-,9152251477,"02/24/2025, 01:24:16 PM",False,[],2025-02-24 13:24:16.660447
+user97,user20,card,1170,Contact Payment,1234567890123456,-,111,-,-,+441632960961,"03/09/2025, 01:24:16 PM",True,['Transaction to a non-Indian contact number'],2025-03-09 13:24:16.660447
+user73,user39,neft,9955,Contact Payment,-,02/29,-,9876543210,SBIN1234567,+441632960961,"02/17/2025, 01:24:16 PM",True,['Transaction to a non-Indian contact number'],2025-02-17 13:24:16.660447
+user97,user21,card,5864,NEFT Transfer,-,-,-,-,SBIN1234567,+14155552671,"03/03/2025, 01:24:16 PM",True,['Transaction to a non-Indian contact number'],2025-03-03 13:24:16.660447
+user66,user96,neft,18618,NEFT Transfer,1234567890123456,-,111,-,-,1234567890,"03/04/2025, 01:24:16 PM",False,['High transaction amount'],2025-03-04 13:24:16.660447
+user30,user100,card,3907,Contact Payment,1234567890123456,02/29,111,-,SBIN1234567,+441632960961,"03/02/2025, 01:24:16 PM",True,['Transaction to a non-Indian contact number'],2025-03-02 13:24:16.661456
+user6,user64,neft,6522,Contact Payment,-,-,-,-,-,+14155552671,"03/16/2025, 01:24:16 PM",True,['Transaction to a non-Indian contact number'],2025-03-16 13:24:16.661456
+user82,user19,card,9159,NEFT Transfer,-,-,-,9876543210,SBIN1234567,9152251477,"03/15/2025, 01:24:16 PM",False,[],2025-03-15 13:24:16.661456
+user65,user92,contact,15560,Card Payment,1234567890123456,02/29,-,-,SBIN1234567,9152251477,"03/10/2025, 01:24:16 PM",False,['High transaction amount'],2025-03-10 13:24:16.661456
+user86,user26,contact,13413,Contact Payment,1234567890123456,02/29,111,9876543210,-,1234567890,"03/05/2025, 01:24:16 PM",False,['High transaction amount'],2025-03-05 13:24:16.661456
+user99,user31,neft,6504,NEFT Transfer,-,-,-,9876543210,-,9152251477,"02/26/2025, 01:24:16 PM",False,[],2025-02-26 13:24:16.661456
+user8,user26,card,18220,NEFT Transfer,1234567890123456,-,-,-,SBIN1234567,+14155552671,"03/16/2025, 01:24:16 PM",True,"['High transaction amount', 'Transaction to a non-Indian contact number']",2025-03-16 13:24:16.661456
+user72,user71,contact,4038,NEFT Transfer,1234567890123456,-,111,9876543210,-,9152251477,"03/08/2025, 01:24:16 PM",False,[],2025-03-08 13:24:16.661456
+user93,user45,neft,45631,Card Payment,-,02/29,-,-,-,1234567890,"03/02/2025, 01:24:16 PM",True,['High transaction amount'],2025-03-02 13:24:16.661456
+user49,user46,contact,7609,NEFT Transfer,-,02/29,111,-,-,+14155552671,"03/01/2025, 01:24:16 PM",True,['Transaction to a non-Indian contact number'],2025-03-01 13:24:16.661456
+user75,user76,neft,1699,Contact Payment,-,-,111,-,-,9152251477,"03/13/2025, 01:24:16 PM",False,[],2025-03-13 13:24:16.661456
+user7,user55,neft,15225,Contact Payment,1234567890123456,-,111,9876543210,SBIN1234567,9152251477,"03/14/2025, 01:24:16 PM",False,['High transaction amount'],2025-03-14 13:24:16.661456
+user81,user100,contact,9330,Contact Payment,-,-,-,-,SBIN1234567,+14155552671,"02/25/2025, 01:24:16 PM",True,['Transaction to a non-Indian contact number'],2025-02-25 13:24:16.661456
+user42,user32,contact,16998,Card Payment,-,02/29,111,9876543210,SBIN1234567,+14155552671,"03/15/2025, 01:24:16 PM",True,"['High transaction amount', 'Transaction to a non-Indian contact number']",2025-03-15 13:24:16.661456
+user97,user88,contact,11783,NEFT Transfer,-,02/29,111,-,-,9152251477,"02/20/2025, 01:24:16 PM",False,['High transaction amount'],2025-02-20 13:24:16.661456
+user52,user63,card,8511,NEFT Transfer,-,-,111,9876543210,SBIN1234567,1234567890,"03/03/2025, 01:24:16 PM",False,[],2025-03-03 13:24:16.661456
+user35,user22,card,5601,Contact Payment,-,02/29,-,9876543210,SBIN1234567,+441632960961,"03/07/2025, 01:24:16 PM",True,['Transaction to a non-Indian contact number'],2025-03-07 13:24:16.661456
+user24,user20,contact,8526,NEFT Transfer,-,02/29,-,9876543210,-,+14155552671,"03/13/2025, 01:24:16 PM",True,['Transaction to a non-Indian contact number'],2025-03-13 13:24:16.661456
+user55,user83,contact,4755,Contact Payment,1234567890123456,-,111,-,SBIN1234567,1234567890,"03/10/2025, 01:24:16 PM",False,[],2025-03-10 13:24:16.661456
+user91,user76,neft,17140,Contact Payment,-,02/29,111,-,SBIN1234567,9152251477,"02/26/2025, 01:24:16 PM",False,['High transaction amount'],2025-02-26 13:24:16.661456
+user58,user27,contact,16543,Contact Payment,1234567890123456,-,-,9876543210,SBIN1234567,+14155552671,"03/11/2025, 01:24:16 PM",True,"['High transaction amount', 'Transaction to a non-Indian contact number']",2025-03-11 13:24:16.661456
+user9,user10,contact,1237,Card Payment,1234567890123456,02/29,111,9876543210,SBIN1234567,+441632960961,"03/13/2025, 01:24:16 PM",True,['Transaction to a non-Indian contact number'],2025-03-13 13:24:16.661456
+user94,user33,neft,3777,Contact Payment,1234567890123456,02/29,111,-,-,+441632960961,"03/03/2025, 01:24:16 PM",True,['Transaction to a non-Indian contact number'],2025-03-03 13:24:16.661456
+user50,user26,neft,4294,NEFT Transfer,-,-,111,-,SBIN1234567,1234567890,"03/15/2025, 01:24:16 PM",False,[],2025-03-15 13:24:16.661456
+user31,user34,card,5866,Contact Payment,-,-,-,9876543210,SBIN1234567,+441632960961,"03/14/2025, 01:24:16 PM",True,['Transaction to a non-Indian contact number'],2025-03-14 13:24:16.661456
+user75,user23,neft,16761,Card Payment,-,-,111,-,-,9152251477,"03/14/2025, 01:24:16 PM",False,['High transaction amount'],2025-03-14 13:24:16.661456
+user41,user47,neft,9510,Contact Payment,-,-,111,-,-,+14155552671,"03/14/2025, 01:24:16 PM",True,['Transaction to a non-Indian contact number'],2025-03-14 13:24:16.661456
+user15,user71,neft,7359,NEFT Transfer,-,-,111,9876543210,-,1234567890,"03/02/2025, 01:24:16 PM",False,[],2025-03-02 13:24:16.662448
+user92,user90,contact,45420,Card Payment,-,02/29,111,9876543210,SBIN1234567,1234567890,"02/14/2025, 01:24:16 PM",True,['High transaction amount'],2025-02-14 13:24:16.662448
+user1,user18,neft,5203,NEFT Transfer,1234567890123456,-,111,9876543210,SBIN1234567,+441632960961,"03/04/2025, 01:24:16 PM",True,['Transaction to a non-Indian contact number'],2025-03-04 13:24:16.662448
+user97,user62,card,13244,NEFT Transfer,1234567890123456,-,-,9876543210,-,9152251477,"02/26/2025, 01:24:16 PM",False,['High transaction amount'],2025-02-26 13:24:16.662448
+user30,user95,card,17657,NEFT Transfer,1234567890123456,-,111,-,-,+14155552671,"02/18/2025, 01:24:16 PM",True,"['High transaction amount', 'Transaction to a non-Indian contact number']",2025-02-18 13:24:16.662448
+user49,user6,neft,13773,Contact Payment,1234567890123456,-,111,-,-,1234567890,"02/24/2025, 01:24:16 PM",False,['High transaction amount'],2025-02-24 13:24:16.662448
+user48,user22,neft,8528,Contact Payment,-,-,111,9876543210,-,9152251477,"02/27/2025, 01:24:16 PM",False,[],2025-02-27 13:24:16.662448
+user79,user83,contact,8927,Contact Payment,1234567890123456,02/29,-,9876543210,-,1234567890,"02/14/2025, 01:24:16 PM",False,[],2025-02-14 13:24:16.662448
+user67,user93,neft,19843,Card Payment,1234567890123456,02/29,-,-,SBIN1234567,1234567890,"02/19/2025, 01:24:16 PM",False,['High transaction amount'],2025-02-19 13:24:16.662448
+user97,user17,contact,8434,NEFT Transfer,1234567890123456,02/29,-,9876543210,SBIN1234567,+441632960961,"02/22/2025, 01:24:16 PM",True,['Transaction to a non-Indian contact number'],2025-02-22 13:24:16.662448
+user65,user36,neft,14759,Contact Payment,-,02/29,-,9876543210,SBIN1234567,+14155552671,"03/05/2025, 01:24:16 PM",True,"['High transaction amount', 'Transaction to a non-Indian contact number']",2025-03-05 13:24:16.662448
+user15,user43,contact,10699,Card Payment,-,-,-,9876543210,-,9152251477,"02/21/2025, 01:24:16 PM",False,['High transaction amount'],2025-02-21 13:24:16.662448
+user15,user71,card,5881,Card Payment,-,02/29,111,9876543210,SBIN1234567,+14155552671,"03/06/2025, 01:24:16 PM",True,['Transaction to a non-Indian contact number'],2025-03-06 13:24:16.662448
+user37,user48,card,4449,NEFT Transfer,-,-,111,-,-,9152251477,"03/12/2025, 01:24:16 PM",False,[],2025-03-12 13:24:16.662448
+user79,user84,neft,8048,Contact Payment,1234567890123456,-,-,-,SBIN1234567,9152251477,"03/16/2025, 01:24:16 PM",False,[],2025-03-16 13:24:16.662448
+user45,user75,contact,18808,NEFT Transfer,1234567890123456,-,111,-,-,1234567890,"02/17/2025, 01:24:16 PM",False,['High transaction amount'],2025-02-17 13:24:16.662448
+user98,user83,neft,9541,NEFT Transfer,1234567890123456,02/29,-,-,-,+441632960961,"02/18/2025, 01:24:16 PM",True,['Transaction to a non-Indian contact number'],2025-02-18 13:24:16.662448
+user17,user42,contact,8449,Card Payment,-,-,-,-,-,+14155552671,"03/10/2025, 01:24:16 PM",True,['Transaction to a non-Indian contact number'],2025-03-10 13:24:16.662448
+user61,user6,contact,13004,Card Payment,-,-,111,9876543210,SBIN1234567,1234567890,"03/05/2025, 01:24:16 PM",False,['High transaction amount'],2025-03-05 13:24:16.662448
+user22,user14,card,16468,NEFT Transfer,-,02/29,-,9876543210,-,+14155552671,"02/20/2025, 01:24:16 PM",True,"['High transaction amount', 'Transaction to a non-Indian contact number']",2025-02-20 13:24:16.662448
+user13,user86,neft,11843,NEFT Transfer,1234567890123456,02/29,111,9876543210,-,9152251477,"02/20/2025, 01:24:16 PM",False,['High transaction amount'],2025-02-20 13:24:16.662448
+user10,user7,card,11491,Contact Payment,-,-,-,9876543210,-,+14155552671,"02/25/2025, 01:24:16 PM",True,"['High transaction amount', 'Transaction to a non-Indian contact number']",2025-02-25 13:24:16.662448
+user56,user29,contact,13485,Card Payment,-,02/29,-,-,SBIN1234567,+14155552671,"02/22/2025, 01:24:16 PM",True,"['High transaction amount', 'Transaction to a non-Indian contact number']",2025-02-22 13:24:16.662448
+user29,user90,card,18442,Contact Payment,1234567890123456,02/29,-,9876543210,-,+441632960961,"02/22/2025, 01:24:16 PM",True,"['High transaction amount', 'Transaction to a non-Indian contact number']",2025-02-22 13:24:16.662448
+user54,user29,neft,7436,Contact Payment,1234567890123456,02/29,-,-,-,9152251477,"02/28/2025, 01:24:16 PM",False,[],2025-02-28 13:24:16.662448
+user96,user50,contact,4344,Card Payment,1234567890123456,02/29,-,-,SBIN1234567,9152251477,"02/20/2025, 01:24:16 PM",False,[],2025-02-20 13:24:16.662448
+user13,user12,neft,17121,Contact Payment,1234567890123456,-,-,-,-,+14155552671,"03/14/2025, 01:24:16 PM",True,"['High transaction amount', 'Transaction to a non-Indian contact number']",2025-03-14 13:24:16.662448
+user5,user81,card,1551,Card Payment,-,02/29,111,-,SBIN1234567,+441632960961,"03/15/2025, 01:24:16 PM",True,['Transaction to a non-Indian contact number'],2025-03-15 13:24:16.662448
+user6,user81,neft,17976,NEFT Transfer,1234567890123456,-,-,-,-,1234567890,"03/11/2025, 01:24:16 PM",False,['High transaction amount'],2025-03-11 13:24:16.662448
+user59,user81,contact,8633,Contact Payment,1234567890123456,-,-,-,SBIN1234567,9152251477,"02/20/2025, 01:24:16 PM",False,[],2025-02-20 13:24:16.662448
+user86,user48,contact,18310,NEFT Transfer,1234567890123456,-,-,-,-,9152251477,"02/19/2025, 01:24:16 PM",False,['High transaction amount'],2025-02-19 13:24:16.662448
+user41,user21,card,16644,Contact Payment,-,-,111,-,SBIN1234567,1234567890,"02/27/2025, 01:24:16 PM",False,['High transaction amount'],2025-02-27 13:24:16.662448
+user36,user42,card,7267,Card Payment,-,-,111,-,-,9152251477,"03/10/2025, 01:24:16 PM",False,[],2025-03-10 13:24:16.662448
+user67,user59,contact,4116,Card Payment,1234567890123456,02/29,-,-,SBIN1234567,9152251477,"02/21/2025, 01:24:16 PM",False,[],2025-02-21 13:24:16.662448
+user3,user35,card,1206,Card Payment,-,02/29,111,-,-,+14155552671,"03/14/2025, 01:24:16 PM",True,['Transaction to a non-Indian contact number'],2025-03-14 13:24:16.662448
+user47,user15,card,15102,Card Payment,1234567890123456,02/29,-,-,SBIN1234567,1234567890,"02/22/2025, 01:24:16 PM",False,['High transaction amount'],2025-02-22 13:24:16.662448
+user80,user84,contact,15969,Card Payment,-,02/29,-,-,SBIN1234567,1234567890,"02/14/2025, 01:24:16 PM",False,['High transaction amount'],2025-02-14 13:24:16.662448
+user5,user21,contact,9667,Card Payment,1234567890123456,02/29,-,-,SBIN1234567,+14155552671,"02/27/2025, 01:24:16 PM",True,['Transaction to a non-Indian contact number'],2025-02-27 13:24:16.662448
+user95,user22,card,16881,NEFT Transfer,1234567890123456,02/29,-,-,-,1234567890,"02/15/2025, 01:24:16 PM",False,['High transaction amount'],2025-02-15 13:24:16.662448
+user47,user57,card,12792,Contact Payment,-,02/29,111,9876543210,SBIN1234567,1234567890,"02/24/2025, 01:24:16 PM",False,['High transaction amount'],2025-02-24 13:24:16.662448
+user12,user52,neft,7400,Card Payment,1234567890123456,02/29,-,-,SBIN1234567,9152251477,"02/27/2025, 01:24:16 PM",False,[],2025-02-27 13:24:16.662448
+user25,user40,neft,38750,NEFT Transfer,1234567890123456,-,-,9876543210,-,+14155552671,"02/18/2025, 01:24:16 PM",True,"['High transaction amount', 'Transaction to a non-Indian contact number']",2025-02-18 13:24:16.663446
+user84,user73,card,18021,Card Payment,-,-,-,9876543210,SBIN1234567,+14155552671,"02/19/2025, 01:24:16 PM",True,"['High transaction amount', 'Transaction to a non-Indian contact number']",2025-02-19 13:24:16.663446
+user29,user63,contact,18965,NEFT Transfer,1234567890123456,02/29,-,-,SBIN1234567,+441632960961,"03/02/2025, 01:24:16 PM",True,"['High transaction amount', 'Transaction to a non-Indian contact number']",2025-03-02 13:24:16.663446
+user49,user44,card,11333,NEFT Transfer,1234567890123456,02/29,111,9876543210,SBIN1234567,9152251477,"03/14/2025, 01:24:16 PM",False,['High transaction amount'],2025-03-14 13:24:16.663446
+user44,user1,neft,14994,Card Payment,-,-,111,9876543210,SBIN1234567,1234567890,"02/24/2025, 01:24:16 PM",False,['High transaction amount'],2025-02-24 13:24:16.663446
+user99,user65,neft,1268,Card Payment,-,-,111,9876543210,-,1234567890,"02/17/2025, 01:24:16 PM",False,[],2025-02-17 13:24:16.663446
+user75,user90,contact,19313,Contact Payment,-,-,111,-,SBIN1234567,1234567890,"02/28/2025, 01:24:16 PM",False,['High transaction amount'],2025-02-28 13:24:16.663446
+user18,user84,card,5441,Card Payment,-,02/29,111,-,-,+14155552671,"02/22/2025, 01:24:16 PM",True,['Transaction to a non-Indian contact number'],2025-02-22 13:24:16.663446
+user92,user100,neft,6376,Card Payment,-,-,111,9876543210,SBIN1234567,1234567890,"03/10/2025, 01:24:16 PM",False,[],2025-03-10 13:24:16.663446
+user89,user64,contact,2630,Card Payment,1234567890123456,-,111,9876543210,-,9152251477,"02/25/2025, 01:24:16 PM",False,[],2025-02-25 13:24:16.663446
+user59,user13,card,4073,Contact Payment,-,02/29,111,-,SBIN1234567,+441632960961,"02/15/2025, 01:24:16 PM",True,['Transaction to a non-Indian contact number'],2025-02-15 13:24:16.663446
+user32,user81,card,6295,Contact Payment,1234567890123456,02/29,-,9876543210,-,9152251477,"03/10/2025, 01:24:16 PM",False,[],2025-03-10 13:24:16.663446
+user50,user56,card,18759,Card Payment,1234567890123456,-,111,-,SBIN1234567,1234567890,"02/28/2025, 01:24:16 PM",False,['High transaction amount'],2025-02-28 13:24:16.663446
+user84,user18,neft,11894,NEFT Transfer,-,02/29,111,-,SBIN1234567,9152251477,"02/17/2025, 01:24:16 PM",False,['High transaction amount'],2025-02-17 13:24:16.663446
+user78,user79,neft,2111,Card Payment,1234567890123456,02/29,-,9876543210,-,+14155552671,"03/01/2025, 01:24:16 PM",True,['Transaction to a non-Indian contact number'],2025-03-01 13:24:16.663446
+user60,user40,contact,15555,Card Payment,1234567890123456,-,111,9876543210,SBIN1234567,+441632960961,"03/10/2025, 01:24:16 PM",True,"['High transaction amount', 'Transaction to a non-Indian contact number']",2025-03-10 13:24:16.663446
+user42,user65,neft,1865,Contact Payment,-,-,-,9876543210,SBIN1234567,1234567890,"03/11/2025, 01:24:16 PM",False,[],2025-03-11 13:24:16.663446
+user79,user20,contact,16826,Contact Payment,1234567890123456,-,111,9876543210,-,9152251477,"03/08/2025, 01:24:16 PM",False,['High transaction amount'],2025-03-08 13:24:16.663446
+user44,user26,card,17859,NEFT Transfer,1234567890123456,-,111,9876543210,-,1234567890,"02/20/2025, 01:24:16 PM",False,['High transaction amount'],2025-02-20 13:24:16.663446
+user74,user60,card,15680,NEFT Transfer,1234567890123456,-,-,-,-,1234567890,"02/22/2025, 01:24:16 PM",False,['High transaction amount'],2025-02-22 13:24:16.663446
+user77,user87,contact,19617,NEFT Transfer,1234567890123456,02/29,-,9876543210,-,+14155552671,"03/06/2025, 01:24:16 PM",True,"['High transaction amount', 'Transaction to a non-Indian contact number']",2025-03-06 13:24:16.663446
+user71,user66,neft,10271,Card Payment,-,02/29,111,9876543210,-,+441632960961,"03/15/2025, 01:24:16 PM",True,"['High transaction amount', 'Transaction to a non-Indian contact number']",2025-03-15 13:24:16.663446
+user73,user44,card,4618,NEFT Transfer,-,02/29,111,9876543210,SBIN1234567,9152251477,"02/21/2025, 01:24:16 PM",False,[],2025-02-21 13:24:16.663446
+user18,user71,neft,9404,NEFT Transfer,1234567890123456,02/29,111,9876543210,SBIN1234567,+14155552671,"02/19/2025, 01:24:16 PM",True,['Transaction to a non-Indian contact number'],2025-02-19 13:24:16.663446
+user95,user87,contact,5208,Card Payment,-,-,111,9876543210,SBIN1234567,+14155552671,"02/15/2025, 01:24:16 PM",True,['Transaction to a non-Indian contact number'],2025-02-15 13:24:16.663446
+user49,user28,contact,17156,NEFT Transfer,-,02/29,111,9876543210,SBIN1234567,9152251477,"02/26/2025, 01:24:16 PM",False,['High transaction amount'],2025-02-26 13:24:16.663446
+user77,user87,card,5587,Contact Payment,-,02/29,-,-,SBIN1234567,1234567890,"03/10/2025, 01:24:16 PM",False,[],2025-03-10 13:24:16.663446
+user4,user56,neft,12413,Card Payment,-,02/29,-,-,-,9152251477,"03/07/2025, 01:24:16 PM",False,['High transaction amount'],2025-03-07 13:24:16.663446
+user12,user7,card,16822,Card Payment,-,02/29,-,9876543210,SBIN1234567,1234567890,"03/07/2025, 01:24:16 PM",False,['High transaction amount'],2025-03-07 13:24:16.663446
+user36,user19,neft,12282,Card Payment,-,-,111,9876543210,-,1234567890,"02/18/2025, 01:24:16 PM",False,['High transaction amount'],2025-02-18 13:24:16.663446
+user39,user89,neft,8818,Card Payment,-,-,-,9876543210,SBIN1234567,+14155552671,"02/20/2025, 01:24:16 PM",True,['Transaction to a non-Indian contact number'],2025-02-20 13:24:16.663446
+user95,user91,contact,8637,NEFT Transfer,-,-,111,-,SBIN1234567,+14155552671,"03/15/2025, 01:24:16 PM",True,['Transaction to a non-Indian contact number'],2025-03-15 13:24:16.663446
+user99,user7,neft,11663,Contact Payment,-,-,-,-,SBIN1234567,+441632960961,"03/10/2025, 01:24:16 PM",True,"['High transaction amount', 'Transaction to a non-Indian contact number']",2025-03-10 13:24:16.663446
+user17,user48,contact,5897,Contact Payment,-,-,-,9876543210,SBIN1234567,+441632960961,"03/01/2025, 01:24:16 PM",True,['Transaction to a non-Indian contact number'],2025-03-01 13:24:16.663446
+user49,user27,card,17033,NEFT Transfer,-,-,-,9876543210,SBIN1234567,+14155552671,"02/15/2025, 01:24:16 PM",True,"['High transaction amount', 'Transaction to a non-Indian contact number']",2025-02-15 13:24:16.663446
+user97,user39,neft,7580,Contact Payment,1234567890123456,02/29,-,-,-,+441632960961,"03/11/2025, 01:24:16 PM",True,['Transaction to a non-Indian contact number'],2025-03-11 13:24:16.663446
+user84,user64,neft,10238,Card Payment,-,-,111,9876543210,SBIN1234567,+441632960961,"03/11/2025, 01:24:16 PM",True,"['High transaction amount', 'Transaction to a non-Indian contact number']",2025-03-11 13:24:16.663446
+user33,user24,neft,6523,NEFT Transfer,1234567890123456,02/29,-,-,-,+441632960961,"02/25/2025, 01:24:16 PM",True,['Transaction to a non-Indian contact number'],2025-02-25 13:24:16.663446
+user52,user56,contact,14882,Card Payment,-,-,111,9876543210,-,1234567890,"02/25/2025, 01:24:16 PM",False,['High transaction amount'],2025-02-25 13:24:16.664446
+user4,user13,neft,3486,NEFT Transfer,-,-,-,-,-,9152251477,"03/07/2025, 01:24:16 PM",False,[],2025-03-07 13:24:16.664446
+user60,user22,neft,26618,Card Payment,1234567890123456,02/29,111,9876543210,SBIN1234567,+14155552671,"03/04/2025, 01:24:16 PM",True,"['High transaction amount', 'Transaction to a non-Indian contact number']",2025-03-04 13:24:16.664446
+user13,user21,contact,7955,Contact Payment,-,-,-,-,-,1234567890,"03/01/2025, 01:24:16 PM",False,[],2025-03-01 13:24:16.664446
+user73,user59,neft,11172,Contact Payment,-,02/29,111,-,-,9152251477,"03/15/2025, 01:24:16 PM",False,['High transaction amount'],2025-03-15 13:24:16.664446
+user52,user60,contact,8690,NEFT Transfer,-,02/29,111,-,-,+14155552671,"03/12/2025, 01:24:16 PM",True,['Transaction to a non-Indian contact number'],2025-03-12 13:24:16.664446
+user1,user30,neft,16947,NEFT Transfer,-,-,-,9876543210,SBIN1234567,9152251477,"03/05/2025, 01:24:16 PM",False,['High transaction amount'],2025-03-05 13:24:16.664446
+user64,user19,contact,1799,Card Payment,1234567890123456,02/29,111,-,-,1234567890,"03/11/2025, 01:24:16 PM",False,[],2025-03-11 13:24:16.664446
+user23,user84,card,10475,NEFT Transfer,-,-,-,9876543210,SBIN1234567,1234567890,"03/09/2025, 01:24:16 PM",False,['High transaction amount'],2025-03-09 13:24:16.664446
+user93,user18,contact,1123,Contact Payment,-,-,111,9876543210,-,+441632960961,"02/19/2025, 01:24:16 PM",True,['Transaction to a non-Indian contact number'],2025-02-19 13:24:16.664446
+user18,user41,card,10311,Contact Payment,-,-,111,-,SBIN1234567,+441632960961,"02/25/2025, 01:24:16 PM",True,"['High transaction amount', 'Transaction to a non-Indian contact number']",2025-02-25 13:24:16.664446
+user93,user28,neft,9138,Contact Payment,1234567890123456,02/29,111,9876543210,SBIN1234567,1234567890,"02/21/2025, 01:24:16 PM",False,[],2025-02-21 13:24:16.664446
+user25,user55,contact,5598,NEFT Transfer,-,-,-,9876543210,-,1234567890,"02/23/2025, 01:24:16 PM",False,[],2025-02-23 13:24:16.664446
+user33,user51,contact,8994,Card Payment,-,02/29,-,9876543210,-,9152251477,"02/28/2025, 01:24:16 PM",False,[],2025-02-28 13:24:16.664446
+user31,user28,contact,4386,Contact Payment,-,02/29,-,9876543210,SBIN1234567,1234567890,"03/14/2025, 01:24:16 PM",False,[],2025-03-14 13:24:16.664446
+user62,user97,card,19686,NEFT Transfer,1234567890123456,-,111,9876543210,-,+441632960961,"02/23/2025, 01:24:16 PM",True,"['High transaction amount', 'Transaction to a non-Indian contact number']",2025-02-23 13:24:16.664446
+user42,user60,neft,11586,Contact Payment,-,-,111,-,-,1234567890,"03/01/2025, 01:24:16 PM",False,['High transaction amount'],2025-03-01 13:24:16.664446
+user99,user35,neft,19005,NEFT Transfer,-,-,-,-,SBIN1234567,9152251477,"02/24/2025, 01:24:16 PM",False,['High transaction amount'],2025-02-24 13:24:16.664446
+user82,user90,neft,10155,Card Payment,-,02/29,-,9876543210,-,+14155552671,"02/22/2025, 01:24:16 PM",True,"['High transaction amount', 'Transaction to a non-Indian contact number']",2025-02-22 13:24:16.664446
+user60,user33,contact,13872,NEFT Transfer,-,-,111,9876543210,SBIN1234567,9152251477,"03/05/2025, 01:24:16 PM",False,['High transaction amount'],2025-03-05 13:24:16.664446
+user90,user38,neft,2438,NEFT Transfer,-,02/29,111,9876543210,-,+14155552671,"02/22/2025, 01:24:16 PM",True,['Transaction to a non-Indian contact number'],2025-02-22 13:24:16.664446
+user53,user35,neft,15816,Card Payment,1234567890123456,02/29,111,9876543210,-,9152251477,"03/16/2025, 01:24:16 PM",False,['High transaction amount'],2025-03-16 13:24:16.664446
+user34,user42,neft,14984,Card Payment,1234567890123456,02/29,111,9876543210,-,9152251477,"02/27/2025, 01:24:16 PM",True,['High transaction amount'],2025-02-27 13:24:16.664446
+user65,user40,card,18442,Contact Payment,1234567890123456,-,-,9876543210,-,+14155552671,"03/04/2025, 01:24:16 PM",True,"['High transaction amount', 'Transaction to a non-Indian contact number']",2025-03-04 13:24:16.664446
+user6,user96,contact,12560,Card Payment,-,02/29,-,9876543210,SBIN1234567,+14155552671,"02/24/2025, 01:24:16 PM",True,"['High transaction amount', 'Transaction to a non-Indian contact number']",2025-02-24 13:24:16.664446
+user68,user49,card,14403,NEFT Transfer,-,-,111,9876543210,-,1234567890,"02/26/2025, 01:24:16 PM",False,['High transaction amount'],2025-02-26 13:24:16.664446
+user77,user98,card,7088,Contact Payment,1234567890123456,-,111,-,SBIN1234567,1234567890,"03/04/2025, 01:24:16 PM",False,[],2025-03-04 13:24:16.664446
+user95,user70,neft,2982,Card Payment,-,-,111,9876543210,-,9152251477,"02/28/2025, 01:24:16 PM",False,[],2025-02-28 13:24:16.664446
+user21,user83,contact,1752,NEFT Transfer,1234567890123456,-,111,9876543210,SBIN1234567,9152251477,"03/04/2025, 01:24:16 PM",False,[],2025-03-04 13:24:16.664446
+user53,user38,contact,1045,NEFT Transfer,-,-,111,-,SBIN1234567,1234567890,"03/06/2025, 01:24:16 PM",False,[],2025-03-06 13:24:16.664446
+user52,user83,card,15729,Contact Payment,-,-,111,-,-,1234567890,"02/23/2025, 01:24:16 PM",False,['High transaction amount'],2025-02-23 13:24:16.664446
+user18,user54,contact,4355,NEFT Transfer,-,-,-,-,-,1234567890,"03/03/2025, 01:24:16 PM",False,[],2025-03-03 13:24:16.664446
+user41,user84,contact,17999,Contact Payment,1234567890123456,02/29,-,-,-,9152251477,"02/14/2025, 01:24:16 PM",False,['High transaction amount'],2025-02-14 13:24:16.664446
+user40,user34,card,7555,Contact Payment,-,-,-,9876543210,-,1234567890,"02/17/2025, 01:24:16 PM",False,[],2025-02-17 13:24:16.664446
+user54,user28,contact,10808,Card Payment,-,02/29,-,9876543210,-,+14155552671,"02/16/2025, 01:24:16 PM",True,"['High transaction amount', 'Transaction to a non-Indian contact number']",2025-02-16 13:24:16.664446
+user38,user40,contact,10609,Card Payment,1234567890123456,02/29,111,9876543210,-,+441632960961,"03/14/2025, 01:24:16 PM",True,"['High transaction amount', 'Transaction to a non-Indian contact number']",2025-03-14 13:24:16.664446
+user2,user23,card,9518,NEFT Transfer,1234567890123456,02/29,-,9876543210,-,9152251477,"03/08/2025, 01:24:16 PM",False,[],2025-03-08 13:24:16.665446
+user93,user71,card,4242,NEFT Transfer,-,02/29,-,-,-,9152251477,"02/15/2025, 01:24:16 PM",False,[],2025-02-15 13:24:16.665446
+user12,user79,contact,4075,Contact Payment,-,02/29,111,-,SBIN1234567,+441632960961,"02/19/2025, 01:24:16 PM",True,['Transaction to a non-Indian contact number'],2025-02-19 13:24:16.665446
+user99,user5,contact,11222,Contact Payment,1234567890123456,02/29,111,-,SBIN1234567,9152251477,"02/27/2025, 01:24:16 PM",False,['High transaction amount'],2025-02-27 13:24:16.665446
+user50,user49,contact,15342,Card Payment,-,02/29,-,-,-,9152251477,"02/14/2025, 01:24:16 PM",False,['High transaction amount'],2025-02-14 13:24:16.665446
+user99,user87,card,8413,NEFT Transfer,-,02/29,111,-,-,+441632960961,"03/16/2025, 01:24:16 PM",True,['Transaction to a non-Indian contact number'],2025-03-16 13:24:16.665446
+user86,user61,neft,49508,Contact Payment,-,-,111,9876543210,SBIN1234567,1234567890,"03/07/2025, 01:24:16 PM",True,['High transaction amount'],2025-03-07 13:24:16.665446
+user7,user66,neft,15796,Card Payment,-,-,111,-,-,+441632960961,"03/09/2025, 01:24:16 PM",True,"['High transaction amount', 'Transaction to a non-Indian contact number']",2025-03-09 13:24:16.665446
+user53,user26,contact,4696,NEFT Transfer,1234567890123456,02/29,-,9876543210,SBIN1234567,1234567890,"03/01/2025, 01:24:16 PM",False,[],2025-03-01 13:24:16.665446
+user62,user64,neft,9628,Contact Payment,-,-,-,9876543210,SBIN1234567,+441632960961,"02/22/2025, 01:24:16 PM",True,['Transaction to a non-Indian contact number'],2025-02-22 13:24:16.665446
+user73,user33,card,17480,Card Payment,1234567890123456,02/29,111,9876543210,-,9152251477,"03/02/2025, 01:24:16 PM",False,['High transaction amount'],2025-03-02 13:24:16.665446
+user23,user36,contact,1358,NEFT Transfer,1234567890123456,-,111,-,SBIN1234567,1234567890,"03/03/2025, 01:24:16 PM",False,[],2025-03-03 13:24:16.665446
+user9,user59,neft,10834,Contact Payment,1234567890123456,-,111,9876543210,SBIN1234567,9152251477,"03/05/2025, 01:24:16 PM",False,['High transaction amount'],2025-03-05 13:24:16.665446
+user68,user36,neft,7479,Contact Payment,1234567890123456,-,-,9876543210,-,+441632960961,"03/12/2025, 01:24:16 PM",True,['Transaction to a non-Indian contact number'],2025-03-12 13:24:16.665446
+user70,user27,card,15751,Card Payment,-,02/29,-,9876543210,-,+14155552671,"02/27/2025, 01:24:16 PM",True,"['High transaction amount', 'Transaction to a non-Indian contact number']",2025-02-27 13:24:16.665446
+user10,user22,neft,6762,NEFT Transfer,-,02/29,111,9876543210,-,1234567890,"03/15/2025, 01:24:16 PM",False,[],2025-03-15 13:24:16.665446
+user28,user49,card,15357,Contact Payment,-,-,111,-,-,+14155552671,"03/02/2025, 01:24:16 PM",True,"['High transaction amount', 'Transaction to a non-Indian contact number']",2025-03-02 13:24:16.665446
+user18,user92,neft,15708,NEFT Transfer,1234567890123456,02/29,111,-,SBIN1234567,+441632960961,"02/22/2025, 01:24:16 PM",True,"['High transaction amount', 'Transaction to a non-Indian contact number']",2025-02-22 13:24:16.665446
+user7,user27,card,17510,Contact Payment,-,-,111,-,SBIN1234567,+14155552671,"02/25/2025, 01:24:16 PM",True,"['High transaction amount', 'Transaction to a non-Indian contact number']",2025-02-25 13:24:16.665446
+user64,user65,neft,17343,Contact Payment,1234567890123456,02/29,111,-,-,+14155552671,"03/02/2025, 01:24:16 PM",True,"['High transaction amount', 'Transaction to a non-Indian contact number']",2025-03-02 13:24:16.665446
+user8,user50,contact,4858,Contact Payment,-,02/29,111,9876543210,-,+441632960961,"02/26/2025, 01:24:16 PM",True,['Transaction to a non-Indian contact number'],2025-02-26 13:24:16.665446
+user78,user47,contact,14615,Card Payment,-,02/29,-,9876543210,SBIN1234567,9152251477,"03/08/2025, 01:24:16 PM",False,['High transaction amount'],2025-03-08 13:24:16.665446
+user33,user62,card,17483,Contact Payment,1234567890123456,02/29,111,9876543210,SBIN1234567,9152251477,"03/16/2025, 01:24:16 PM",False,['High transaction amount'],2025-03-16 13:24:16.665446
+user91,user82,neft,1978,NEFT Transfer,1234567890123456,02/29,111,-,SBIN1234567,+441632960961,"03/05/2025, 01:24:16 PM",True,['Transaction to a non-Indian contact number'],2025-03-05 13:24:16.665446
+user94,user95,contact,10851,Contact Payment,1234567890123456,-,-,9876543210,-,+441632960961,"02/19/2025, 01:24:16 PM",True,"['High transaction amount', 'Transaction to a non-Indian contact number']",2025-02-19 13:24:16.665446
+user100,user2,neft,12201,Contact Payment,-,-,-,-,SBIN1234567,+441632960961,"02/28/2025, 01:24:16 PM",True,"['High transaction amount', 'Transaction to a non-Indian contact number']",2025-02-28 13:24:16.665446
+user92,user37,card,11790,Contact Payment,-,02/29,111,9876543210,-,+14155552671,"03/09/2025, 01:24:16 PM",True,"['High transaction amount', 'Transaction to a non-Indian contact number']",2025-03-09 13:24:16.665446
+user94,user28,neft,2318,NEFT Transfer,1234567890123456,-,-,-,-,+441632960961,"03/11/2025, 01:24:16 PM",True,['Transaction to a non-Indian contact number'],2025-03-11 13:24:16.665446
+user58,user99,neft,6258,NEFT Transfer,-,-,111,-,SBIN1234567,+441632960961,"03/14/2025, 01:24:16 PM",True,['Transaction to a non-Indian contact number'],2025-03-14 13:24:16.665446
+user72,user92,neft,13726,Card Payment,1234567890123456,-,111,-,-,+441632960961,"02/21/2025, 01:24:16 PM",True,"['High transaction amount', 'Transaction to a non-Indian contact number']",2025-02-21 13:24:16.665446
+user71,user51,card,11508,Contact Payment,-,-,-,9876543210,-,+14155552671,"02/23/2025, 01:24:16 PM",True,"['High transaction amount', 'Transaction to a non-Indian contact number']",2025-02-23 13:24:16.665446
+user36,user33,card,3481,Card Payment,1234567890123456,02/29,111,-,SBIN1234567,+441632960961,"03/11/2025, 01:24:16 PM",True,['Transaction to a non-Indian contact number'],2025-03-11 13:24:16.665446
+user30,user35,contact,10104,NEFT Transfer,-,02/29,111,9876543210,-,+14155552671,"03/10/2025, 01:24:16 PM",True,"['High transaction amount', 'Transaction to a non-Indian contact number']",2025-03-10 13:24:16.665446
+user88,user15,neft,19053,Contact Payment,1234567890123456,-,-,9876543210,SBIN1234567,9152251477,"03/15/2025, 01:24:16 PM",False,['High transaction amount'],2025-03-15 13:24:16.665446
+user43,user45,neft,2401,Contact Payment,1234567890123456,-,-,-,-,9152251477,"02/15/2025, 01:24:16 PM",False,[],2025-02-15 13:24:16.665446
+user78,user71,card,10911,Contact Payment,1234567890123456,-,-,-,SBIN1234567,9152251477,"02/25/2025, 01:24:16 PM",False,['High transaction amount'],2025-02-25 13:24:16.666445
+user36,user37,contact,1741,NEFT Transfer,-,02/29,111,9876543210,SBIN1234567,+14155552671,"03/16/2025, 01:24:16 PM",True,['Transaction to a non-Indian contact number'],2025-03-16 13:24:16.666445
+user50,user72,neft,16800,Contact Payment,-,02/29,111,9876543210,-,+14155552671,"03/03/2025, 01:24:16 PM",True,"['High transaction amount', 'Transaction to a non-Indian contact number']",2025-03-03 13:24:16.666445
+user39,user83,card,19006,Card Payment,1234567890123456,02/29,-,-,-,1234567890,"02/23/2025, 01:24:16 PM",False,['High transaction amount'],2025-02-23 13:24:16.666445
+user38,user32,contact,9519,Contact Payment,-,-,111,-,SBIN1234567,9152251477,"02/21/2025, 01:24:16 PM",False,[],2025-02-21 13:24:16.666445
+user81,user4,neft,18576,Card Payment,-,-,111,-,-,+441632960961,"03/04/2025, 01:24:16 PM",True,"['High transaction amount', 'Transaction to a non-Indian contact number']",2025-03-04 13:24:16.666445
+user89,user32,contact,18448,NEFT Transfer,-,-,111,-,SBIN1234567,+14155552671,"02/19/2025, 01:24:16 PM",True,"['High transaction amount', 'Transaction to a non-Indian contact number']",2025-02-19 13:24:16.666445
+user77,user29,card,3909,Card Payment,-,02/29,111,-,-,+441632960961,"03/12/2025, 01:24:16 PM",True,['Transaction to a non-Indian contact number'],2025-03-12 13:24:16.666445
+user58,user25,neft,7814,NEFT Transfer,-,02/29,-,9876543210,SBIN1234567,+441632960961,"03/03/2025, 01:24:16 PM",True,['Transaction to a non-Indian contact number'],2025-03-03 13:24:16.666445
+user26,user17,contact,4868,NEFT Transfer,-,02/29,111,-,SBIN1234567,1234567890,"03/09/2025, 01:24:16 PM",False,[],2025-03-09 13:24:16.666445
+user76,user84,neft,6239,Contact Payment,1234567890123456,-,111,9876543210,SBIN1234567,1234567890,"03/08/2025, 01:24:16 PM",False,[],2025-03-08 13:24:16.666445
+user53,user20,card,47397,NEFT Transfer,1234567890123456,02/29,-,-,SBIN1234567,9152251477,"03/07/2025, 01:24:16 PM",True,['High transaction amount'],2025-03-07 13:24:16.666445
+user37,user9,card,7953,NEFT Transfer,1234567890123456,02/29,111,9876543210,-,+14155552671,"03/05/2025, 01:24:16 PM",True,['Transaction to a non-Indian contact number'],2025-03-05 13:24:16.666445
+user74,user28,contact,13199,NEFT Transfer,1234567890123456,-,111,9876543210,-,+441632960961,"03/06/2025, 01:24:16 PM",True,"['High transaction amount', 'Transaction to a non-Indian contact number']",2025-03-06 13:24:16.666445
+user49,user22,card,12591,Card Payment,1234567890123456,02/29,-,9876543210,-,+441632960961,"02/20/2025, 01:24:16 PM",True,"['High transaction amount', 'Transaction to a non-Indian contact number']",2025-02-20 13:24:16.666445
+user49,user86,contact,15679,Card Payment,1234567890123456,-,111,-,SBIN1234567,+441632960961,"02/24/2025, 01:24:16 PM",True,"['High transaction amount', 'Transaction to a non-Indian contact number']",2025-02-24 13:24:16.666445
+user67,user74,card,6192,Card Payment,1234567890123456,-,-,-,SBIN1234567,1234567890,"02/25/2025, 01:24:16 PM",False,[],2025-02-25 13:24:16.666445
+user40,user16,contact,14932,Card Payment,1234567890123456,02/29,-,9876543210,-,1234567890,"02/18/2025, 01:24:16 PM",False,['High transaction amount'],2025-02-18 13:24:16.666445
+user71,user91,contact,2732,Contact Payment,1234567890123456,02/29,-,9876543210,-,+14155552671,"03/09/2025, 01:24:16 PM",True,['Transaction to a non-Indian contact number'],2025-03-09 13:24:16.666445
+user25,user78,card,16348,Contact Payment,1234567890123456,02/29,111,-,SBIN1234567,9152251477,"02/24/2025, 01:24:16 PM",False,['High transaction amount'],2025-02-24 13:24:16.666445
+user32,user9,neft,2546,NEFT Transfer,1234567890123456,02/29,111,9876543210,-,+441632960961,"02/21/2025, 01:24:16 PM",True,['Transaction to a non-Indian contact number'],2025-02-21 13:24:16.666445
+user81,user78,card,9850,Card Payment,-,02/29,111,9876543210,SBIN1234567,+14155552671,"02/20/2025, 01:24:16 PM",True,['Transaction to a non-Indian contact number'],2025-02-20 13:24:16.666445
+user38,user41,card,8513,Card Payment,-,02/29,111,-,SBIN1234567,9152251477,"03/13/2025, 01:24:16 PM",False,[],2025-03-13 13:24:16.666445
+user21,user87,neft,3709,Card Payment,1234567890123456,02/29,-,-,SBIN1234567,+14155552671,"03/10/2025, 01:24:16 PM",True,['Transaction to a non-Indian contact number'],2025-03-10 13:24:16.666445
+user38,user70,card,4046,Contact Payment,1234567890123456,-,-,-,-,+441632960961,"03/16/2025, 01:24:16 PM",True,['Transaction to a non-Indian contact number'],2025-03-16 13:24:16.666445
+user4,user61,card,19939,NEFT Transfer,1234567890123456,-,-,9876543210,-,+441632960961,"03/10/2025, 01:24:16 PM",True,"['High transaction amount', 'Transaction to a non-Indian contact number']",2025-03-10 13:24:16.666445
+user41,user1,contact,12493,NEFT Transfer,1234567890123456,02/29,111,9876543210,SBIN1234567,+441632960961,"02/14/2025, 01:24:16 PM",True,"['High transaction amount', 'Transaction to a non-Indian contact number']",2025-02-14 13:24:16.667446
+user99,user28,neft,1863,NEFT Transfer,-,-,111,-,SBIN1234567,9152251477,"02/17/2025, 01:24:16 PM",False,[],2025-02-17 13:24:16.667446
+user8,user86,contact,9577,NEFT Transfer,-,02/29,111,-,SBIN1234567,+14155552671,"03/13/2025, 01:24:16 PM",True,['Transaction to a non-Indian contact number'],2025-03-13 13:24:16.667446
+user56,user29,card,19062,NEFT Transfer,-,-,111,-,SBIN1234567,+441632960961,"02/25/2025, 01:24:16 PM",True,"['High transaction amount', 'Transaction to a non-Indian contact number']",2025-02-25 13:24:16.667446
+user68,user73,contact,8908,Card Payment,-,-,-,9876543210,SBIN1234567,1234567890,"03/16/2025, 01:24:16 PM",False,[],2025-03-16 13:24:16.667446
+user65,user16,contact,24220,NEFT Transfer,1234567890123456,-,111,9876543210,SBIN1234567,9152251477,"03/16/2025, 01:24:16 PM",True,['High transaction amount'],2025-03-16 13:24:16.667446
+user75,user15,card,13868,NEFT Transfer,-,-,-,9876543210,SBIN1234567,+441632960961,"03/06/2025, 01:24:16 PM",True,"['High transaction amount', 'Transaction to a non-Indian contact number']",2025-03-06 13:24:16.667446
+user62,user74,contact,6112,Contact Payment,-,02/29,-,9876543210,-,+441632960961,"03/13/2025, 01:24:16 PM",True,['Transaction to a non-Indian contact number'],2025-03-13 13:24:16.667446
+user94,user54,contact,9810,Contact Payment,-,-,-,9876543210,-,9152251477,"03/11/2025, 01:24:16 PM",False,[],2025-03-11 13:24:16.667446
+user76,user4,contact,13795,Contact Payment,1234567890123456,02/29,111,-,-,9152251477,"02/17/2025, 01:24:16 PM",False,['High transaction amount'],2025-02-17 13:24:16.667446
+user78,user84,neft,12121,Card Payment,-,-,-,-,-,9152251477,"03/13/2025, 01:24:16 PM",False,['High transaction amount'],2025-03-13 13:24:16.667446
+user86,user69,contact,19013,NEFT Transfer,1234567890123456,-,-,9876543210,SBIN1234567,1234567890,"03/07/2025, 01:24:16 PM",False,['High transaction amount'],2025-03-07 13:24:16.668452
+user97,user30,card,5710,NEFT Transfer,-,-,-,-,-,+14155552671,"02/14/2025, 01:24:16 PM",True,['Transaction to a non-Indian contact number'],2025-02-14 13:24:16.668452
+user71,user40,neft,9309,NEFT Transfer,-,02/29,111,-,SBIN1234567,9152251477,"02/27/2025, 01:24:16 PM",False,[],2025-02-27 13:24:16.668452
+user29,user100,neft,11839,Contact Payment,1234567890123456,-,111,9876543210,-,+14155552671,"02/27/2025, 01:24:16 PM",True,"['High transaction amount', 'Transaction to a non-Indian contact number']",2025-02-27 13:24:16.668452
+user63,user88,card,4370,Card Payment,1234567890123456,02/29,111,-,SBIN1234567,+14155552671,"03/04/2025, 01:24:16 PM",True,['Transaction to a non-Indian contact number'],2025-03-04 13:24:16.668452
+user84,user97,card,4979,NEFT Transfer,-,-,-,9876543210,SBIN1234567,+14155552671,"02/28/2025, 01:24:16 PM",True,['Transaction to a non-Indian contact number'],2025-02-28 13:24:16.668452
+user33,user63,contact,15878,Card Payment,1234567890123456,-,111,-,-,9152251477,"02/16/2025, 01:24:16 PM",False,['High transaction amount'],2025-02-16 13:24:16.668452
+user2,user48,contact,7123,Contact Payment,1234567890123456,-,111,9876543210,SBIN1234567,9152251477,"02/27/2025, 01:24:16 PM",False,[],2025-02-27 13:24:16.668452
+user57,user76,card,7058,Contact Payment,-,-,111,-,SBIN1234567,1234567890,"03/13/2025, 01:24:16 PM",False,[],2025-03-13 13:24:16.668452
+user43,user21,contact,1581,Card Payment,-,02/29,111,9876543210,SBIN1234567,1234567890,"02/18/2025, 01:24:16 PM",False,[],2025-02-18 13:24:16.668452
+user55,user39,contact,17277,Contact Payment,1234567890123456,02/29,111,-,SBIN1234567,1234567890,"02/17/2025, 01:24:16 PM",False,['High transaction amount'],2025-02-17 13:24:16.668452
+user57,user90,contact,3391,NEFT Transfer,-,02/29,-,9876543210,SBIN1234567,1234567890,"03/08/2025, 01:24:16 PM",False,[],2025-03-08 13:24:16.668452
+user98,user39,card,2232,NEFT Transfer,1234567890123456,-,111,-,SBIN1234567,9152251477,"02/16/2025, 01:24:16 PM",False,[],2025-02-16 13:24:16.668452
+user56,user82,neft,2629,Contact Payment,-,02/29,111,9876543210,SBIN1234567,9152251477,"03/15/2025, 01:24:16 PM",False,[],2025-03-15 13:24:16.668452
+user100,user49,neft,14973,Contact Payment,1234567890123456,02/29,111,9876543210,-,1234567890,"03/04/2025, 01:24:16 PM",True,['High transaction amount'],2025-03-04 13:24:16.668452
+user96,user68,neft,11824,NEFT Transfer,1234567890123456,02/29,111,9876543210,-,9152251477,"03/12/2025, 01:24:16 PM",False,['High transaction amount'],2025-03-12 13:24:16.668452
+user9,user86,neft,14728,NEFT Transfer,-,-,111,9876543210,SBIN1234567,+441632960961,"03/13/2025, 01:24:16 PM",True,"['High transaction amount', 'Transaction to a non-Indian contact number']",2025-03-13 13:24:16.668452
+user38,user5,neft,18667,Contact Payment,1234567890123456,02/29,111,-,SBIN1234567,9152251477,"02/19/2025, 01:24:16 PM",False,['High transaction amount'],2025-02-19 13:24:16.668452
+user68,user39,contact,7925,Card Payment,-,02/29,111,-,SBIN1234567,9152251477,"02/23/2025, 01:24:16 PM",False,[],2025-02-23 13:24:16.668452
+user54,user82,contact,13779,NEFT Transfer,-,-,-,9876543210,SBIN1234567,9152251477,"03/10/2025, 01:24:16 PM",False,['High transaction amount'],2025-03-10 13:24:16.668452
+user94,user100,card,18627,Card Payment,-,-,-,-,SBIN1234567,9152251477,"03/04/2025, 01:24:16 PM",False,['High transaction amount'],2025-03-04 13:24:16.668452
+user14,user12,card,3376,Contact Payment,-,-,-,-,SBIN1234567,9152251477,"03/15/2025, 01:24:16 PM",False,[],2025-03-15 13:24:16.668452
+user59,user83,card,16258,Card Payment,1234567890123456,02/29,111,9876543210,SBIN1234567,+441632960961,"03/08/2025, 01:24:16 PM",True,"['High transaction amount', 'Transaction to a non-Indian contact number']",2025-03-08 13:24:16.668452
+user19,user4,neft,12998,Contact Payment,-,-,111,9876543210,-,+14155552671,"02/16/2025, 01:24:16 PM",True,"['High transaction amount', 'Transaction to a non-Indian contact number']",2025-02-16 13:24:16.668452
+user59,user19,card,3838,Card Payment,1234567890123456,-,111,-,-,1234567890,"02/20/2025, 01:24:16 PM",False,[],2025-02-20 13:24:16.668452
+user57,user23,neft,5572,Contact Payment,1234567890123456,-,-,9876543210,SBIN1234567,1234567890,"02/26/2025, 01:24:16 PM",False,[],2025-02-26 13:24:16.669487
+user9,user71,neft,4266,Contact Payment,1234567890123456,02/29,111,-,SBIN1234567,9152251477,"03/14/2025, 01:24:16 PM",False,[],2025-03-14 13:24:16.669487
+user20,user68,card,14262,NEFT Transfer,1234567890123456,-,111,-,SBIN1234567,1234567890,"02/19/2025, 01:24:16 PM",False,['High transaction amount'],2025-02-19 13:24:16.669487
+user66,user59,neft,4981,Card Payment,1234567890123456,02/29,111,-,-,+441632960961,"03/07/2025, 01:24:16 PM",True,['Transaction to a non-Indian contact number'],2025-03-07 13:24:16.669487
+user6,user76,contact,12472,Contact Payment,-,02/29,-,-,SBIN1234567,9152251477,"03/12/2025, 01:24:16 PM",False,['High transaction amount'],2025-03-12 13:24:16.669487
+user12,user73,contact,14917,NEFT Transfer,1234567890123456,02/29,111,9876543210,SBIN1234567,+441632960961,"02/19/2025, 01:24:16 PM",True,"['High transaction amount', 'Transaction to a non-Indian contact number']",2025-02-19 13:24:16.669487
+user33,user90,card,19626,NEFT Transfer,-,-,111,-,-,1234567890,"02/25/2025, 01:24:16 PM",False,['High transaction amount'],2025-02-25 13:24:16.669487
+user24,user9,card,19968,Contact Payment,-,-,111,-,SBIN1234567,1234567890,"03/15/2025, 01:24:16 PM",False,['High transaction amount'],2025-03-15 13:24:16.669487
+user39,user72,neft,12061,Contact Payment,1234567890123456,-,-,-,SBIN1234567,9152251477,"03/04/2025, 01:24:16 PM",False,['High transaction amount'],2025-03-04 13:24:16.669487
+user58,user57,contact,16286,NEFT Transfer,-,-,-,-,SBIN1234567,+14155552671,"03/09/2025, 01:24:16 PM",True,"['High transaction amount', 'Transaction to a non-Indian contact number']",2025-03-09 13:24:16.669487
+user1,user15,neft,5089,Contact Payment,-,02/29,-,9876543210,SBIN1234567,1234567890,"03/14/2025, 01:24:16 PM",False,[],2025-03-14 13:24:16.669487
+user77,user55,card,9344,NEFT Transfer,1234567890123456,02/29,-,-,SBIN1234567,+441632960961,"03/01/2025, 01:24:16 PM",True,['Transaction to a non-Indian contact number'],2025-03-01 13:24:16.669487
+user8,user21,card,9606,Contact Payment,-,-,111,-,SBIN1234567,1234567890,"02/27/2025, 01:24:16 PM",False,[],2025-02-27 13:24:16.669487
+user17,user60,neft,9999,NEFT Transfer,-,02/29,-,-,-,9152251477,"02/20/2025, 01:24:16 PM",False,[],2025-02-20 13:24:16.669487
+user56,user74,card,15242,Card Payment,1234567890123456,02/29,-,9876543210,SBIN1234567,+14155552671,"03/09/2025, 01:24:16 PM",True,"['High transaction amount', 'Transaction to a non-Indian contact number']",2025-03-09 13:24:16.669487
+user14,user40,card,2430,Card Payment,1234567890123456,02/29,111,-,-,+14155552671,"03/09/2025, 01:24:16 PM",True,['Transaction to a non-Indian contact number'],2025-03-09 13:24:16.669487
+user97,user37,card,9690,Card Payment,-,02/29,-,9876543210,SBIN1234567,+441632960961,"02/23/2025, 01:24:16 PM",True,['Transaction to a non-Indian contact number'],2025-02-23 13:24:16.669487
+user95,user51,card,5286,Contact Payment,1234567890123456,-,-,-,-,9152251477,"03/15/2025, 01:24:16 PM",False,[],2025-03-15 13:24:16.669487
+user100,user51,neft,12388,NEFT Transfer,-,-,-,9876543210,SBIN1234567,+441632960961,"02/19/2025, 01:24:16 PM",True,"['High transaction amount', 'Transaction to a non-Indian contact number']",2025-02-19 13:24:16.669487
+user4,user88,card,9548,NEFT Transfer,1234567890123456,02/29,-,-,SBIN1234567,+441632960961,"03/05/2025, 01:24:16 PM",True,['Transaction to a non-Indian contact number'],2025-03-05 13:24:16.669487
+user67,user58,contact,8959,Card Payment,1234567890123456,-,111,-,SBIN1234567,+14155552671,"03/16/2025, 01:24:16 PM",True,['Transaction to a non-Indian contact number'],2025-03-16 13:24:16.669487
+user5,user66,neft,6412,Contact Payment,-,-,111,-,SBIN1234567,1234567890,"03/05/2025, 01:24:16 PM",False,[],2025-03-05 13:24:16.669487
+user48,user7,contact,9931,Contact Payment,-,-,111,-,-,+14155552671,"02/24/2025, 01:24:16 PM",True,['Transaction to a non-Indian contact number'],2025-02-24 13:24:16.669487
+user31,user96,neft,6817,Contact Payment,-,02/29,-,9876543210,SBIN1234567,+441632960961,"02/27/2025, 01:24:16 PM",True,['Transaction to a non-Indian contact number'],2025-02-27 13:24:16.669487
+user86,user56,neft,19653,NEFT Transfer,-,-,-,9876543210,SBIN1234567,1234567890,"02/17/2025, 01:24:16 PM",False,['High transaction amount'],2025-02-17 13:24:16.669487
+user3,user19,contact,11779,Contact Payment,1234567890123456,02/29,111,-,-,+441632960961,"02/14/2025, 01:24:16 PM",True,"['High transaction amount', 'Transaction to a non-Indian contact number']",2025-02-14 13:24:16.669487
+user52,user31,neft,16035,Card Payment,-,-,111,9876543210,SBIN1234567,9152251477,"02/23/2025, 01:24:16 PM",False,['High transaction amount'],2025-02-23 13:24:16.670464
+user100,user5,contact,1462,Contact Payment,1234567890123456,-,-,9876543210,SBIN1234567,1234567890,"02/18/2025, 01:24:16 PM",False,[],2025-02-18 13:24:16.670464
+user51,user95,contact,10544,Contact Payment,1234567890123456,02/29,111,-,-,+441632960961,"02/22/2025, 01:24:16 PM",True,"['High transaction amount', 'Transaction to a non-Indian contact number']",2025-02-22 13:24:16.670464
+user32,user98,contact,15526,Contact Payment,1234567890123456,-,-,9876543210,SBIN1234567,9152251477,"02/17/2025, 01:24:16 PM",True,['High transaction amount'],2025-02-17 13:24:16.670464
+user75,user64,neft,1665,Card Payment,1234567890123456,02/29,111,9876543210,SBIN1234567,9152251477,"02/15/2025, 01:24:16 PM",False,[],2025-02-15 13:24:16.670464
+user25,user19,contact,19327,Contact Payment,-,02/29,111,9876543210,SBIN1234567,+441632960961,"02/22/2025, 01:24:16 PM",True,"['High transaction amount', 'Transaction to a non-Indian contact number']",2025-02-22 13:24:16.670464
+user15,user28,neft,18389,NEFT Transfer,1234567890123456,-,111,-,SBIN1234567,9152251477,"03/05/2025, 01:24:16 PM",False,['High transaction amount'],2025-03-05 13:24:16.670464
+user88,user29,card,7937,Card Payment,-,-,-,9876543210,-,1234567890,"02/23/2025, 01:24:16 PM",False,[],2025-02-23 13:24:16.670464
+user83,user87,neft,7198,NEFT Transfer,1234567890123456,-,111,9876543210,SBIN1234567,+441632960961,"03/04/2025, 01:24:16 PM",True,['Transaction to a non-Indian contact number'],2025-03-04 13:24:16.670464
+user92,user82,contact,18404,NEFT Transfer,1234567890123456,-,111,-,-,1234567890,"02/14/2025, 01:24:16 PM",False,['High transaction amount'],2025-02-14 13:24:16.670464
+user94,user84,card,11055,Card Payment,1234567890123456,-,111,-,-,+441632960961,"03/03/2025, 01:24:16 PM",True,"['High transaction amount', 'Transaction to a non-Indian contact number']",2025-03-03 13:24:16.670464
+user4,user59,card,2967,Card Payment,1234567890123456,-,111,9876543210,-,+441632960961,"03/06/2025, 01:24:16 PM",True,['Transaction to a non-Indian contact number'],2025-03-06 13:24:16.670464
+user15,user50,contact,15768,Contact Payment,-,-,111,-,-,1234567890,"03/15/2025, 01:24:16 PM",False,['High transaction amount'],2025-03-15 13:24:16.670464
+user50,user99,neft,5340,NEFT Transfer,1234567890123456,-,111,9876543210,SBIN1234567,9152251477,"03/15/2025, 01:24:16 PM",False,[],2025-03-15 13:24:16.670464
+user44,user39,card,14917,Card Payment,-,02/29,-,-,SBIN1234567,9152251477,"03/09/2025, 01:24:16 PM",False,['High transaction amount'],2025-03-09 13:24:16.670464
+user29,user42,contact,2515,NEFT Transfer,1234567890123456,02/29,-,-,SBIN1234567,+441632960961,"02/24/2025, 01:24:16 PM",True,['Transaction to a non-Indian contact number'],2025-02-24 13:24:16.670464
+user44,user5,card,6673,Card Payment,1234567890123456,02/29,111,-,-,+441632960961,"03/06/2025, 01:24:16 PM",True,['Transaction to a non-Indian contact number'],2025-03-06 13:24:16.670464
+user79,user48,card,5906,NEFT Transfer,1234567890123456,02/29,-,9876543210,-,9152251477,"03/03/2025, 01:24:16 PM",False,[],2025-03-03 13:24:16.670464
+user41,user52,contact,2509,Card Payment,-,02/29,-,9876543210,-,+14155552671,"03/08/2025, 01:24:16 PM",True,['Transaction to a non-Indian contact number'],2025-03-08 13:24:16.670464
+user87,user48,neft,11542,NEFT Transfer,-,02/29,-,-,-,9152251477,"03/13/2025, 01:24:16 PM",False,['High transaction amount'],2025-03-13 13:24:16.670464
+user8,user11,card,9340,Card Payment,1234567890123456,-,111,9876543210,SBIN1234567,1234567890,"03/08/2025, 01:24:16 PM",False,[],2025-03-08 13:24:16.670464
+user52,user45,neft,12084,NEFT Transfer,-,-,-,9876543210,SBIN1234567,9152251477,"02/16/2025, 01:24:16 PM",False,['High transaction amount'],2025-02-16 13:24:16.670464
+user24,user44,neft,15800,NEFT Transfer,1234567890123456,-,-,9876543210,SBIN1234567,+14155552671,"02/27/2025, 01:24:16 PM",True,"['High transaction amount', 'Transaction to a non-Indian contact number']",2025-02-27 13:24:16.670464
+user9,user69,contact,48914,Card Payment,-,02/29,-,-,-,1234567890,"02/27/2025, 01:24:16 PM",True,['High transaction amount'],2025-02-27 13:24:16.670464
+user93,user12,neft,18755,Contact Payment,1234567890123456,02/29,-,9876543210,-,9152251477,"02/24/2025, 01:24:16 PM",False,['High transaction amount'],2025-02-24 13:24:16.670464
+user1,user29,card,14603,NEFT Transfer,-,-,-,9876543210,SBIN1234567,9152251477,"02/21/2025, 01:24:16 PM",False,['High transaction amount'],2025-02-21 13:24:16.670464
+user28,user76,contact,10077,NEFT Transfer,1234567890123456,-,-,9876543210,-,+441632960961,"03/01/2025, 01:24:16 PM",True,"['High transaction amount', 'Transaction to a non-Indian contact number']",2025-03-01 13:24:16.671463
+user83,user21,contact,3599,Card Payment,-,02/29,-,-,SBIN1234567,9152251477,"02/16/2025, 01:24:16 PM",False,[],2025-02-16 13:24:16.671463
+user6,user43,neft,15541,NEFT Transfer,1234567890123456,02/29,-,-,-,9152251477,"03/08/2025, 01:24:16 PM",False,['High transaction amount'],2025-03-08 13:24:16.671463
+user24,user48,contact,1204,Contact Payment,1234567890123456,02/29,111,-,-,9152251477,"03/01/2025, 01:24:16 PM",False,[],2025-03-01 13:24:16.671463
+user30,user78,neft,4310,Card Payment,1234567890123456,-,-,9876543210,-,9152251477,"02/17/2025, 01:24:16 PM",False,[],2025-02-17 13:24:16.671463
+user58,user50,neft,3037,NEFT Transfer,-,02/29,-,9876543210,-,9152251477,"02/21/2025, 01:24:16 PM",False,[],2025-02-21 13:24:16.671463
+user58,user64,contact,18954,Contact Payment,1234567890123456,02/29,111,-,-,+14155552671,"02/15/2025, 01:24:16 PM",True,"['High transaction amount', 'Transaction to a non-Indian contact number']",2025-02-15 13:24:16.671463
+user41,user75,neft,13896,Card Payment,-,-,-,9876543210,SBIN1234567,+441632960961,"03/02/2025, 01:24:16 PM",True,"['High transaction amount', 'Transaction to a non-Indian contact number']",2025-03-02 13:24:16.671463
+user35,user16,contact,19787,NEFT Transfer,1234567890123456,02/29,-,-,SBIN1234567,+441632960961,"02/28/2025, 01:24:16 PM",True,"['High transaction amount', 'Transaction to a non-Indian contact number']",2025-02-28 13:24:16.671463
+user37,user85,card,7214,NEFT Transfer,1234567890123456,02/29,111,-,-,1234567890,"02/27/2025, 01:24:16 PM",False,[],2025-02-27 13:24:16.671463
+user48,user17,contact,18939,Contact Payment,1234567890123456,-,-,-,SBIN1234567,9152251477,"03/04/2025, 01:24:16 PM",False,['High transaction amount'],2025-03-04 13:24:16.671463
+user2,user8,contact,6760,NEFT Transfer,1234567890123456,-,111,9876543210,SBIN1234567,9152251477,"02/17/2025, 01:24:16 PM",False,[],2025-02-17 13:24:16.671463
+user66,user34,neft,13138,Card Payment,-,02/29,111,9876543210,SBIN1234567,1234567890,"03/08/2025, 01:24:16 PM",False,['High transaction amount'],2025-03-08 13:24:16.671463
+user55,user5,neft,15621,Contact Payment,1234567890123456,02/29,111,-,-,9152251477,"02/22/2025, 01:24:16 PM",False,['High transaction amount'],2025-02-22 13:24:16.671463
+user87,user69,card,14023,Contact Payment,-,-,111,-,-,9152251477,"03/11/2025, 01:24:16 PM",False,['High transaction amount'],2025-03-11 13:24:16.671463
+user44,user16,card,16815,Contact Payment,-,-,-,9876543210,-,+14155552671,"02/19/2025, 01:24:16 PM",True,"['High transaction amount', 'Transaction to a non-Indian contact number']",2025-02-19 13:24:16.671463
+user13,user76,card,4315,Card Payment,-,02/29,111,9876543210,-,1234567890,"03/12/2025, 01:24:16 PM",False,[],2025-03-12 13:24:16.671463
+user7,user87,contact,42482,NEFT Transfer,1234567890123456,02/29,111,-,SBIN1234567,+441632960961,"03/13/2025, 01:24:16 PM",True,"['High transaction amount', 'Transaction to a non-Indian contact number']",2025-03-13 13:24:16.671463
+user97,user99,card,12241,NEFT Transfer,1234567890123456,-,111,-,-,9152251477,"02/17/2025, 01:24:16 PM",False,['High transaction amount'],2025-02-17 13:24:16.671463
+user5,user44,card,10698,Card Payment,1234567890123456,02/29,-,9876543210,SBIN1234567,1234567890,"03/08/2025, 01:24:16 PM",False,['High transaction amount'],2025-03-08 13:24:16.671463
+user92,user14,card,9332,Contact Payment,-,-,111,-,-,1234567890,"02/16/2025, 01:24:16 PM",False,[],2025-02-16 13:24:16.671463
+user51,user76,card,4414,Contact Payment,-,-,111,-,SBIN1234567,+14155552671,"02/22/2025, 01:24:16 PM",True,['Transaction to a non-Indian contact number'],2025-02-22 13:24:16.671463
+user41,user4,card,9146,Card Payment,-,02/29,-,-,SBIN1234567,1234567890,"02/24/2025, 01:24:16 PM",False,[],2025-02-24 13:24:16.671463
+user39,user28,card,12042,Contact Payment,1234567890123456,-,111,-,-,9152251477,"03/14/2025, 01:24:16 PM",False,['High transaction amount'],2025-03-14 13:24:16.671463
+user30,user17,card,12996,Card Payment,-,-,-,-,-,+441632960961,"03/07/2025, 01:24:16 PM",True,"['High transaction amount', 'Transaction to a non-Indian contact number']",2025-03-07 13:24:16.671463
+user8,user10,neft,14257,Contact Payment,-,02/29,-,9876543210,-,+441632960961,"02/28/2025, 01:24:16 PM",True,"['High transaction amount', 'Transaction to a non-Indian contact number']",2025-02-28 13:24:16.671463
+user83,user98,neft,3318,NEFT Transfer,1234567890123456,02/29,-,-,-,9152251477,"03/14/2025, 01:24:16 PM",False,[],2025-03-14 13:24:16.671463
+user14,user6,contact,4827,Card Payment,-,02/29,111,9876543210,SBIN1234567,+441632960961,"03/05/2025, 01:24:16 PM",True,['Transaction to a non-Indian contact number'],2025-03-05 13:24:16.672461
+user28,user67,neft,4591,Contact Payment,1234567890123456,02/29,-,-,-,+441632960961,"03/07/2025, 01:24:16 PM",True,['Transaction to a non-Indian contact number'],2025-03-07 13:24:16.672461
+user27,user84,card,10914,Contact Payment,-,02/29,-,9876543210,SBIN1234567,+14155552671,"02/14/2025, 01:24:16 PM",True,"['High transaction amount', 'Transaction to a non-Indian contact number']",2025-02-14 13:24:16.672461
+user69,user60,card,1914,Contact Payment,-,-,-,9876543210,SBIN1234567,9152251477,"02/22/2025, 01:24:16 PM",False,[],2025-02-22 13:24:16.672461
+user83,user44,contact,6329,Card Payment,-,02/29,-,-,-,+441632960961,"03/15/2025, 01:24:16 PM",True,['Transaction to a non-Indian contact number'],2025-03-15 13:24:16.672461
+user76,user1,contact,12140,NEFT Transfer,-,02/29,-,9876543210,-,9152251477,"03/15/2025, 01:24:16 PM",False,['High transaction amount'],2025-03-15 13:24:16.672461
+user32,user25,neft,19650,Contact Payment,-,-,111,9876543210,-,1234567890,"03/01/2025, 01:24:16 PM",False,['High transaction amount'],2025-03-01 13:24:16.672461
+user23,user78,card,11774,Contact Payment,-,02/29,111,-,-,+14155552671,"03/01/2025, 01:24:16 PM",True,"['High transaction amount', 'Transaction to a non-Indian contact number']",2025-03-01 13:24:16.672461
+user35,user67,contact,3138,Card Payment,1234567890123456,-,111,9876543210,-,9152251477,"03/13/2025, 01:24:16 PM",False,[],2025-03-13 13:24:16.672461
+user13,user58,neft,11831,Contact Payment,1234567890123456,-,-,9876543210,-,9152251477,"03/06/2025, 01:24:16 PM",False,['High transaction amount'],2025-03-06 13:24:16.672461
+user43,user5,contact,30996,Card Payment,1234567890123456,02/29,111,-,SBIN1234567,+14155552671,"03/15/2025, 01:24:16 PM",True,"['High transaction amount', 'Transaction to a non-Indian contact number']",2025-03-15 13:24:16.672461
+user46,user80,neft,10159,Card Payment,1234567890123456,02/29,-,-,-,1234567890,"03/13/2025, 01:24:16 PM",False,['High transaction amount'],2025-03-13 13:24:16.672461
+user86,user82,contact,7431,Contact Payment,-,02/29,111,9876543210,SBIN1234567,1234567890,"02/23/2025, 01:24:16 PM",False,[],2025-02-23 13:24:16.672461
+user52,user1,neft,3307,Card Payment,1234567890123456,-,-,9876543210,-,1234567890,"02/28/2025, 01:24:16 PM",False,[],2025-02-28 13:24:16.672461
+user7,user91,neft,3605,NEFT Transfer,1234567890123456,-,111,9876543210,SBIN1234567,+14155552671,"03/10/2025, 01:24:16 PM",True,['Transaction to a non-Indian contact number'],2025-03-10 13:24:16.672461
+user43,user90,contact,6950,Card Payment,-,-,111,9876543210,-,9152251477,"02/16/2025, 01:24:16 PM",False,[],2025-02-16 13:24:16.672461
+user69,user67,contact,13798,Contact Payment,1234567890123456,02/29,111,9876543210,SBIN1234567,+14155552671,"02/18/2025, 01:24:16 PM",True,"['High transaction amount', 'Transaction to a non-Indian contact number']",2025-02-18 13:24:16.672461
+user87,user34,neft,17949,Contact Payment,1234567890123456,-,-,-,SBIN1234567,9152251477,"02/19/2025, 01:24:16 PM",False,['High transaction amount'],2025-02-19 13:24:16.672461
+user79,user35,card,11057,Card Payment,-,-,111,-,SBIN1234567,+441632960961,"02/14/2025, 01:24:16 PM",True,"['High transaction amount', 'Transaction to a non-Indian contact number']",2025-02-14 13:24:16.672461
+user72,user92,card,9295,NEFT Transfer,1234567890123456,02/29,111,-,-,+441632960961,"02/14/2025, 01:24:16 PM",True,['Transaction to a non-Indian contact number'],2025-02-14 13:24:16.672461
+user96,user8,card,8247,Contact Payment,-,-,111,-,SBIN1234567,+441632960961,"03/15/2025, 01:24:16 PM",True,['Transaction to a non-Indian contact number'],2025-03-15 13:24:16.672461
+user3,user86,neft,6631,Card Payment,1234567890123456,02/29,-,9876543210,-,+441632960961,"02/17/2025, 01:24:16 PM",True,['Transaction to a non-Indian contact number'],2025-02-17 13:24:16.672461
+user22,user71,neft,18110,NEFT Transfer,1234567890123456,02/29,111,9876543210,-,1234567890,"02/15/2025, 01:24:16 PM",False,['High transaction amount'],2025-02-15 13:24:16.672461
+user16,user40,neft,10107,NEFT Transfer,1234567890123456,02/29,-,9876543210,-,+14155552671,"02/20/2025, 01:24:16 PM",True,"['High transaction amount', 'Transaction to a non-Indian contact number']",2025-02-20 13:24:16.672461
+user30,user61,contact,1412,Contact Payment,1234567890123456,02/29,-,-,SBIN1234567,+14155552671,"03/06/2025, 01:24:16 PM",True,['Transaction to a non-Indian contact number'],2025-03-06 13:24:16.673461
+user67,user68,neft,9054,NEFT Transfer,1234567890123456,-,111,9876543210,SBIN1234567,1234567890,"03/13/2025, 01:24:16 PM",False,[],2025-03-13 13:24:16.673461
+user79,user37,card,5739,NEFT Transfer,-,02/29,111,9876543210,-,1234567890,"02/28/2025, 01:24:16 PM",False,[],2025-02-28 13:24:16.673461
+user53,user30,card,5202,Contact Payment,-,02/29,111,-,-,9152251477,"03/12/2025, 01:24:16 PM",False,[],2025-03-12 13:24:16.673461
+user64,user33,card,3118,Card Payment,1234567890123456,-,111,-,-,9152251477,"02/27/2025, 01:24:16 PM",False,[],2025-02-27 13:24:16.673461
+user50,user42,contact,18548,Contact Payment,-,02/29,-,9876543210,-,1234567890,"02/26/2025, 01:24:16 PM",False,['High transaction amount'],2025-02-26 13:24:16.673461
+user85,user16,contact,10580,Contact Payment,-,-,111,9876543210,-,+14155552671,"03/13/2025, 01:24:16 PM",True,"['High transaction amount', 'Transaction to a non-Indian contact number']",2025-03-13 13:24:16.673461
+user6,user33,card,9570,Contact Payment,1234567890123456,02/29,111,9876543210,SBIN1234567,1234567890,"02/22/2025, 01:24:16 PM",False,[],2025-02-22 13:24:16.673461
+user2,user89,contact,7025,NEFT Transfer,1234567890123456,02/29,111,9876543210,-,+14155552671,"02/25/2025, 01:24:16 PM",True,['Transaction to a non-Indian contact number'],2025-02-25 13:24:16.673461
+user98,user87,contact,5079,Card Payment,-,02/29,-,-,-,1234567890,"03/02/2025, 01:24:16 PM",False,[],2025-03-02 13:24:16.673461
+user68,user6,card,15894,NEFT Transfer,-,02/29,111,9876543210,-,+441632960961,"02/21/2025, 01:24:16 PM",True,"['High transaction amount', 'Transaction to a non-Indian contact number']",2025-02-21 13:24:16.673461
+user49,user87,contact,15180,NEFT Transfer,-,02/29,-,-,-,9152251477,"02/22/2025, 01:24:16 PM",False,['High transaction amount'],2025-02-22 13:24:16.673461
+user65,user91,card,16462,Card Payment,-,02/29,111,-,-,+441632960961,"03/05/2025, 01:24:16 PM",True,"['High transaction amount', 'Transaction to a non-Indian contact number']",2025-03-05 13:24:16.673461
+user79,user87,neft,16204,Card Payment,1234567890123456,02/29,111,-,-,+441632960961,"02/19/2025, 01:24:16 PM",True,"['High transaction amount', 'Transaction to a non-Indian contact number']",2025-02-19 13:24:16.673461
+user13,user17,contact,8676,Contact Payment,1234567890123456,02/29,-,-,SBIN1234567,9152251477,"03/07/2025, 01:24:16 PM",False,[],2025-03-07 13:24:16.673461
+user65,user76,neft,12596,NEFT Transfer,1234567890123456,02/29,111,-,-,1234567890,"03/14/2025, 01:24:16 PM",False,['High transaction amount'],2025-03-14 13:24:16.673461
+user91,user93,contact,17125,NEFT Transfer,-,-,-,-,-,+14155552671,"02/27/2025, 01:24:16 PM",True,"['High transaction amount', 'Transaction to a non-Indian contact number']",2025-02-27 13:24:16.673461
+user88,user1,neft,6957,NEFT Transfer,-,02/29,-,9876543210,SBIN1234567,+441632960961,"03/01/2025, 01:24:16 PM",True,['Transaction to a non-Indian contact number'],2025-03-01 13:24:16.673461
+user31,user11,neft,3045,NEFT Transfer,-,02/29,-,9876543210,-,+441632960961,"02/23/2025, 01:24:16 PM",True,['Transaction to a non-Indian contact number'],2025-02-23 13:24:16.674667
+user39,user17,neft,8601,NEFT Transfer,1234567890123456,02/29,-,9876543210,SBIN1234567,+14155552671,"02/22/2025, 01:24:16 PM",True,['Transaction to a non-Indian contact number'],2025-02-22 13:24:16.674667
+user45,user43,card,19511,Contact Payment,1234567890123456,-,111,9876543210,-,+14155552671,"03/10/2025, 01:24:16 PM",True,"['High transaction amount', 'Transaction to a non-Indian contact number']",2025-03-10 13:24:16.674667
+user65,user64,neft,1362,Contact Payment,1234567890123456,-,-,9876543210,SBIN1234567,1234567890,"02/20/2025, 01:24:16 PM",False,[],2025-02-20 13:24:16.674667
+user97,user18,neft,6343,Contact Payment,1234567890123456,02/29,111,9876543210,SBIN1234567,+441632960961,"02/20/2025, 01:24:16 PM",True,['Transaction to a non-Indian contact number'],2025-02-20 13:24:16.674667
+user79,user52,contact,4696,Card Payment,1234567890123456,02/29,-,9876543210,-,1234567890,"02/24/2025, 01:24:16 PM",False,[],2025-02-24 13:24:16.674667
+user83,user35,card,5594,Card Payment,1234567890123456,02/29,111,-,SBIN1234567,9152251477,"02/18/2025, 01:24:16 PM",False,[],2025-02-18 13:24:16.674667
+user29,user59,card,13281,Card Payment,-,02/29,-,9876543210,-,1234567890,"02/26/2025, 01:24:16 PM",False,['High transaction amount'],2025-02-26 13:24:16.674667
+user55,user75,contact,24209,Card Payment,1234567890123456,-,-,-,SBIN1234567,9152251477,"02/20/2025, 01:24:16 PM",True,['High transaction amount'],2025-02-20 13:24:16.674667
+user91,user78,contact,7994,Card Payment,1234567890123456,-,111,9876543210,-,+441632960961,"02/20/2025, 01:24:16 PM",True,['Transaction to a non-Indian contact number'],2025-02-20 13:24:16.674667
+user59,user98,neft,4962,NEFT Transfer,-,-,-,-,-,+14155552671,"02/28/2025, 01:24:16 PM",True,['Transaction to a non-Indian contact number'],2025-02-28 13:24:16.674667
+user41,user42,card,2854,NEFT Transfer,-,02/29,111,9876543210,-,+441632960961,"02/18/2025, 01:24:16 PM",True,['Transaction to a non-Indian contact number'],2025-02-18 13:24:16.675680
+user94,user56,neft,6101,Contact Payment,-,-,111,9876543210,-,+14155552671,"02/18/2025, 01:24:16 PM",True,['Transaction to a non-Indian contact number'],2025-02-18 13:24:16.675680
+user100,user64,neft,14231,NEFT Transfer,1234567890123456,02/29,-,-,-,9152251477,"03/16/2025, 01:24:16 PM",False,['High transaction amount'],2025-03-16 13:24:16.675680
+user4,user69,card,16276,Contact Payment,-,-,111,9876543210,SBIN1234567,1234567890,"02/28/2025, 01:24:16 PM",False,['High transaction amount'],2025-02-28 13:24:16.675680
+user4,user100,neft,12238,Contact Payment,-,02/29,-,-,SBIN1234567,9152251477,"03/08/2025, 01:24:16 PM",False,['High transaction amount'],2025-03-08 13:24:16.675680
+user83,user93,neft,7625,Card Payment,-,-,-,9876543210,SBIN1234567,9152251477,"02/27/2025, 01:24:16 PM",False,[],2025-02-27 13:24:16.675680
+user22,user87,contact,1493,NEFT Transfer,-,-,111,9876543210,SBIN1234567,9152251477,"02/18/2025, 01:24:16 PM",False,[],2025-02-18 13:24:16.675680
+user10,user100,card,14213,Contact Payment,-,02/29,-,9876543210,-,1234567890,"03/06/2025, 01:24:16 PM",False,['High transaction amount'],2025-03-06 13:24:16.675680
+user55,user18,neft,16559,Contact Payment,-,-,111,-,SBIN1234567,9152251477,"02/20/2025, 01:24:16 PM",False,['High transaction amount'],2025-02-20 13:24:16.675680
+user56,user36,card,9741,NEFT Transfer,1234567890123456,-,111,9876543210,SBIN1234567,+14155552671,"02/16/2025, 01:24:16 PM",True,['Transaction to a non-Indian contact number'],2025-02-16 13:24:16.675680
+user91,user51,neft,16459,Card Payment,1234567890123456,-,-,9876543210,-,+441632960961,"02/23/2025, 01:24:16 PM",True,"['High transaction amount', 'Transaction to a non-Indian contact number']",2025-02-23 13:24:16.675680
+user87,user8,neft,19811,NEFT Transfer,-,-,111,-,-,1234567890,"03/10/2025, 01:24:16 PM",False,['High transaction amount'],2025-03-10 13:24:16.675680
+user27,user84,card,3044,NEFT Transfer,-,02/29,111,-,-,+14155552671,"03/11/2025, 01:24:16 PM",True,['Transaction to a non-Indian contact number'],2025-03-11 13:24:16.675680
+user4,user90,contact,14850,Card Payment,-,02/29,111,-,-,1234567890,"03/16/2025, 01:24:16 PM",False,['High transaction amount'],2025-03-16 13:24:16.675680
+user78,user15,contact,7582,NEFT Transfer,1234567890123456,02/29,-,-,-,+441632960961,"02/24/2025, 01:24:16 PM",True,['Transaction to a non-Indian contact number'],2025-02-24 13:24:16.675680
+user62,user84,contact,10564,NEFT Transfer,-,02/29,111,9876543210,-,1234567890,"03/09/2025, 01:24:16 PM",False,['High transaction amount'],2025-03-09 13:24:16.675680
+user46,user9,contact,18987,NEFT Transfer,1234567890123456,-,111,-,SBIN1234567,+441632960961,"02/20/2025, 01:24:16 PM",True,"['High transaction amount', 'Transaction to a non-Indian contact number']",2025-02-20 13:24:16.675680
+user62,user12,neft,13914,Card Payment,-,-,111,-,SBIN1234567,+441632960961,"02/20/2025, 01:24:16 PM",True,"['High transaction amount', 'Transaction to a non-Indian contact number']",2025-02-20 13:24:16.675680
+user14,user72,neft,10940,Contact Payment,1234567890123456,02/29,-,9876543210,-,+441632960961,"02/18/2025, 01:24:16 PM",True,"['High transaction amount', 'Transaction to a non-Indian contact number']",2025-02-18 13:24:16.675680
+user3,user10,neft,11018,Card Payment,1234567890123456,02/29,111,-,SBIN1234567,9152251477,"02/23/2025, 01:24:16 PM",False,['High transaction amount'],2025-02-23 13:24:16.675680
+user97,user79,contact,5389,Card Payment,-,02/29,111,9876543210,SBIN1234567,1234567890,"03/06/2025, 01:24:16 PM",False,[],2025-03-06 13:24:16.675680
+user10,user13,card,16473,NEFT Transfer,1234567890123456,-,-,9876543210,SBIN1234567,+14155552671,"02/21/2025, 01:24:16 PM",True,"['High transaction amount', 'Transaction to a non-Indian contact number']",2025-02-21 13:24:16.675680
+user69,user94,neft,10177,NEFT Transfer,1234567890123456,-,111,9876543210,SBIN1234567,+14155552671,"03/01/2025, 01:24:16 PM",True,"['High transaction amount', 'Transaction to a non-Indian contact number']",2025-03-01 13:24:16.676710
+user89,user83,neft,10833,Contact Payment,-,-,-,-,SBIN1234567,+14155552671,"02/14/2025, 01:24:16 PM",True,"['High transaction amount', 'Transaction to a non-Indian contact number']",2025-02-14 13:24:16.676710
+user49,user17,contact,12932,Contact Payment,-,-,111,9876543210,-,9152251477,"03/11/2025, 01:24:16 PM",False,['High transaction amount'],2025-03-11 13:24:16.676710
+user95,user58,contact,16474,Card Payment,-,-,-,-,SBIN1234567,9152251477,"02/14/2025, 01:24:16 PM",False,['High transaction amount'],2025-02-14 13:24:16.676710
+user42,user38,contact,16213,Card Payment,1234567890123456,02/29,-,9876543210,SBIN1234567,+441632960961,"02/24/2025, 01:24:16 PM",True,"['High transaction amount', 'Transaction to a non-Indian contact number']",2025-02-24 13:24:16.676710
+user50,user92,neft,19563,NEFT Transfer,1234567890123456,-,111,-,-,+14155552671,"02/26/2025, 01:24:16 PM",True,"['High transaction amount', 'Transaction to a non-Indian contact number']",2025-02-26 13:24:16.676710
+user83,user16,card,14407,Contact Payment,-,-,111,-,SBIN1234567,+441632960961,"03/14/2025, 01:24:16 PM",True,"['High transaction amount', 'Transaction to a non-Indian contact number']",2025-03-14 13:24:16.676710
+user36,user46,neft,12291,NEFT Transfer,1234567890123456,02/29,-,9876543210,-,+14155552671,"03/02/2025, 01:24:16 PM",True,"['High transaction amount', 'Transaction to a non-Indian contact number']",2025-03-02 13:24:16.676710
+user15,user7,contact,2175,Card Payment,-,02/29,-,-,SBIN1234567,1234567890,"03/13/2025, 01:24:16 PM",False,[],2025-03-13 13:24:16.676710
+user80,user51,contact,1130,Card Payment,-,-,-,-,-,+441632960961,"02/26/2025, 01:24:16 PM",True,['Transaction to a non-Indian contact number'],2025-02-26 13:24:16.676710
+user60,user23,card,7858,Card Payment,-,-,-,-,-,9152251477,"02/16/2025, 01:24:16 PM",False,[],2025-02-16 13:24:16.676710
+user16,user29,neft,4993,Contact Payment,-,-,-,-,SBIN1234567,+14155552671,"02/28/2025, 01:24:16 PM",True,['Transaction to a non-Indian contact number'],2025-02-28 13:24:16.676710
+user8,user1,card,17554,Card Payment,1234567890123456,02/29,-,-,SBIN1234567,+14155552671,"03/06/2025, 01:24:16 PM",True,"['High transaction amount', 'Transaction to a non-Indian contact number']",2025-03-06 13:24:16.676710
+user3,user47,neft,8354,Contact Payment,1234567890123456,02/29,-,-,-,1234567890,"03/07/2025, 01:24:16 PM",False,[],2025-03-07 13:24:16.676710
+user41,user5,contact,11874,NEFT Transfer,1234567890123456,02/29,-,-,-,9152251477,"03/16/2025, 01:24:16 PM",False,['High transaction amount'],2025-03-16 13:24:16.676710
+user41,user7,card,12886,Contact Payment,1234567890123456,02/29,111,9876543210,SBIN1234567,+441632960961,"03/04/2025, 01:24:16 PM",True,"['High transaction amount', 'Transaction to a non-Indian contact number']",2025-03-04 13:24:16.676710
+user59,user41,neft,1817,NEFT Transfer,-,-,111,9876543210,-,+14155552671,"03/10/2025, 01:24:16 PM",True,['Transaction to a non-Indian contact number'],2025-03-10 13:24:16.676710
+user90,user96,neft,9882,NEFT Transfer,1234567890123456,02/29,-,-,SBIN1234567,9152251477,"02/19/2025, 01:24:16 PM",False,[],2025-02-19 13:24:16.676710
+user77,user80,card,10116,Contact Payment,1234567890123456,-,111,-,-,9152251477,"03/14/2025, 01:24:16 PM",False,['High transaction amount'],2025-03-14 13:24:16.676710
+user76,user57,neft,3142,Card Payment,1234567890123456,-,-,9876543210,-,+14155552671,"02/26/2025, 01:24:16 PM",True,['Transaction to a non-Indian contact number'],2025-02-26 13:24:16.676710
+user43,user86,card,10452,Contact Payment,-,02/29,111,9876543210,SBIN1234567,9152251477,"03/03/2025, 01:24:16 PM",False,['High transaction amount'],2025-03-03 13:24:16.676710
+user23,user93,neft,13057,Card Payment,1234567890123456,02/29,-,9876543210,SBIN1234567,+14155552671,"03/01/2025, 01:24:16 PM",True,"['High transaction amount', 'Transaction to a non-Indian contact number']",2025-03-01 13:24:16.676710
+user78,user2,contact,14459,NEFT Transfer,-,02/29,-,9876543210,-,+14155552671,"03/16/2025, 01:24:16 PM",True,"['High transaction amount', 'Transaction to a non-Indian contact number']",2025-03-16 13:24:16.676710
+user38,user35,neft,14433,Card Payment,1234567890123456,-,111,9876543210,SBIN1234567,9152251477,"02/16/2025, 01:24:16 PM",False,['High transaction amount'],2025-02-16 13:24:16.677702
+user43,user56,card,16925,Contact Payment,1234567890123456,02/29,-,9876543210,SBIN1234567,1234567890,"02/15/2025, 01:24:16 PM",False,['High transaction amount'],2025-02-15 13:24:16.677702
+user16,user63,contact,19504,Card Payment,1234567890123456,02/29,111,-,-,+441632960961,"03/14/2025, 01:24:16 PM",True,"['High transaction amount', 'Transaction to a non-Indian contact number']",2025-03-14 13:24:16.677702
+user87,user84,neft,14542,NEFT Transfer,-,-,-,9876543210,-,1234567890,"03/08/2025, 01:24:16 PM",False,['High transaction amount'],2025-03-08 13:24:16.677702
+user42,user53,neft,14571,Card Payment,1234567890123456,-,-,-,SBIN1234567,+14155552671,"02/23/2025, 01:24:16 PM",True,"['High transaction amount', 'Transaction to a non-Indian contact number']",2025-02-23 13:24:16.677702
+user96,user10,card,19110,Card Payment,-,02/29,111,9876543210,-,1234567890,"02/22/2025, 01:24:16 PM",False,['High transaction amount'],2025-02-22 13:24:16.677702
+user39,user66,neft,2224,Contact Payment,-,-,111,9876543210,-,9152251477,"03/09/2025, 01:24:16 PM",False,[],2025-03-09 13:24:16.677702
+user38,user93,neft,18413,NEFT Transfer,-,02/29,111,9876543210,SBIN1234567,+441632960961,"02/24/2025, 01:24:16 PM",True,"['High transaction amount', 'Transaction to a non-Indian contact number']",2025-02-24 13:24:16.677702
+user58,user59,contact,8700,NEFT Transfer,-,-,111,9876543210,SBIN1234567,+441632960961,"03/03/2025, 01:24:16 PM",True,['Transaction to a non-Indian contact number'],2025-03-03 13:24:16.677702
+user70,user6,contact,15802,Card Payment,1234567890123456,02/29,111,9876543210,SBIN1234567,+14155552671,"03/15/2025, 01:24:16 PM",True,"['High transaction amount', 'Transaction to a non-Indian contact number']",2025-03-15 13:24:16.677702
+user77,user46,card,5907,NEFT Transfer,-,02/29,-,-,SBIN1234567,9152251477,"03/16/2025, 01:24:16 PM",False,[],2025-03-16 13:24:16.677702
+user31,user69,neft,19307,Card Payment,1234567890123456,02/29,111,-,-,+14155552671,"02/15/2025, 01:24:16 PM",True,"['High transaction amount', 'Transaction to a non-Indian contact number']",2025-02-15 13:24:16.677702
+user62,user16,card,48601,NEFT Transfer,-,02/29,111,-,SBIN1234567,1234567890,"03/16/2025, 01:24:16 PM",True,['High transaction amount'],2025-03-16 13:24:16.677702
+user6,user15,neft,17118,Contact Payment,-,-,-,-,-,+441632960961,"02/14/2025, 01:24:16 PM",True,"['High transaction amount', 'Transaction to a non-Indian contact number']",2025-02-14 13:24:16.677702
+user82,user20,neft,19352,Contact Payment,1234567890123456,-,111,9876543210,SBIN1234567,+441632960961,"02/22/2025, 01:24:16 PM",True,"['High transaction amount', 'Transaction to a non-Indian contact number']",2025-02-22 13:24:16.677702
+user50,user62,neft,1395,Contact Payment,-,-,111,-,SBIN1234567,+14155552671,"03/03/2025, 01:24:16 PM",True,['Transaction to a non-Indian contact number'],2025-03-03 13:24:16.677702
+user42,user10,card,5529,Card Payment,1234567890123456,-,111,9876543210,-,9152251477,"02/15/2025, 01:24:16 PM",False,[],2025-02-15 13:24:16.677702
+user37,user22,card,13227,Contact Payment,1234567890123456,02/29,-,-,-,1234567890,"02/27/2025, 01:24:16 PM",False,['High transaction amount'],2025-02-27 13:24:16.677702
+user16,user100,card,18595,Contact Payment,-,02/29,-,9876543210,SBIN1234567,+14155552671,"03/10/2025, 01:24:16 PM",True,"['High transaction amount', 'Transaction to a non-Indian contact number']",2025-03-10 13:24:16.677702
+user58,user90,card,16371,Contact Payment,1234567890123456,-,111,-,SBIN1234567,1234567890,"02/18/2025, 01:24:16 PM",False,['High transaction amount'],2025-02-18 13:24:16.677702
+user8,user42,card,10094,NEFT Transfer,1234567890123456,02/29,111,-,SBIN1234567,+14155552671,"02/20/2025, 01:24:16 PM",True,"['High transaction amount', 'Transaction to a non-Indian contact number']",2025-02-20 13:24:16.677702
+user45,user11,neft,8413,NEFT Transfer,1234567890123456,-,111,9876543210,SBIN1234567,9152251477,"02/26/2025, 01:24:16 PM",False,[],2025-02-26 13:24:16.677702
+user37,user79,contact,4890,Card Payment,1234567890123456,02/29,-,-,SBIN1234567,+14155552671,"02/28/2025, 01:24:16 PM",True,['Transaction to a non-Indian contact number'],2025-02-28 13:24:16.677702
+user57,user76,contact,10795,Card Payment,-,02/29,111,-,-,1234567890,"03/13/2025, 01:24:16 PM",False,['High transaction amount'],2025-03-13 13:24:16.678694
+user91,user27,neft,6755,Card Payment,-,02/29,-,-,-,9152251477,"03/01/2025, 01:24:16 PM",False,[],2025-03-01 13:24:16.678694
+user37,user70,neft,7426,Contact Payment,1234567890123456,-,-,9876543210,SBIN1234567,+441632960961,"03/05/2025, 01:24:16 PM",True,['Transaction to a non-Indian contact number'],2025-03-05 13:24:16.678694
+user36,user37,neft,6523,Card Payment,-,02/29,111,9876543210,SBIN1234567,1234567890,"03/03/2025, 01:24:16 PM",False,[],2025-03-03 13:24:16.678694
+user2,user94,contact,18043,NEFT Transfer,1234567890123456,02/29,111,9876543210,-,1234567890,"02/23/2025, 01:24:16 PM",False,['High transaction amount'],2025-02-23 13:24:16.678694
+user92,user40,contact,13077,Contact Payment,-,02/29,-,-,SBIN1234567,9152251477,"02/20/2025, 01:24:16 PM",False,['High transaction amount'],2025-02-20 13:24:16.678694
+user44,user5,card,14036,Card Payment,1234567890123456,-,-,-,-,+14155552671,"03/02/2025, 01:24:16 PM",True,"['High transaction amount', 'Transaction to a non-Indian contact number']",2025-03-02 13:24:16.678694
+user50,user49,neft,17609,Contact Payment,1234567890123456,02/29,-,-,-,+14155552671,"03/13/2025, 01:24:16 PM",True,"['High transaction amount', 'Transaction to a non-Indian contact number']",2025-03-13 13:24:16.678694
+user63,user78,card,7429,Contact Payment,1234567890123456,-,111,-,-,1234567890,"02/23/2025, 01:24:16 PM",False,[],2025-02-23 13:24:16.678694
+user9,user40,card,10169,Card Payment,1234567890123456,02/29,111,9876543210,-,+14155552671,"02/28/2025, 01:24:16 PM",True,"['High transaction amount', 'Transaction to a non-Indian contact number']",2025-02-28 13:24:16.678694
+user59,user24,contact,9748,Contact Payment,1234567890123456,02/29,111,9876543210,-,9152251477,"02/21/2025, 01:24:16 PM",False,[],2025-02-21 13:24:16.678694
+user30,user22,contact,4421,Contact Payment,-,02/29,-,-,-,+441632960961,"02/17/2025, 01:24:16 PM",True,['Transaction to a non-Indian contact number'],2025-02-17 13:24:16.678694
+user21,user99,neft,16126,NEFT Transfer,-,02/29,-,-,SBIN1234567,9152251477,"03/02/2025, 01:24:16 PM",False,['High transaction amount'],2025-03-02 13:24:16.678694
+user37,user79,contact,2605,Contact Payment,1234567890123456,02/29,-,-,-,9152251477,"02/20/2025, 01:24:16 PM",False,[],2025-02-20 13:24:16.678694
+user6,user70,contact,17672,Contact Payment,1234567890123456,02/29,111,-,SBIN1234567,1234567890,"02/22/2025, 01:24:16 PM",False,['High transaction amount'],2025-02-22 13:24:16.678694
+user31,user49,contact,17911,NEFT Transfer,-,02/29,111,9876543210,-,1234567890,"03/15/2025, 01:24:16 PM",False,['High transaction amount'],2025-03-15 13:24:16.678694
+user57,user71,neft,13015,Card Payment,1234567890123456,-,-,9876543210,-,+14155552671,"03/11/2025, 01:24:16 PM",True,"['High transaction amount', 'Transaction to a non-Indian contact number']",2025-03-11 13:24:16.678694
+user58,user48,neft,18702,Card Payment,1234567890123456,02/29,111,-,-,1234567890,"02/24/2025, 01:24:16 PM",False,['High transaction amount'],2025-02-24 13:24:16.678694
+user20,user21,card,6806,NEFT Transfer,-,-,111,-,SBIN1234567,+14155552671,"03/03/2025, 01:24:16 PM",True,['Transaction to a non-Indian contact number'],2025-03-03 13:24:16.678694
+user37,user48,contact,10759,Contact Payment,1234567890123456,02/29,-,-,SBIN1234567,+14155552671,"03/02/2025, 01:24:16 PM",True,"['High transaction amount', 'Transaction to a non-Indian contact number']",2025-03-02 13:24:16.678694
+user29,user65,card,1687,Card Payment,-,02/29,-,-,-,+441632960961,"03/11/2025, 01:24:16 PM",True,['Transaction to a non-Indian contact number'],2025-03-11 13:24:16.678694
+user85,user20,contact,8018,Contact Payment,-,-,111,-,-,+441632960961,"03/14/2025, 01:24:16 PM",True,['Transaction to a non-Indian contact number'],2025-03-14 13:24:16.678694
+user71,user62,neft,17931,Card Payment,1234567890123456,-,111,9876543210,-,+441632960961,"02/21/2025, 01:24:16 PM",True,"['High transaction amount', 'Transaction to a non-Indian contact number']",2025-02-21 13:24:16.679691
+user98,user55,card,17335,NEFT Transfer,-,02/29,-,-,SBIN1234567,+14155552671,"03/07/2025, 01:24:16 PM",True,"['High transaction amount', 'Transaction to a non-Indian contact number']",2025-03-07 13:24:16.679691
+user48,user5,contact,12359,NEFT Transfer,-,-,-,9876543210,SBIN1234567,+441632960961,"02/24/2025, 01:24:16 PM",True,"['High transaction amount', 'Transaction to a non-Indian contact number']",2025-02-24 13:24:16.679691
+user11,user7,neft,11796,Card Payment,1234567890123456,02/29,-,9876543210,SBIN1234567,+441632960961,"03/15/2025, 01:24:16 PM",True,"['High transaction amount', 'Transaction to a non-Indian contact number']",2025-03-15 13:24:16.679691
+user22,user70,neft,3099,Card Payment,1234567890123456,02/29,111,9876543210,SBIN1234567,9152251477,"02/16/2025, 01:24:16 PM",False,[],2025-02-16 13:24:16.679691
+user34,user73,neft,8270,Card Payment,-,02/29,111,-,-,+441632960961,"03/02/2025, 01:24:16 PM",True,['Transaction to a non-Indian contact number'],2025-03-02 13:24:16.679691
+user9,user100,card,11785,Contact Payment,-,-,111,-,SBIN1234567,+441632960961,"03/13/2025, 01:24:16 PM",True,"['High transaction amount', 'Transaction to a non-Indian contact number']",2025-03-13 13:24:16.679691
+user40,user77,contact,20730,Contact Payment,1234567890123456,-,-,9876543210,-,1234567890,"02/23/2025, 01:24:16 PM",True,['High transaction amount'],2025-02-23 13:24:16.679691
+user81,user47,neft,13392,Contact Payment,-,02/29,-,9876543210,-,1234567890,"03/03/2025, 01:24:16 PM",False,['High transaction amount'],2025-03-03 13:24:16.679691
+user40,user34,card,14639,Contact Payment,-,-,-,9876543210,SBIN1234567,+441632960961,"02/28/2025, 01:24:16 PM",True,"['High transaction amount', 'Transaction to a non-Indian contact number']",2025-02-28 13:24:16.679691
+user59,user11,card,7947,NEFT Transfer,1234567890123456,-,111,9876543210,-,+441632960961,"03/01/2025, 01:24:16 PM",True,['Transaction to a non-Indian contact number'],2025-03-01 13:24:16.679691
+user9,user52,neft,15800,Contact Payment,1234567890123456,02/29,111,-,-,+14155552671,"02/26/2025, 01:24:16 PM",True,"['High transaction amount', 'Transaction to a non-Indian contact number']",2025-02-26 13:24:16.679691
+user63,user97,card,14911,NEFT Transfer,1234567890123456,-,-,-,-,+441632960961,"02/14/2025, 01:24:16 PM",True,"['High transaction amount', 'Transaction to a non-Indian contact number']",2025-02-14 13:24:16.679691
+user45,user65,neft,9229,Contact Payment,1234567890123456,02/29,-,-,SBIN1234567,+14155552671,"02/24/2025, 01:24:16 PM",True,['Transaction to a non-Indian contact number'],2025-02-24 13:24:16.679691
+user7,user68,contact,10502,Card Payment,-,02/29,-,-,-,+14155552671,"03/08/2025, 01:24:16 PM",True,"['High transaction amount', 'Transaction to a non-Indian contact number']",2025-03-08 13:24:16.679691
+user30,user48,neft,12892,NEFT Transfer,1234567890123456,-,-,-,-,+14155552671,"03/16/2025, 01:24:16 PM",True,"['High transaction amount', 'Transaction to a non-Indian contact number']",2025-03-16 13:24:16.679691
+user64,user77,contact,2034,NEFT Transfer,1234567890123456,02/29,111,-,-,1234567890,"03/02/2025, 01:24:16 PM",False,[],2025-03-02 13:24:16.679691
+user78,user44,card,1413,NEFT Transfer,-,-,-,-,-,1234567890,"03/03/2025, 01:24:16 PM",False,[],2025-03-03 13:24:16.679691
+user64,user87,contact,7621,Contact Payment,1234567890123456,-,111,9876543210,SBIN1234567,9152251477,"03/10/2025, 01:24:16 PM",False,[],2025-03-10 13:24:16.679691
+user77,user64,neft,8973,Card Payment,-,02/29,111,9876543210,-,+441632960961,"03/11/2025, 01:24:16 PM",True,['Transaction to a non-Indian contact number'],2025-03-11 13:24:16.679691
+user26,user21,neft,13725,Contact Payment,1234567890123456,-,111,-,SBIN1234567,+14155552671,"02/27/2025, 01:24:16 PM",True,"['High transaction amount', 'Transaction to a non-Indian contact number']",2025-02-27 13:24:16.679691
+user91,user7,neft,12943,Card Payment,1234567890123456,-,111,-,-,9152251477,"02/25/2025, 01:24:16 PM",False,['High transaction amount'],2025-02-25 13:24:16.679691
+user19,user67,neft,9016,Contact Payment,1234567890123456,02/29,111,-,-,+441632960961,"03/08/2025, 01:24:16 PM",True,['Transaction to a non-Indian contact number'],2025-03-08 13:24:16.680691
+user27,user79,contact,15263,NEFT Transfer,1234567890123456,-,-,9876543210,-,+14155552671,"02/17/2025, 01:24:16 PM",True,"['High transaction amount', 'Transaction to a non-Indian contact number']",2025-02-17 13:24:16.680691
+user80,user5,neft,12392,NEFT Transfer,1234567890123456,-,-,9876543210,SBIN1234567,+441632960961,"03/10/2025, 01:24:16 PM",True,"['High transaction amount', 'Transaction to a non-Indian contact number']",2025-03-10 13:24:16.680691
+user86,user25,contact,9930,NEFT Transfer,1234567890123456,-,111,-,SBIN1234567,+14155552671,"03/06/2025, 01:24:16 PM",True,['Transaction to a non-Indian contact number'],2025-03-06 13:24:16.680691
+user30,user9,neft,13053,Card Payment,-,-,111,-,SBIN1234567,9152251477,"02/16/2025, 01:24:16 PM",False,['High transaction amount'],2025-02-16 13:24:16.680691
+user100,user36,contact,15746,Card Payment,1234567890123456,02/29,111,-,-,+14155552671,"02/25/2025, 01:24:16 PM",True,"['High transaction amount', 'Transaction to a non-Indian contact number']",2025-02-25 13:24:16.680691
+user15,user25,contact,15707,Card Payment,-,02/29,111,9876543210,SBIN1234567,1234567890,"03/11/2025, 01:24:16 PM",False,['High transaction amount'],2025-03-11 13:24:16.680691
+user16,user31,neft,6461,NEFT Transfer,-,02/29,111,9876543210,-,9152251477,"03/15/2025, 01:24:16 PM",False,[],2025-03-15 13:24:16.680691
+user86,user92,neft,4592,Card Payment,1234567890123456,02/29,-,9876543210,SBIN1234567,+14155552671,"02/16/2025, 01:24:16 PM",True,['Transaction to a non-Indian contact number'],2025-02-16 13:24:16.680691
+user23,user80,contact,11601,NEFT Transfer,-,02/29,111,9876543210,SBIN1234567,+441632960961,"02/28/2025, 01:24:16 PM",True,"['High transaction amount', 'Transaction to a non-Indian contact number']",2025-02-28 13:24:16.680691
+user37,user53,contact,11323,Card Payment,-,02/29,111,-,-,+14155552671,"02/22/2025, 01:24:16 PM",True,"['High transaction amount', 'Transaction to a non-Indian contact number']",2025-02-22 13:24:16.680691
+user49,user45,contact,14687,Card Payment,-,-,-,-,-,9152251477,"02/25/2025, 01:24:16 PM",False,['High transaction amount'],2025-02-25 13:24:16.680691
+user11,user59,card,16408,NEFT Transfer,-,-,-,9876543210,-,9152251477,"03/15/2025, 01:24:16 PM",False,['High transaction amount'],2025-03-15 13:24:16.680691
+user30,user41,neft,18688,NEFT Transfer,1234567890123456,02/29,-,-,SBIN1234567,9152251477,"02/27/2025, 01:24:16 PM",False,['High transaction amount'],2025-02-27 13:24:16.681683
+user100,user6,card,10878,Card Payment,1234567890123456,-,-,-,SBIN1234567,1234567890,"03/02/2025, 01:24:16 PM",False,['High transaction amount'],2025-03-02 13:24:16.681683
+user5,user84,neft,17991,NEFT Transfer,1234567890123456,02/29,111,9876543210,-,9152251477,"03/04/2025, 01:24:16 PM",False,['High transaction amount'],2025-03-04 13:24:16.681683
+user98,user27,card,6107,Contact Payment,1234567890123456,-,-,-,SBIN1234567,+14155552671,"02/25/2025, 01:24:16 PM",True,['Transaction to a non-Indian contact number'],2025-02-25 13:24:16.681683
+user92,user35,neft,10077,Contact Payment,-,-,-,-,-,9152251477,"02/15/2025, 01:24:16 PM",False,['High transaction amount'],2025-02-15 13:24:16.681683
+user29,user79,contact,16047,NEFT Transfer,1234567890123456,-,111,9876543210,SBIN1234567,9152251477,"03/08/2025, 01:24:16 PM",False,['High transaction amount'],2025-03-08 13:24:16.681683
+user79,user82,card,11129,Contact Payment,1234567890123456,02/29,111,9876543210,-,9152251477,"02/24/2025, 01:24:16 PM",False,['High transaction amount'],2025-02-24 13:24:16.681683
+user64,user89,neft,11760,Contact Payment,-,-,-,-,SBIN1234567,1234567890,"02/25/2025, 01:24:16 PM",False,['High transaction amount'],2025-02-25 13:24:16.681683
+user70,user98,neft,9186,Card Payment,-,02/29,-,-,SBIN1234567,1234567890,"02/21/2025, 01:24:16 PM",False,[],2025-02-21 13:24:16.681683
+user2,user40,neft,16118,Card Payment,-,-,-,9876543210,-,1234567890,"03/03/2025, 01:24:16 PM",False,['High transaction amount'],2025-03-03 13:24:16.681683
+user53,user6,card,18443,NEFT Transfer,1234567890123456,02/29,-,9876543210,-,+14155552671,"02/22/2025, 01:24:16 PM",True,"['High transaction amount', 'Transaction to a non-Indian contact number']",2025-02-22 13:24:16.681683
+user39,user70,contact,8654,Card Payment,1234567890123456,-,111,9876543210,-,9152251477,"03/11/2025, 01:24:16 PM",False,[],2025-03-11 13:24:16.681683
+user86,user89,card,38868,Contact Payment,-,-,-,-,SBIN1234567,+14155552671,"02/23/2025, 01:24:16 PM",True,"['High transaction amount', 'Transaction to a non-Indian contact number']",2025-02-23 13:24:16.682681
+user37,user75,card,3018,Card Payment,1234567890123456,02/29,111,-,SBIN1234567,9152251477,"02/14/2025, 01:24:16 PM",False,[],2025-02-14 13:24:16.682681
+user68,user59,contact,10483,NEFT Transfer,1234567890123456,-,-,9876543210,-,+441632960961,"02/21/2025, 01:24:16 PM",True,"['High transaction amount', 'Transaction to a non-Indian contact number']",2025-02-21 13:24:16.682681
+user39,user2,contact,4929,Card Payment,1234567890123456,02/29,111,9876543210,SBIN1234567,1234567890,"03/01/2025, 01:24:16 PM",False,[],2025-03-01 13:24:16.682681
+user89,user9,contact,4267,Card Payment,1234567890123456,-,111,9876543210,-,1234567890,"02/26/2025, 01:24:16 PM",False,[],2025-02-26 13:24:16.682681
+user64,user94,contact,8323,Card Payment,-,-,-,9876543210,-,+441632960961,"02/26/2025, 01:24:16 PM",True,['Transaction to a non-Indian contact number'],2025-02-26 13:24:16.682681
+user31,user36,card,8935,Contact Payment,-,-,-,9876543210,-,1234567890,"03/13/2025, 01:24:16 PM",False,[],2025-03-13 13:24:16.682681
+user73,user54,neft,13066,Contact Payment,-,-,111,-,-,1234567890,"03/07/2025, 01:24:16 PM",False,['High transaction amount'],2025-03-07 13:24:16.682681
+user43,user2,card,17271,NEFT Transfer,1234567890123456,02/29,-,-,-,+14155552671,"02/14/2025, 01:24:16 PM",True,"['High transaction amount', 'Transaction to a non-Indian contact number']",2025-02-14 13:24:16.682681
+user27,user71,card,7707,Contact Payment,-,-,111,9876543210,SBIN1234567,9152251477,"03/06/2025, 01:24:16 PM",False,[],2025-03-06 13:24:16.682681
+user11,user9,contact,13171,Contact Payment,1234567890123456,-,111,9876543210,-,+441632960961,"02/28/2025, 01:24:16 PM",True,"['High transaction amount', 'Transaction to a non-Indian contact number']",2025-02-28 13:24:16.682681
+user33,user13,card,6616,Contact Payment,-,02/29,111,-,-,+441632960961,"03/05/2025, 01:24:16 PM",True,['Transaction to a non-Indian contact number'],2025-03-05 13:24:16.682681
+user9,user8,contact,15875,Card Payment,-,-,111,-,SBIN1234567,+441632960961,"03/15/2025, 01:24:16 PM",True,"['High transaction amount', 'Transaction to a non-Indian contact number']",2025-03-15 13:24:16.682681
+user17,user22,contact,4337,NEFT Transfer,1234567890123456,02/29,111,-,SBIN1234567,+441632960961,"02/16/2025, 01:24:16 PM",True,['Transaction to a non-Indian contact number'],2025-02-16 13:24:16.682681
+user90,user30,card,2995,NEFT Transfer,1234567890123456,02/29,-,9876543210,SBIN1234567,1234567890,"03/15/2025, 01:24:16 PM",False,[],2025-03-15 13:24:16.682681
+user27,user56,neft,3635,Contact Payment,-,02/29,-,9876543210,-,9152251477,"02/15/2025, 01:24:16 PM",False,[],2025-02-15 13:24:16.683705
+user21,user43,neft,17107,Card Payment,-,02/29,111,-,-,1234567890,"03/12/2025, 01:24:16 PM",False,['High transaction amount'],2025-03-12 13:24:16.683705
+user8,user93,contact,10050,Contact Payment,-,-,-,9876543210,SBIN1234567,1234567890,"03/01/2025, 01:24:16 PM",False,['High transaction amount'],2025-03-01 13:24:16.683705
+user35,user30,card,7200,NEFT Transfer,-,-,-,9876543210,-,1234567890,"03/02/2025, 01:24:16 PM",False,[],2025-03-02 13:24:16.683705
+user68,user29,contact,13433,NEFT Transfer,1234567890123456,02/29,111,9876543210,SBIN1234567,9152251477,"03/09/2025, 01:24:16 PM",False,['High transaction amount'],2025-03-09 13:24:16.683705
+user16,user66,neft,11605,Contact Payment,1234567890123456,02/29,-,9876543210,SBIN1234567,+14155552671,"03/07/2025, 01:24:16 PM",True,"['High transaction amount', 'Transaction to a non-Indian contact number']",2025-03-07 13:24:16.683705
+user37,user50,neft,12445,Contact Payment,-,-,111,-,SBIN1234567,+441632960961,"03/04/2025, 01:24:16 PM",True,"['High transaction amount', 'Transaction to a non-Indian contact number']",2025-03-04 13:24:16.683705
+user64,user91,neft,11754,Contact Payment,1234567890123456,-,111,-,-,9152251477,"02/19/2025, 01:24:16 PM",False,['High transaction amount'],2025-02-19 13:24:16.683705
+user45,user75,neft,14599,NEFT Transfer,1234567890123456,-,111,9876543210,SBIN1234567,+441632960961,"03/10/2025, 01:24:16 PM",True,"['High transaction amount', 'Transaction to a non-Indian contact number']",2025-03-10 13:24:16.683705
+user95,user60,contact,11801,NEFT Transfer,-,-,111,-,-,9152251477,"02/21/2025, 01:24:16 PM",False,['High transaction amount'],2025-02-21 13:24:16.683705
+user38,user65,neft,15845,Contact Payment,1234567890123456,02/29,-,9876543210,-,+14155552671,"03/04/2025, 01:24:16 PM",True,"['High transaction amount', 'Transaction to a non-Indian contact number']",2025-03-04 13:24:16.683705
+user56,user91,neft,18323,NEFT Transfer,1234567890123456,-,111,-,-,+14155552671,"03/05/2025, 01:24:16 PM",True,"['High transaction amount', 'Transaction to a non-Indian contact number']",2025-03-05 13:24:16.683705
+user36,user2,card,5670,Card Payment,1234567890123456,02/29,111,9876543210,-,+14155552671,"02/27/2025, 01:24:16 PM",True,['Transaction to a non-Indian contact number'],2025-02-27 13:24:16.683705
+user46,user95,neft,14349,Card Payment,-,-,111,-,SBIN1234567,+14155552671,"02/20/2025, 01:24:16 PM",True,"['High transaction amount', 'Transaction to a non-Indian contact number']",2025-02-20 13:24:16.683705
+user61,user62,neft,17913,Contact Payment,1234567890123456,-,111,-,-,+441632960961,"02/14/2025, 01:24:16 PM",True,"['High transaction amount', 'Transaction to a non-Indian contact number']",2025-02-14 13:24:16.683705
+user88,user54,neft,13370,Card Payment,1234567890123456,-,111,-,SBIN1234567,+441632960961,"02/24/2025, 01:24:16 PM",True,"['High transaction amount', 'Transaction to a non-Indian contact number']",2025-02-24 13:24:16.683705
+user97,user23,card,10051,Card Payment,1234567890123456,-,-,-,SBIN1234567,+14155552671,"03/01/2025, 01:24:16 PM",True,"['High transaction amount', 'Transaction to a non-Indian contact number']",2025-03-01 13:24:16.683705
+user36,user20,neft,14384,Card Payment,-,-,-,9876543210,-,+441632960961,"03/01/2025, 01:24:16 PM",True,"['High transaction amount', 'Transaction to a non-Indian contact number']",2025-03-01 13:24:16.683705
+user69,user87,neft,4555,Card Payment,-,-,-,-,-,9152251477,"02/14/2025, 01:24:16 PM",False,[],2025-02-14 13:24:16.684692
+user18,user82,neft,8016,NEFT Transfer,-,-,-,-,SBIN1234567,1234567890,"03/07/2025, 01:24:16 PM",False,[],2025-03-07 13:24:16.684692
+user76,user81,card,9561,NEFT Transfer,-,02/29,-,9876543210,-,+14155552671,"03/14/2025, 01:24:16 PM",True,['Transaction to a non-Indian contact number'],2025-03-14 13:24:16.684692
+user96,user28,card,9617,NEFT Transfer,-,-,111,-,-,9152251477,"03/12/2025, 01:24:16 PM",False,[],2025-03-12 13:24:16.684692
+user74,user46,neft,8859,Card Payment,1234567890123456,02/29,111,-,-,1234567890,"02/18/2025, 01:24:16 PM",False,[],2025-02-18 13:24:16.684692
+user12,user47,card,9576,Contact Payment,1234567890123456,02/29,111,9876543210,SBIN1234567,9152251477,"02/21/2025, 01:24:16 PM",False,[],2025-02-21 13:24:16.684692
+user83,user69,card,16122,Contact Payment,1234567890123456,-,111,9876543210,SBIN1234567,+14155552671,"02/22/2025, 01:24:16 PM",True,"['High transaction amount', 'Transaction to a non-Indian contact number']",2025-02-22 13:24:16.684692
+user69,user81,card,16723,Card Payment,1234567890123456,02/29,111,-,-,+14155552671,"03/01/2025, 01:24:16 PM",True,"['High transaction amount', 'Transaction to a non-Indian contact number']",2025-03-01 13:24:16.684692
+user73,user93,neft,17816,NEFT Transfer,1234567890123456,02/29,111,-,SBIN1234567,1234567890,"02/21/2025, 01:24:16 PM",False,['High transaction amount'],2025-02-21 13:24:16.684692
+user15,user1,contact,5745,Card Payment,1234567890123456,-,-,-,SBIN1234567,1234567890,"03/02/2025, 01:24:16 PM",False,[],2025-03-02 13:24:16.684692
+user3,user35,neft,12270,NEFT Transfer,1234567890123456,-,-,-,SBIN1234567,+441632960961,"02/23/2025, 01:24:16 PM",True,"['High transaction amount', 'Transaction to a non-Indian contact number']",2025-02-23 13:24:16.684692
+user69,user38,card,10425,Card Payment,-,02/29,-,9876543210,SBIN1234567,+14155552671,"03/03/2025, 01:24:16 PM",True,"['High transaction amount', 'Transaction to a non-Indian contact number']",2025-03-03 13:24:16.684692
+user67,user35,card,1569,NEFT Transfer,1234567890123456,-,111,-,SBIN1234567,1234567890,"03/03/2025, 01:24:16 PM",False,[],2025-03-03 13:24:16.684692
+user93,user1,card,3546,Card Payment,1234567890123456,-,-,9876543210,-,9152251477,"03/05/2025, 01:24:16 PM",False,[],2025-03-05 13:24:16.684692
+user60,user26,card,12647,Card Payment,-,-,-,-,SBIN1234567,+14155552671,"03/02/2025, 01:24:16 PM",True,"['High transaction amount', 'Transaction to a non-Indian contact number']",2025-03-02 13:24:16.684692
+user9,user2,contact,12490,Card Payment,1234567890123456,02/29,-,9876543210,-,+441632960961,"02/17/2025, 01:24:16 PM",True,"['High transaction amount', 'Transaction to a non-Indian contact number']",2025-02-17 13:24:16.684692
+user99,user49,contact,17981,NEFT Transfer,1234567890123456,-,111,-,-,1234567890,"02/14/2025, 01:24:16 PM",False,['High transaction amount'],2025-02-14 13:24:16.684692
+user18,user65,contact,6493,Card Payment,1234567890123456,-,111,-,-,9152251477,"02/23/2025, 01:24:16 PM",False,[],2025-02-23 13:24:16.684692
+user33,user31,contact,18898,NEFT Transfer,-,02/29,111,9876543210,SBIN1234567,1234567890,"02/20/2025, 01:24:16 PM",False,['High transaction amount'],2025-02-20 13:24:16.684692
+user67,user99,contact,15395,NEFT Transfer,1234567890123456,02/29,-,-,SBIN1234567,+441632960961,"03/13/2025, 01:24:16 PM",True,"['High transaction amount', 'Transaction to a non-Indian contact number']",2025-03-13 13:24:16.685691
+user48,user90,neft,1161,Card Payment,1234567890123456,-,111,-,-,+441632960961,"03/07/2025, 01:24:16 PM",True,['Transaction to a non-Indian contact number'],2025-03-07 13:24:16.685691
+user6,user88,contact,1818,NEFT Transfer,-,-,111,9876543210,SBIN1234567,+441632960961,"02/15/2025, 01:24:16 PM",True,['Transaction to a non-Indian contact number'],2025-02-15 13:24:16.685691
+user58,user25,card,6904,Contact Payment,-,-,-,9876543210,SBIN1234567,+14155552671,"03/02/2025, 01:24:16 PM",True,['Transaction to a non-Indian contact number'],2025-03-02 13:24:16.685691
+user15,user35,neft,17758,Contact Payment,-,02/29,111,9876543210,-,+14155552671,"03/15/2025, 01:24:16 PM",True,"['High transaction amount', 'Transaction to a non-Indian contact number']",2025-03-15 13:24:16.685691
+user62,user33,card,16406,NEFT Transfer,1234567890123456,-,-,-,SBIN1234567,9152251477,"02/26/2025, 01:24:16 PM",False,['High transaction amount'],2025-02-26 13:24:16.685691
+user51,user18,contact,18835,Contact Payment,1234567890123456,02/29,111,9876543210,-,1234567890,"03/01/2025, 01:24:16 PM",False,['High transaction amount'],2025-03-01 13:24:16.685691
+user25,user52,contact,2834,Contact Payment,1234567890123456,02/29,111,9876543210,SBIN1234567,1234567890,"03/03/2025, 01:24:16 PM",False,[],2025-03-03 13:24:16.685691
+user34,user49,neft,16661,NEFT Transfer,1234567890123456,-,111,-,-,+441632960961,"03/13/2025, 01:24:16 PM",True,"['High transaction amount', 'Transaction to a non-Indian contact number']",2025-03-13 13:24:16.685691
+user20,user50,card,6624,Card Payment,1234567890123456,-,-,9876543210,-,9152251477,"03/09/2025, 01:24:16 PM",False,[],2025-03-09 13:24:16.685691
+user77,user1,contact,8750,Card Payment,1234567890123456,-,-,-,SBIN1234567,1234567890,"02/20/2025, 01:24:16 PM",False,[],2025-02-20 13:24:16.685691
+user51,user31,contact,4382,Card Payment,1234567890123456,-,-,-,SBIN1234567,+14155552671,"02/22/2025, 01:24:16 PM",True,['Transaction to a non-Indian contact number'],2025-02-22 13:24:16.685691
+user37,user6,contact,3385,Card Payment,1234567890123456,02/29,-,-,SBIN1234567,+14155552671,"03/09/2025, 01:24:16 PM",True,['Transaction to a non-Indian contact number'],2025-03-09 13:24:16.685691
+user49,user19,card,15197,NEFT Transfer,-,-,111,-,SBIN1234567,+14155552671,"03/13/2025, 01:24:16 PM",True,"['High transaction amount', 'Transaction to a non-Indian contact number']",2025-03-13 13:24:16.685691
+user28,user66,card,9788,Contact Payment,-,-,111,9876543210,SBIN1234567,9152251477,"02/16/2025, 01:24:16 PM",False,[],2025-02-16 13:24:16.685691
+user41,user44,neft,18579,NEFT Transfer,1234567890123456,02/29,111,9876543210,-,9152251477,"02/23/2025, 01:24:16 PM",False,['High transaction amount'],2025-02-23 13:24:16.685691
+user7,user4,neft,13660,Contact Payment,-,-,111,-,SBIN1234567,1234567890,"02/22/2025, 01:24:16 PM",False,['High transaction amount'],2025-02-22 13:24:16.685691
+user98,user62,contact,4454,Contact Payment,-,-,-,9876543210,SBIN1234567,9152251477,"03/14/2025, 01:24:16 PM",False,[],2025-03-14 13:24:16.685691
+user42,user93,card,3783,NEFT Transfer,-,-,-,-,SBIN1234567,+14155552671,"02/28/2025, 01:24:16 PM",True,['Transaction to a non-Indian contact number'],2025-02-28 13:24:16.686691
+user50,user11,neft,2053,NEFT Transfer,-,02/29,111,-,SBIN1234567,+441632960961,"02/18/2025, 01:24:16 PM",True,['Transaction to a non-Indian contact number'],2025-02-18 13:24:16.686691
+user30,user79,contact,19245,NEFT Transfer,1234567890123456,-,111,9876543210,-,1234567890,"03/14/2025, 01:24:16 PM",False,['High transaction amount'],2025-03-14 13:24:16.686691
+user83,user100,neft,13291,Contact Payment,-,02/29,111,-,SBIN1234567,1234567890,"02/20/2025, 01:24:16 PM",False,['High transaction amount'],2025-02-20 13:24:16.686691
+user20,user68,contact,14336,Card Payment,-,02/29,111,-,-,1234567890,"03/13/2025, 01:24:16 PM",False,['High transaction amount'],2025-03-13 13:24:16.686691
+user13,user83,contact,5420,NEFT Transfer,1234567890123456,-,111,-,-,+441632960961,"02/21/2025, 01:24:16 PM",True,['Transaction to a non-Indian contact number'],2025-02-21 13:24:16.686691
+user11,user83,contact,4504,NEFT Transfer,1234567890123456,02/29,111,-,SBIN1234567,1234567890,"02/20/2025, 01:24:16 PM",False,[],2025-02-20 13:24:16.686691
+user33,user8,neft,13718,Contact Payment,1234567890123456,-,111,9876543210,SBIN1234567,9152251477,"02/14/2025, 01:24:16 PM",False,['High transaction amount'],2025-02-14 13:24:16.686691
+user6,user4,contact,2449,Card Payment,-,02/29,111,-,-,+14155552671,"03/03/2025, 01:24:16 PM",True,['Transaction to a non-Indian contact number'],2025-03-03 13:24:16.686691
+user59,user18,contact,16585,Card Payment,1234567890123456,02/29,-,9876543210,-,+14155552671,"02/26/2025, 01:24:16 PM",True,"['High transaction amount', 'Transaction to a non-Indian contact number']",2025-02-26 13:24:16.686691
+user89,user71,contact,24621,Contact Payment,1234567890123456,-,111,9876543210,SBIN1234567,+14155552671,"03/05/2025, 01:24:16 PM",True,"['High transaction amount', 'Transaction to a non-Indian contact number']",2025-03-05 13:24:16.686691
+user36,user14,card,7624,Contact Payment,1234567890123456,02/29,-,9876543210,SBIN1234567,1234567890,"02/18/2025, 01:24:16 PM",False,[],2025-02-18 13:24:16.686691
+user2,user62,neft,15585,NEFT Transfer,1234567890123456,02/29,-,-,-,+14155552671,"02/22/2025, 01:24:16 PM",True,"['High transaction amount', 'Transaction to a non-Indian contact number']",2025-02-22 13:24:16.686691
+user3,user33,neft,9653,NEFT Transfer,1234567890123456,-,111,9876543210,-,+441632960961,"02/21/2025, 01:24:16 PM",True,['Transaction to a non-Indian contact number'],2025-02-21 13:24:16.686691
+user52,user26,contact,14232,Contact Payment,1234567890123456,02/29,-,-,SBIN1234567,1234567890,"03/07/2025, 01:24:16 PM",False,['High transaction amount'],2025-03-07 13:24:16.686691
+user31,user9,neft,11866,NEFT Transfer,-,02/29,111,-,SBIN1234567,1234567890,"03/01/2025, 01:24:16 PM",False,['High transaction amount'],2025-03-01 13:24:16.686691
+user50,user1,contact,12117,Card Payment,-,-,-,9876543210,SBIN1234567,+14155552671,"02/21/2025, 01:24:16 PM",True,"['High transaction amount', 'Transaction to a non-Indian contact number']",2025-02-21 13:24:16.686691
+user84,user79,contact,7900,NEFT Transfer,1234567890123456,-,111,-,-,9152251477,"03/07/2025, 01:24:16 PM",False,[],2025-03-07 13:24:16.687691
+user13,user22,contact,6435,Contact Payment,1234567890123456,02/29,111,-,SBIN1234567,1234567890,"03/06/2025, 01:24:16 PM",False,[],2025-03-06 13:24:16.687691
+user85,user49,card,6776,NEFT Transfer,-,02/29,-,9876543210,SBIN1234567,9152251477,"03/08/2025, 01:24:16 PM",False,[],2025-03-08 13:24:16.687691
+user52,user26,card,18104,Card Payment,-,02/29,111,-,SBIN1234567,+441632960961,"03/12/2025, 01:24:16 PM",True,"['High transaction amount', 'Transaction to a non-Indian contact number']",2025-03-12 13:24:16.687691
+user69,user75,neft,18109,Card Payment,-,02/29,-,-,-,9152251477,"02/28/2025, 01:24:16 PM",False,['High transaction amount'],2025-02-28 13:24:16.687691
+user84,user5,contact,4245,NEFT Transfer,1234567890123456,02/29,111,9876543210,SBIN1234567,1234567890,"02/27/2025, 01:24:16 PM",False,[],2025-02-27 13:24:16.687691
+user3,user50,card,15483,Card Payment,1234567890123456,02/29,-,-,SBIN1234567,+441632960961,"02/28/2025, 01:24:16 PM",True,"['High transaction amount', 'Transaction to a non-Indian contact number']",2025-02-28 13:24:16.687691
+user27,user29,card,3997,Contact Payment,-,-,111,-,-,9152251477,"02/14/2025, 01:24:16 PM",False,[],2025-02-14 13:24:16.687691
+user22,user78,card,5708,Card Payment,-,02/29,-,-,SBIN1234567,+14155552671,"02/27/2025, 01:24:16 PM",True,['Transaction to a non-Indian contact number'],2025-02-27 13:24:16.687691
+user12,user95,neft,8893,Card Payment,-,02/29,-,-,SBIN1234567,+14155552671,"02/16/2025, 01:24:16 PM",True,['Transaction to a non-Indian contact number'],2025-02-16 13:24:16.687691
+user61,user2,contact,6497,Card Payment,-,02/29,-,9876543210,SBIN1234567,1234567890,"03/05/2025, 01:24:16 PM",False,[],2025-03-05 13:24:16.688682
+user13,user64,contact,2322,NEFT Transfer,-,02/29,111,-,SBIN1234567,+14155552671,"03/08/2025, 01:24:16 PM",True,['Transaction to a non-Indian contact number'],2025-03-08 13:24:16.688682
+user21,user56,neft,10938,Card Payment,1234567890123456,-,-,9876543210,-,9152251477,"03/02/2025, 01:24:16 PM",False,['High transaction amount'],2025-03-02 13:24:16.688682
+user89,user81,neft,38839,NEFT Transfer,-,02/29,-,-,SBIN1234567,+441632960961,"03/01/2025, 01:24:16 PM",True,"['High transaction amount', 'Transaction to a non-Indian contact number']",2025-03-01 13:24:16.688682
+user99,user88,neft,13596,NEFT Transfer,-,-,-,-,SBIN1234567,1234567890,"03/06/2025, 01:24:16 PM",False,['High transaction amount'],2025-03-06 13:24:16.688682
+user51,user75,card,9556,Contact Payment,1234567890123456,02/29,111,-,-,9152251477,"03/01/2025, 01:24:16 PM",False,[],2025-03-01 13:24:16.688682
+user86,user9,neft,15392,Card Payment,1234567890123456,-,111,-,-,+441632960961,"03/07/2025, 01:24:16 PM",True,"['High transaction amount', 'Transaction to a non-Indian contact number']",2025-03-07 13:24:16.688682
+user60,user39,contact,3577,Card Payment,-,-,-,9876543210,SBIN1234567,+14155552671,"03/03/2025, 01:24:16 PM",True,['Transaction to a non-Indian contact number'],2025-03-03 13:24:16.688682
+user76,user33,card,4939,NEFT Transfer,-,02/29,-,-,SBIN1234567,+14155552671,"03/04/2025, 01:24:16 PM",True,['Transaction to a non-Indian contact number'],2025-03-04 13:24:16.688682
+user74,user44,contact,17644,NEFT Transfer,1234567890123456,02/29,111,9876543210,-,+14155552671,"02/14/2025, 01:24:16 PM",True,"['High transaction amount', 'Transaction to a non-Indian contact number']",2025-02-14 13:24:16.688682
+user31,user49,card,7288,Card Payment,-,-,-,9876543210,SBIN1234567,+14155552671,"02/26/2025, 01:24:16 PM",True,['Transaction to a non-Indian contact number'],2025-02-26 13:24:16.689678
+user45,user92,neft,1951,Card Payment,-,02/29,111,9876543210,SBIN1234567,1234567890,"02/17/2025, 01:24:16 PM",False,[],2025-02-17 13:24:16.689678
+user33,user51,card,19777,NEFT Transfer,1234567890123456,-,111,-,-,1234567890,"03/14/2025, 01:24:16 PM",False,['High transaction amount'],2025-03-14 13:24:16.689678
+user11,user31,card,15427,NEFT Transfer,1234567890123456,02/29,111,9876543210,-,1234567890,"03/15/2025, 01:24:16 PM",False,['High transaction amount'],2025-03-15 13:24:16.689678
+user35,user62,card,14970,Card Payment,-,02/29,111,9876543210,SBIN1234567,+441632960961,"03/15/2025, 01:24:16 PM",True,"['High transaction amount', 'Transaction to a non-Indian contact number']",2025-03-15 13:24:16.689678
+user58,user50,neft,4407,Card Payment,-,02/29,-,-,SBIN1234567,9152251477,"03/01/2025, 01:24:16 PM",False,[],2025-03-01 13:24:16.689678
+user1,user36,card,2021,Card Payment,1234567890123456,-,-,9876543210,SBIN1234567,9152251477,"02/18/2025, 01:24:16 PM",False,[],2025-02-18 13:24:16.689678
+user96,user83,contact,7796,Contact Payment,-,02/29,-,-,-,+14155552671,"02/25/2025, 01:24:16 PM",True,['Transaction to a non-Indian contact number'],2025-02-25 13:24:16.689678
+user39,user95,card,9792,Card Payment,-,-,111,9876543210,-,+14155552671,"03/14/2025, 01:24:16 PM",True,['Transaction to a non-Indian contact number'],2025-03-14 13:24:16.689678
+user69,user57,neft,5257,NEFT Transfer,1234567890123456,-,111,-,SBIN1234567,9152251477,"03/13/2025, 01:24:16 PM",False,[],2025-03-13 13:24:16.689678
+user31,user85,neft,2359,NEFT Transfer,-,02/29,111,9876543210,SBIN1234567,+14155552671,"02/27/2025, 01:24:16 PM",True,['Transaction to a non-Indian contact number'],2025-02-27 13:24:16.689678
+user23,user59,neft,1424,Contact Payment,-,02/29,111,9876543210,SBIN1234567,+441632960961,"02/15/2025, 01:24:16 PM",True,['Transaction to a non-Indian contact number'],2025-02-15 13:24:16.689678
+user73,user18,neft,19855,Contact Payment,-,02/29,-,-,SBIN1234567,1234567890,"03/06/2025, 01:24:16 PM",False,['High transaction amount'],2025-03-06 13:24:16.689678
+user89,user75,neft,48344,NEFT Transfer,-,02/29,111,-,-,1234567890,"02/26/2025, 01:24:16 PM",True,['High transaction amount'],2025-02-26 13:24:16.689678
+user36,user53,neft,6073,Card Payment,-,02/29,111,9876543210,-,1234567890,"03/07/2025, 01:24:16 PM",False,[],2025-03-07 13:24:16.689678
+user74,user45,neft,4760,Contact Payment,1234567890123456,-,111,9876543210,-,1234567890,"03/04/2025, 01:24:16 PM",False,[],2025-03-04 13:24:16.689678
+user78,user67,neft,6525,Contact Payment,-,-,111,9876543210,SBIN1234567,+14155552671,"02/28/2025, 01:24:16 PM",True,['Transaction to a non-Indian contact number'],2025-02-28 13:24:16.690696
+user10,user75,neft,13974,NEFT Transfer,-,02/29,-,-,SBIN1234567,9152251477,"03/02/2025, 01:24:16 PM",False,['High transaction amount'],2025-03-02 13:24:16.690696
+user7,user28,card,6576,Contact Payment,-,02/29,111,-,-,1234567890,"03/12/2025, 01:24:16 PM",False,[],2025-03-12 13:24:16.690696
+user52,user64,card,12937,NEFT Transfer,1234567890123456,-,-,-,-,+14155552671,"03/14/2025, 01:24:16 PM",True,"['High transaction amount', 'Transaction to a non-Indian contact number']",2025-03-14 13:24:16.690696
+user79,user91,contact,3130,Contact Payment,-,02/29,-,9876543210,-,+14155552671,"03/02/2025, 01:24:16 PM",True,['Transaction to a non-Indian contact number'],2025-03-02 13:24:16.690696
+user84,user66,contact,19828,Contact Payment,-,-,-,9876543210,SBIN1234567,9152251477,"03/03/2025, 01:24:16 PM",False,['High transaction amount'],2025-03-03 13:24:16.690696
+user76,user57,neft,13310,Contact Payment,-,02/29,-,-,-,1234567890,"03/05/2025, 01:24:16 PM",False,['High transaction amount'],2025-03-05 13:24:16.690696
+user87,user93,contact,16319,Card Payment,-,02/29,-,-,SBIN1234567,+14155552671,"03/16/2025, 01:24:16 PM",True,"['High transaction amount', 'Transaction to a non-Indian contact number']",2025-03-16 13:24:16.690696
+user49,user3,card,17014,NEFT Transfer,-,-,-,-,SBIN1234567,+14155552671,"03/07/2025, 01:24:16 PM",True,"['High transaction amount', 'Transaction to a non-Indian contact number']",2025-03-07 13:24:16.690696
+user81,user28,card,1401,Contact Payment,-,02/29,111,9876543210,-,9152251477,"03/03/2025, 01:24:16 PM",False,[],2025-03-03 13:24:16.690696
+user14,user75,neft,7576,Card Payment,1234567890123456,02/29,111,9876543210,SBIN1234567,+14155552671,"03/06/2025, 01:24:16 PM",True,['Transaction to a non-Indian contact number'],2025-03-06 13:24:16.690696
+user57,user60,card,14594,NEFT Transfer,-,-,111,-,-,+441632960961,"02/26/2025, 01:24:16 PM",True,"['High transaction amount', 'Transaction to a non-Indian contact number']",2025-02-26 13:24:16.690696
+user37,user66,neft,14755,Contact Payment,-,02/29,-,-,SBIN1234567,1234567890,"02/28/2025, 01:24:16 PM",False,['High transaction amount'],2025-02-28 13:24:16.690696
+user5,user40,contact,1572,NEFT Transfer,1234567890123456,-,111,9876543210,SBIN1234567,+441632960961,"02/14/2025, 01:24:16 PM",True,['Transaction to a non-Indian contact number'],2025-02-14 13:24:16.690696
+user85,user69,contact,13732,Contact Payment,-,02/29,111,9876543210,SBIN1234567,+441632960961,"03/06/2025, 01:24:16 PM",True,"['High transaction amount', 'Transaction to a non-Indian contact number']",2025-03-06 13:24:16.691691
+user38,user80,card,4718,NEFT Transfer,-,02/29,111,-,-,+441632960961,"03/04/2025, 01:24:16 PM",True,['Transaction to a non-Indian contact number'],2025-03-04 13:24:16.691691
+user30,user56,card,16086,NEFT Transfer,-,02/29,-,9876543210,-,9152251477,"02/21/2025, 01:24:16 PM",False,['High transaction amount'],2025-02-21 13:24:16.691691
+user58,user100,card,22340,Card Payment,1234567890123456,02/29,-,-,-,9152251477,"02/16/2025, 01:24:16 PM",True,['High transaction amount'],2025-02-16 13:24:16.691691
+user13,user52,contact,1159,Card Payment,-,02/29,111,-,SBIN1234567,+441632960961,"03/07/2025, 01:24:16 PM",True,['Transaction to a non-Indian contact number'],2025-03-07 13:24:16.691691
+user41,user85,card,9118,Contact Payment,-,02/29,-,9876543210,SBIN1234567,+441632960961,"03/01/2025, 01:24:16 PM",True,['Transaction to a non-Indian contact number'],2025-03-01 13:24:16.691691
+user41,user12,contact,15228,NEFT Transfer,1234567890123456,02/29,-,9876543210,-,+14155552671,"03/10/2025, 01:24:16 PM",True,"['High transaction amount', 'Transaction to a non-Indian contact number']",2025-03-10 13:24:16.691691
+user3,user33,neft,4563,NEFT Transfer,-,02/29,-,9876543210,SBIN1234567,1234567890,"02/14/2025, 01:24:16 PM",False,[],2025-02-14 13:24:16.691691
+user41,user24,neft,4842,NEFT Transfer,-,02/29,-,-,-,+441632960961,"03/08/2025, 01:24:16 PM",True,['Transaction to a non-Indian contact number'],2025-03-08 13:24:16.691691
+user90,user87,neft,15476,Card Payment,-,-,-,-,-,1234567890,"02/23/2025, 01:24:16 PM",False,['High transaction amount'],2025-02-23 13:24:16.691691
+user100,user37,card,13916,NEFT Transfer,-,02/29,-,-,-,9152251477,"03/05/2025, 01:24:16 PM",False,['High transaction amount'],2025-03-05 13:24:16.691691
+user92,user5,neft,8000,Contact Payment,1234567890123456,02/29,-,-,-,9152251477,"02/15/2025, 01:24:16 PM",False,[],2025-02-15 13:24:16.691691
+user90,user20,card,9914,Card Payment,-,02/29,-,-,-,+14155552671,"03/03/2025, 01:24:16 PM",True,['Transaction to a non-Indian contact number'],2025-03-03 13:24:16.691691
+user6,user78,neft,8238,Card Payment,-,-,111,-,SBIN1234567,+14155552671,"03/01/2025, 01:24:16 PM",True,['Transaction to a non-Indian contact number'],2025-03-01 13:24:16.691691
+user17,user9,contact,4785,Card Payment,-,02/29,111,-,SBIN1234567,+14155552671,"02/25/2025, 01:24:16 PM",True,['Transaction to a non-Indian contact number'],2025-02-25 13:24:16.692691
+user81,user64,card,16463,Contact Payment,1234567890123456,02/29,-,-,-,+441632960961,"02/15/2025, 01:24:16 PM",True,"['High transaction amount', 'Transaction to a non-Indian contact number']",2025-02-15 13:24:16.692691
+user13,user12,card,1333,Contact Payment,-,-,-,9876543210,-,+441632960961,"02/27/2025, 01:24:16 PM",True,['Transaction to a non-Indian contact number'],2025-02-27 13:24:16.692691
+user8,user97,card,9135,Contact Payment,-,-,-,-,SBIN1234567,+441632960961,"03/09/2025, 01:24:16 PM",True,['Transaction to a non-Indian contact number'],2025-03-09 13:24:16.692691
+user83,user43,contact,10850,Card Payment,1234567890123456,02/29,111,-,-,+14155552671,"03/08/2025, 01:24:16 PM",True,"['High transaction amount', 'Transaction to a non-Indian contact number']",2025-03-08 13:24:16.692691
+user69,user96,neft,15811,NEFT Transfer,1234567890123456,02/29,111,9876543210,SBIN1234567,+14155552671,"02/27/2025, 01:24:16 PM",True,"['High transaction amount', 'Transaction to a non-Indian contact number']",2025-02-27 13:24:16.692691
+user39,user83,contact,15510,Card Payment,-,-,-,9876543210,-,1234567890,"03/14/2025, 01:24:16 PM",False,['High transaction amount'],2025-03-14 13:24:16.692691
+user31,user45,contact,4726,NEFT Transfer,1234567890123456,-,111,9876543210,SBIN1234567,9152251477,"02/17/2025, 01:24:16 PM",False,[],2025-02-17 13:24:16.692691
+user93,user39,contact,7932,Contact Payment,-,-,111,9876543210,SBIN1234567,+441632960961,"03/03/2025, 01:24:16 PM",True,['Transaction to a non-Indian contact number'],2025-03-03 13:24:16.692691
+user73,user98,neft,31751,Card Payment,1234567890123456,-,-,9876543210,SBIN1234567,+14155552671,"02/24/2025, 01:24:16 PM",True,"['High transaction amount', 'Transaction to a non-Indian contact number']",2025-02-24 13:24:16.692691
+user52,user84,card,12624,NEFT Transfer,1234567890123456,02/29,-,9876543210,-,+14155552671,"03/05/2025, 01:24:16 PM",True,"['High transaction amount', 'Transaction to a non-Indian contact number']",2025-03-05 13:24:16.692691
+user26,user43,card,15782,Contact Payment,1234567890123456,02/29,111,9876543210,SBIN1234567,+441632960961,"03/04/2025, 01:24:16 PM",True,"['High transaction amount', 'Transaction to a non-Indian contact number']",2025-03-04 13:24:16.692691
+user61,user30,neft,5261,Card Payment,-,02/29,111,-,-,1234567890,"03/05/2025, 01:24:16 PM",False,[],2025-03-05 13:24:16.693696
+user36,user1,card,4582,Contact Payment,1234567890123456,-,111,9876543210,SBIN1234567,+441632960961,"03/04/2025, 01:24:16 PM",True,['Transaction to a non-Indian contact number'],2025-03-04 13:24:16.693696
+user33,user85,neft,17491,Contact Payment,-,02/29,-,9876543210,-,1234567890,"02/17/2025, 01:24:16 PM",False,['High transaction amount'],2025-02-17 13:24:16.693696
+user29,user37,contact,8553,NEFT Transfer,-,-,111,9876543210,-,+14155552671,"02/20/2025, 01:24:16 PM",True,['Transaction to a non-Indian contact number'],2025-02-20 13:24:16.693696
+user23,user30,neft,12621,Card Payment,1234567890123456,02/29,111,-,SBIN1234567,9152251477,"02/24/2025, 01:24:16 PM",False,['High transaction amount'],2025-02-24 13:24:16.693696
+user26,user20,card,16850,Contact Payment,-,02/29,-,-,-,+441632960961,"03/03/2025, 01:24:16 PM",True,"['High transaction amount', 'Transaction to a non-Indian contact number']",2025-03-03 13:24:16.693696
+user52,user76,neft,4691,Contact Payment,1234567890123456,-,-,9876543210,-,+14155552671,"02/19/2025, 01:24:16 PM",True,['Transaction to a non-Indian contact number'],2025-02-19 13:24:16.693696
+user80,user3,contact,18888,Card Payment,1234567890123456,02/29,-,9876543210,SBIN1234567,+441632960961,"02/23/2025, 01:24:16 PM",True,"['High transaction amount', 'Transaction to a non-Indian contact number']",2025-02-23 13:24:16.693696
+user70,user94,contact,2477,NEFT Transfer,-,-,111,-,SBIN1234567,+14155552671,"03/12/2025, 01:24:16 PM",True,['Transaction to a non-Indian contact number'],2025-03-12 13:24:16.693696
+user67,user86,neft,16373,Contact Payment,-,02/29,111,9876543210,SBIN1234567,1234567890,"02/27/2025, 01:24:16 PM",False,['High transaction amount'],2025-02-27 13:24:16.693696
+user41,user3,neft,3917,Contact Payment,1234567890123456,02/29,-,9876543210,-,+14155552671,"03/12/2025, 01:24:16 PM",True,['Transaction to a non-Indian contact number'],2025-03-12 13:24:16.693696
+user36,user72,contact,3476,Card Payment,-,-,-,9876543210,-,9152251477,"02/25/2025, 01:24:16 PM",False,[],2025-02-25 13:24:16.693696
+user10,user81,card,14989,Contact Payment,1234567890123456,02/29,111,9876543210,-,1234567890,"02/19/2025, 01:24:16 PM",False,['High transaction amount'],2025-02-19 13:24:16.694692
+user96,user15,neft,4133,Contact Payment,1234567890123456,02/29,111,-,-,9152251477,"03/11/2025, 01:24:16 PM",False,[],2025-03-11 13:24:16.694692
+user27,user15,contact,14568,Card Payment,1234567890123456,-,-,-,-,1234567890,"03/16/2025, 01:24:16 PM",False,['High transaction amount'],2025-03-16 13:24:16.694692
+user28,user65,card,2756,Card Payment,-,-,111,-,-,+441632960961,"03/04/2025, 01:24:16 PM",True,['Transaction to a non-Indian contact number'],2025-03-04 13:24:16.694692
+user60,user77,contact,4941,Contact Payment,1234567890123456,-,-,-,-,9152251477,"02/17/2025, 01:24:16 PM",False,[],2025-02-17 13:24:16.694692
+user73,user37,card,44715,Contact Payment,-,02/29,-,-,SBIN1234567,1234567890,"03/06/2025, 01:24:16 PM",True,['High transaction amount'],2025-03-06 13:24:16.694692
+user65,user90,contact,1267,Card Payment,-,02/29,111,-,SBIN1234567,+14155552671,"02/16/2025, 01:24:16 PM",True,['Transaction to a non-Indian contact number'],2025-02-16 13:24:16.694692
+user35,user60,neft,9063,NEFT Transfer,1234567890123456,02/29,111,-,-,1234567890,"03/07/2025, 01:24:16 PM",False,[],2025-03-07 13:24:16.695710
+user64,user70,neft,11446,Card Payment,-,-,-,-,SBIN1234567,1234567890,"03/02/2025, 01:24:16 PM",False,['High transaction amount'],2025-03-02 13:24:16.695710
+user53,user19,contact,4237,Card Payment,-,02/29,-,9876543210,SBIN1234567,1234567890,"03/07/2025, 01:24:16 PM",False,[],2025-03-07 13:24:16.695710
+user48,user84,contact,8174,NEFT Transfer,-,02/29,111,9876543210,SBIN1234567,+14155552671,"03/02/2025, 01:24:16 PM",True,['Transaction to a non-Indian contact number'],2025-03-02 13:24:16.695710
+user1,user5,neft,13691,Card Payment,1234567890123456,02/29,111,-,-,+441632960961,"03/15/2025, 01:24:16 PM",True,"['High transaction amount', 'Transaction to a non-Indian contact number']",2025-03-15 13:24:16.695710
+user94,user76,neft,11027,NEFT Transfer,1234567890123456,-,111,9876543210,SBIN1234567,9152251477,"03/05/2025, 01:24:16 PM",False,['High transaction amount'],2025-03-05 13:24:16.695710
+user64,user97,contact,12503,Contact Payment,1234567890123456,-,111,-,-,9152251477,"02/18/2025, 01:24:16 PM",False,['High transaction amount'],2025-02-18 13:24:16.696707
+user33,user11,card,11052,Card Payment,-,-,-,-,-,+441632960961,"03/06/2025, 01:24:16 PM",True,"['High transaction amount', 'Transaction to a non-Indian contact number']",2025-03-06 13:24:16.696707
+user71,user81,card,17684,NEFT Transfer,-,-,111,-,-,+441632960961,"03/13/2025, 01:24:16 PM",True,"['High transaction amount', 'Transaction to a non-Indian contact number']",2025-03-13 13:24:16.696707
+user25,user65,neft,17784,Contact Payment,-,02/29,111,9876543210,SBIN1234567,1234567890,"02/20/2025, 01:24:16 PM",False,['High transaction amount'],2025-02-20 13:24:16.696707
+user41,user6,contact,11336,NEFT Transfer,1234567890123456,02/29,111,-,-,1234567890,"03/11/2025, 01:24:16 PM",False,['High transaction amount'],2025-03-11 13:24:16.696707
+user79,user66,card,7604,NEFT Transfer,-,-,-,9876543210,-,+14155552671,"03/01/2025, 01:24:16 PM",True,['Transaction to a non-Indian contact number'],2025-03-01 13:24:16.696707
+user69,user22,neft,1131,Card Payment,1234567890123456,02/29,-,9876543210,SBIN1234567,+14155552671,"02/16/2025, 01:24:16 PM",True,['Transaction to a non-Indian contact number'],2025-02-16 13:24:16.696707
+user69,user85,contact,16424,Card Payment,-,-,-,-,-,+441632960961,"03/04/2025, 01:24:16 PM",True,"['High transaction amount', 'Transaction to a non-Indian contact number']",2025-03-04 13:24:16.696707
+user89,user33,card,5856,Contact Payment,1234567890123456,-,-,9876543210,-,9152251477,"03/01/2025, 01:24:16 PM",False,[],2025-03-01 13:24:16.696707
+user65,user28,contact,6762,Card Payment,1234567890123456,02/29,111,9876543210,SBIN1234567,+441632960961,"03/11/2025, 01:24:16 PM",True,['Transaction to a non-Indian contact number'],2025-03-11 13:24:16.696707
+user2,user1,contact,8893,Contact Payment,-,-,111,9876543210,SBIN1234567,+14155552671,"02/17/2025, 01:24:16 PM",True,['Transaction to a non-Indian contact number'],2025-02-17 13:24:16.696707
+user77,user58,card,3799,NEFT Transfer,-,02/29,-,-,-,+14155552671,"02/20/2025, 01:24:16 PM",True,['Transaction to a non-Indian contact number'],2025-02-20 13:24:16.697735
+user40,user100,contact,46327,Card Payment,-,-,111,-,SBIN1234567,9152251477,"02/28/2025, 01:24:16 PM",True,['High transaction amount'],2025-02-28 13:24:16.697735
+user77,user24,neft,9625,NEFT Transfer,-,02/29,111,9876543210,-,+441632960961,"02/20/2025, 01:24:16 PM",True,['Transaction to a non-Indian contact number'],2025-02-20 13:24:16.697735
+user57,user38,contact,15764,Card Payment,-,-,-,-,SBIN1234567,+14155552671,"02/23/2025, 01:24:16 PM",True,"['High transaction amount', 'Transaction to a non-Indian contact number']",2025-02-23 13:24:16.697735
+user82,user16,neft,1053,Contact Payment,-,-,-,9876543210,-,+14155552671,"03/16/2025, 01:24:16 PM",True,['Transaction to a non-Indian contact number'],2025-03-16 13:24:16.697735
+user72,user71,neft,9557,Card Payment,-,02/29,111,9876543210,-,1234567890,"03/16/2025, 01:24:16 PM",False,[],2025-03-16 13:24:16.697735
+user96,user39,card,11823,Card Payment,1234567890123456,02/29,-,9876543210,-,1234567890,"03/05/2025, 01:24:16 PM",False,['High transaction amount'],2025-03-05 13:24:16.697735
+user3,user85,contact,13267,NEFT Transfer,1234567890123456,02/29,-,-,SBIN1234567,9152251477,"03/08/2025, 01:24:16 PM",False,['High transaction amount'],2025-03-08 13:24:16.697735
+user68,user41,card,8666,NEFT Transfer,-,02/29,111,-,-,9152251477,"03/06/2025, 01:24:16 PM",False,[],2025-03-06 13:24:16.697735
+user36,user100,card,15419,Card Payment,1234567890123456,-,-,9876543210,SBIN1234567,+441632960961,"03/06/2025, 01:24:16 PM",True,"['High transaction amount', 'Transaction to a non-Indian contact number']",2025-03-06 13:24:16.697735
+user64,user58,contact,15019,Card Payment,1234567890123456,02/29,111,9876543210,-,1234567890,"03/10/2025, 01:24:16 PM",False,['High transaction amount'],2025-03-10 13:24:16.698720
+user72,user99,neft,17896,NEFT Transfer,-,02/29,111,-,-,9152251477,"02/21/2025, 01:24:16 PM",False,['High transaction amount'],2025-02-21 13:24:16.698720
+user71,user29,card,11160,NEFT Transfer,-,02/29,-,-,-,1234567890,"03/12/2025, 01:24:16 PM",False,['High transaction amount'],2025-03-12 13:24:16.698720
+user29,user23,contact,4785,NEFT Transfer,-,-,-,9876543210,SBIN1234567,+441632960961,"02/21/2025, 01:24:16 PM",True,['Transaction to a non-Indian contact number'],2025-02-21 13:24:16.698720
+user83,user95,neft,19891,NEFT Transfer,-,-,111,-,SBIN1234567,9152251477,"03/16/2025, 01:24:16 PM",False,['High transaction amount'],2025-03-16 13:24:16.698720
+user85,user91,card,9039,NEFT Transfer,-,02/29,-,-,SBIN1234567,9152251477,"03/16/2025, 01:24:16 PM",False,[],2025-03-16 13:24:16.698720
+user3,user60,contact,4354,NEFT Transfer,-,-,111,9876543210,SBIN1234567,+14155552671,"03/08/2025, 01:24:16 PM",True,['Transaction to a non-Indian contact number'],2025-03-08 13:24:16.698720
+user5,user69,neft,4259,NEFT Transfer,-,-,111,-,SBIN1234567,9152251477,"03/16/2025, 01:24:16 PM",False,[],2025-03-16 13:24:16.698720
+user16,user79,contact,1726,NEFT Transfer,1234567890123456,02/29,-,-,SBIN1234567,9152251477,"03/05/2025, 01:24:16 PM",False,[],2025-03-05 13:24:16.698720
+user57,user30,card,2335,NEFT Transfer,-,02/29,111,-,-,9152251477,"02/28/2025, 01:24:16 PM",False,[],2025-02-28 13:24:16.698720
+user44,user75,card,11614,Card Payment,-,-,-,9876543210,SBIN1234567,+441632960961,"02/27/2025, 01:24:16 PM",True,"['High transaction amount', 'Transaction to a non-Indian contact number']",2025-02-27 13:24:16.698720
+user45,user39,contact,21863,Contact Payment,-,-,111,-,SBIN1234567,+441632960961,"03/05/2025, 01:24:16 PM",True,"['High transaction amount', 'Transaction to a non-Indian contact number']",2025-03-05 13:24:16.699717
+user43,user65,card,14038,Card Payment,-,02/29,111,-,-,+14155552671,"02/25/2025, 01:24:16 PM",True,"['High transaction amount', 'Transaction to a non-Indian contact number']",2025-02-25 13:24:16.699717
+user71,user44,neft,3128,NEFT Transfer,-,-,-,9876543210,SBIN1234567,1234567890,"02/25/2025, 01:24:16 PM",False,[],2025-02-25 13:24:16.699717
+user28,user26,contact,13896,Card Payment,1234567890123456,-,111,-,-,1234567890,"02/27/2025, 01:24:16 PM",False,['High transaction amount'],2025-02-27 13:24:16.699717
+user47,user26,contact,11089,Card Payment,1234567890123456,02/29,-,-,SBIN1234567,+441632960961,"02/14/2025, 01:24:16 PM",True,"['High transaction amount', 'Transaction to a non-Indian contact number']",2025-02-14 13:24:16.699717
+user15,user36,card,15879,Contact Payment,-,02/29,-,-,SBIN1234567,+441632960961,"03/10/2025, 01:24:16 PM",True,"['High transaction amount', 'Transaction to a non-Indian contact number']",2025-03-10 13:24:16.699717
+user33,user66,contact,18999,Contact Payment,1234567890123456,-,111,9876543210,-,+441632960961,"02/24/2025, 01:24:16 PM",True,"['High transaction amount', 'Transaction to a non-Indian contact number']",2025-02-24 13:24:16.699717
+user46,user88,card,1399,Contact Payment,1234567890123456,02/29,111,9876543210,SBIN1234567,+14155552671,"03/04/2025, 01:24:16 PM",True,['Transaction to a non-Indian contact number'],2025-03-04 13:24:16.699717
+user36,user66,contact,14685,Card Payment,1234567890123456,02/29,-,9876543210,-,+441632960961,"02/20/2025, 01:24:16 PM",True,"['High transaction amount', 'Transaction to a non-Indian contact number']",2025-02-20 13:24:16.699717
+user92,user38,contact,7597,Contact Payment,-,-,-,9876543210,-,9152251477,"02/27/2025, 01:24:16 PM",False,[],2025-02-27 13:24:16.699717
+user92,user24,contact,15677,Card Payment,-,02/29,-,9876543210,-,9152251477,"02/24/2025, 01:24:16 PM",False,['High transaction amount'],2025-02-24 13:24:16.699717
+user49,user25,contact,5800,Card Payment,1234567890123456,02/29,-,-,SBIN1234567,9152251477,"03/02/2025, 01:24:16 PM",False,[],2025-03-02 13:24:16.700718
+user80,user78,contact,10172,Card Payment,-,02/29,111,-,-,1234567890,"02/19/2025, 01:24:16 PM",False,['High transaction amount'],2025-02-19 13:24:16.700718
+user55,user77,card,9607,Card Payment,1234567890123456,02/29,-,9876543210,-,+14155552671,"02/20/2025, 01:24:16 PM",True,['Transaction to a non-Indian contact number'],2025-02-20 13:24:16.700718
+user15,user60,neft,9858,NEFT Transfer,1234567890123456,02/29,-,9876543210,SBIN1234567,+14155552671,"02/28/2025, 01:24:16 PM",True,['Transaction to a non-Indian contact number'],2025-02-28 13:24:16.700718
+user22,user75,neft,12586,NEFT Transfer,-,-,111,9876543210,SBIN1234567,+14155552671,"02/16/2025, 01:24:16 PM",True,"['High transaction amount', 'Transaction to a non-Indian contact number']",2025-02-16 13:24:16.700718
+user75,user15,neft,12675,NEFT Transfer,-,02/29,111,-,SBIN1234567,+14155552671,"02/21/2025, 01:24:16 PM",True,"['High transaction amount', 'Transaction to a non-Indian contact number']",2025-02-21 13:24:16.700718
+user5,user72,card,11544,Card Payment,-,-,-,9876543210,-,9152251477,"02/15/2025, 01:24:16 PM",False,['High transaction amount'],2025-02-15 13:24:16.700718
+user57,user50,neft,17871,Card Payment,-,-,-,9876543210,SBIN1234567,1234567890,"02/27/2025, 01:24:16 PM",False,['High transaction amount'],2025-02-27 13:24:16.700718
+user34,user68,neft,16852,NEFT Transfer,1234567890123456,02/29,111,-,-,9152251477,"02/23/2025, 01:24:16 PM",False,['High transaction amount'],2025-02-23 13:24:16.700718
+user39,user40,card,43489,NEFT Transfer,1234567890123456,02/29,111,9876543210,SBIN1234567,+14155552671,"02/26/2025, 01:24:16 PM",True,"['High transaction amount', 'Transaction to a non-Indian contact number']",2025-02-26 13:24:16.700718
+user36,user34,neft,14485,Card Payment,1234567890123456,-,-,9876543210,-,9152251477,"02/26/2025, 01:24:16 PM",False,['High transaction amount'],2025-02-26 13:24:16.701718
+user22,user61,card,7004,Card Payment,-,02/29,111,-,-,+14155552671,"02/16/2025, 01:24:16 PM",True,['Transaction to a non-Indian contact number'],2025-02-16 13:24:16.701718
+user51,user37,neft,13696,Contact Payment,-,-,-,-,SBIN1234567,1234567890,"03/16/2025, 01:24:16 PM",False,['High transaction amount'],2025-03-16 13:24:16.701718
+user6,user62,contact,5826,Contact Payment,1234567890123456,-,-,-,SBIN1234567,9152251477,"03/14/2025, 01:24:16 PM",False,[],2025-03-14 13:24:16.701718
+user41,user53,neft,11728,NEFT Transfer,-,02/29,-,9876543210,SBIN1234567,9152251477,"02/16/2025, 01:24:16 PM",False,['High transaction amount'],2025-02-16 13:24:16.701718
+user16,user67,neft,10269,Contact Payment,1234567890123456,02/29,111,-,SBIN1234567,9152251477,"03/01/2025, 01:24:16 PM",False,['High transaction amount'],2025-03-01 13:24:16.701718
+user53,user37,card,7991,Card Payment,1234567890123456,02/29,111,-,SBIN1234567,9152251477,"03/12/2025, 01:24:16 PM",False,[],2025-03-12 13:24:16.702708
+user73,user79,card,19318,Contact Payment,-,02/29,111,9876543210,-,1234567890,"02/21/2025, 01:24:16 PM",False,['High transaction amount'],2025-02-21 13:24:16.702708
+user83,user26,contact,17540,Contact Payment,1234567890123456,02/29,111,9876543210,SBIN1234567,1234567890,"02/23/2025, 01:24:16 PM",False,['High transaction amount'],2025-02-23 13:24:16.702708
+user16,user88,card,12220,NEFT Transfer,1234567890123456,-,111,9876543210,-,+441632960961,"03/13/2025, 01:24:16 PM",True,"['High transaction amount', 'Transaction to a non-Indian contact number']",2025-03-13 13:24:16.702708
+user39,user77,neft,17803,NEFT Transfer,1234567890123456,-,111,-,-,+14155552671,"02/14/2025, 01:24:16 PM",True,"['High transaction amount', 'Transaction to a non-Indian contact number']",2025-02-14 13:24:16.702708
+user83,user85,card,14492,Card Payment,-,02/29,-,-,-,+14155552671,"02/27/2025, 01:24:16 PM",True,"['High transaction amount', 'Transaction to a non-Indian contact number']",2025-02-27 13:24:16.702708
+user1,user10,contact,18343,Card Payment,-,-,-,9876543210,-,+441632960961,"03/02/2025, 01:24:16 PM",True,"['High transaction amount', 'Transaction to a non-Indian contact number']",2025-03-02 13:24:16.703708
+user60,user92,contact,6588,Contact Payment,1234567890123456,02/29,111,9876543210,SBIN1234567,+441632960961,"03/09/2025, 01:24:16 PM",True,['Transaction to a non-Indian contact number'],2025-03-09 13:24:16.703708
+user99,user2,neft,8124,Card Payment,-,-,-,9876543210,-,1234567890,"03/02/2025, 01:24:16 PM",False,[],2025-03-02 13:24:16.703708
+user63,user23,contact,5894,NEFT Transfer,1234567890123456,02/29,-,9876543210,-,9152251477,"03/10/2025, 01:24:16 PM",False,[],2025-03-10 13:24:16.703708
+user65,user92,neft,19173,Contact Payment,1234567890123456,02/29,111,-,-,1234567890,"03/01/2025, 01:24:16 PM",False,['High transaction amount'],2025-03-01 13:24:16.703708
+user75,user57,contact,6155,Contact Payment,-,02/29,-,-,SBIN1234567,9152251477,"03/04/2025, 01:24:16 PM",False,[],2025-03-04 13:24:16.703708
+user95,user99,card,15212,Contact Payment,1234567890123456,02/29,111,-,-,+441632960961,"02/19/2025, 01:24:16 PM",True,"['High transaction amount', 'Transaction to a non-Indian contact number']",2025-02-19 13:24:16.703708
+user23,user16,neft,33379,Card Payment,-,02/29,111,9876543210,-,1234567890,"02/15/2025, 01:24:16 PM",True,['High transaction amount'],2025-02-15 13:24:16.703708
+user53,user47,card,6527,Card Payment,-,02/29,-,-,-,1234567890,"02/17/2025, 01:24:16 PM",False,[],2025-02-17 13:24:16.703708
+user48,user63,card,9393,NEFT Transfer,1234567890123456,02/29,111,9876543210,SBIN1234567,+14155552671,"03/06/2025, 01:24:16 PM",True,['Transaction to a non-Indian contact number'],2025-03-06 13:24:16.703708
+user67,user2,neft,3191,Card Payment,-,02/29,111,9876543210,-,+14155552671,"02/18/2025, 01:24:16 PM",True,['Transaction to a non-Indian contact number'],2025-02-18 13:24:16.704729
+user17,user5,contact,13082,Contact Payment,-,02/29,111,-,SBIN1234567,+441632960961,"03/04/2025, 01:24:16 PM",True,"['High transaction amount', 'Transaction to a non-Indian contact number']",2025-03-04 13:24:16.704729
+user71,user65,neft,18124,NEFT Transfer,-,02/29,111,9876543210,-,+14155552671,"03/12/2025, 01:24:16 PM",True,"['High transaction amount', 'Transaction to a non-Indian contact number']",2025-03-12 13:24:16.704729
+user81,user75,neft,10761,Contact Payment,-,-,-,-,-,+441632960961,"02/18/2025, 01:24:16 PM",True,"['High transaction amount', 'Transaction to a non-Indian contact number']",2025-02-18 13:24:16.704729
+user35,user14,neft,12473,Card Payment,-,-,111,-,-,+14155552671,"03/13/2025, 01:24:16 PM",True,"['High transaction amount', 'Transaction to a non-Indian contact number']",2025-03-13 13:24:16.704729
+user19,user55,neft,15138,Contact Payment,-,02/29,-,9876543210,-,1234567890,"03/07/2025, 01:24:16 PM",False,['High transaction amount'],2025-03-07 13:24:16.704729
+user32,user88,contact,19724,NEFT Transfer,-,-,111,9876543210,-,9152251477,"03/12/2025, 01:24:16 PM",False,['High transaction amount'],2025-03-12 13:24:16.704729
+user66,user80,contact,19099,Contact Payment,1234567890123456,-,-,9876543210,SBIN1234567,9152251477,"02/14/2025, 01:24:16 PM",False,['High transaction amount'],2025-02-14 13:24:16.704729
+user76,user96,contact,14196,Contact Payment,-,-,-,-,-,1234567890,"02/15/2025, 01:24:16 PM",False,['High transaction amount'],2025-02-15 13:24:16.704729
+user42,user56,card,18075,Card Payment,-,-,-,9876543210,SBIN1234567,+14155552671,"03/13/2025, 01:24:16 PM",True,"['High transaction amount', 'Transaction to a non-Indian contact number']",2025-03-13 13:24:16.704729
+user48,user100,contact,5187,NEFT Transfer,-,-,-,9876543210,-,+14155552671,"02/27/2025, 01:24:16 PM",True,['Transaction to a non-Indian contact number'],2025-02-27 13:24:16.704729
+user28,user78,contact,9278,Contact Payment,1234567890123456,-,-,9876543210,SBIN1234567,+441632960961,"02/17/2025, 01:24:16 PM",True,['Transaction to a non-Indian contact number'],2025-02-17 13:24:16.705719
+user36,user10,card,3063,Card Payment,1234567890123456,-,-,-,SBIN1234567,9152251477,"03/15/2025, 01:24:16 PM",False,[],2025-03-15 13:24:16.705719
+user48,user96,neft,5843,Card Payment,-,02/29,111,9876543210,SBIN1234567,9152251477,"03/05/2025, 01:24:16 PM",False,[],2025-03-05 13:24:16.705719
+user44,user50,neft,1131,Card Payment,-,02/29,111,9876543210,SBIN1234567,1234567890,"02/22/2025, 01:24:16 PM",False,[],2025-02-22 13:24:16.705719
+user80,user73,card,17941,Contact Payment,1234567890123456,02/29,-,9876543210,-,1234567890,"02/23/2025, 01:24:16 PM",False,['High transaction amount'],2025-02-23 13:24:16.705719
+user60,user87,card,6914,Card Payment,1234567890123456,02/29,111,9876543210,SBIN1234567,9152251477,"02/14/2025, 01:24:16 PM",False,[],2025-02-14 13:24:16.705719
+user23,user25,card,33790,NEFT Transfer,1234567890123456,02/29,111,9876543210,-,+441632960961,"02/26/2025, 01:24:16 PM",True,"['High transaction amount', 'Transaction to a non-Indian contact number']",2025-02-26 13:24:16.705719
+user43,user78,contact,5381,NEFT Transfer,-,02/29,111,9876543210,-,1234567890,"03/01/2025, 01:24:16 PM",False,[],2025-03-01 13:24:16.705719
+user66,user88,card,4216,NEFT Transfer,1234567890123456,02/29,111,-,SBIN1234567,+441632960961,"02/27/2025, 01:24:16 PM",True,['Transaction to a non-Indian contact number'],2025-02-27 13:24:16.705719
+user25,user58,contact,8173,Card Payment,-,02/29,-,9876543210,SBIN1234567,+14155552671,"03/10/2025, 01:24:16 PM",True,['Transaction to a non-Indian contact number'],2025-03-10 13:24:16.705719
+user93,user66,card,19603,Card Payment,1234567890123456,02/29,-,9876543210,SBIN1234567,+14155552671,"03/08/2025, 01:24:16 PM",True,"['High transaction amount', 'Transaction to a non-Indian contact number']",2025-03-08 13:24:16.706718
+user58,user11,neft,7680,Card Payment,-,-,-,9876543210,SBIN1234567,9152251477,"02/16/2025, 01:24:16 PM",False,[],2025-02-16 13:24:16.706718
+user69,user99,card,13887,Contact Payment,-,-,-,9876543210,SBIN1234567,+14155552671,"02/26/2025, 01:24:16 PM",True,"['High transaction amount', 'Transaction to a non-Indian contact number']",2025-02-26 13:24:16.706718
+user17,user33,card,3586,Card Payment,1234567890123456,02/29,111,-,SBIN1234567,+441632960961,"03/16/2025, 01:24:16 PM",True,['Transaction to a non-Indian contact number'],2025-03-16 13:24:16.706718
+user33,user65,card,9801,Card Payment,1234567890123456,-,111,-,SBIN1234567,+14155552671,"03/06/2025, 01:24:16 PM",True,['Transaction to a non-Indian contact number'],2025-03-06 13:24:16.706718
+user64,user14,neft,17470,NEFT Transfer,-,-,-,-,-,1234567890,"02/15/2025, 01:24:16 PM",False,['High transaction amount'],2025-02-15 13:24:16.706718
+user30,user80,neft,11367,Contact Payment,-,02/29,-,-,SBIN1234567,1234567890,"02/16/2025, 01:24:16 PM",False,['High transaction amount'],2025-02-16 13:24:16.706718
+user73,user63,neft,3407,Contact Payment,1234567890123456,-,111,-,SBIN1234567,+441632960961,"03/08/2025, 01:24:16 PM",True,['Transaction to a non-Indian contact number'],2025-03-08 13:24:16.706718
+user5,user54,neft,12422,Card Payment,1234567890123456,-,111,9876543210,SBIN1234567,+441632960961,"03/11/2025, 01:24:16 PM",True,"['High transaction amount', 'Transaction to a non-Indian contact number']",2025-03-11 13:24:16.706718
+user8,user69,contact,11189,Card Payment,1234567890123456,-,-,9876543210,-,1234567890,"03/16/2025, 01:24:16 PM",False,['High transaction amount'],2025-03-16 13:24:16.706718
+user75,user58,contact,19065,NEFT Transfer,1234567890123456,-,-,-,-,9152251477,"02/17/2025, 01:24:16 PM",False,['High transaction amount'],2025-02-17 13:24:16.706718
+user30,user6,card,7403,Contact Payment,-,-,-,-,-,9152251477,"03/10/2025, 01:24:16 PM",False,[],2025-03-10 13:24:16.707718
+user52,user85,card,18232,NEFT Transfer,-,-,-,9876543210,-,9152251477,"02/16/2025, 01:24:16 PM",False,['High transaction amount'],2025-02-16 13:24:16.707718
+user1,user2,card,12940,Contact Payment,-,02/29,111,-,SBIN1234567,9152251477,"03/15/2025, 01:24:16 PM",True,"['High transaction amount', 'Frequent small transactions to the same recipient']",2025-03-15 13:24:16.707718
+user90,user20,contact,8444,NEFT Transfer,1234567890123456,02/29,-,-,-,+441632960961,"02/23/2025, 01:24:16 PM",True,['Transaction to a non-Indian contact number'],2025-02-23 13:24:16.707718
+user84,user100,contact,15108,Card Payment,-,-,-,-,-,1234567890,"02/22/2025, 01:24:16 PM",False,['High transaction amount'],2025-02-22 13:24:16.707718
